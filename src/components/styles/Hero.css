@@ -1,0 +1,36 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px 250px;
+  /* gap: 20px; */
+  margin-bottom: 105px;
+}
+.div {
+  font-size: 14px;
+  line-height: 28px;
+}
+.paragraph-hero {
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  max-width: 420px;
+  text-align: inherit;
+  line-height: 24px;
+  font-size: 14px;
+  font-family: Lora;
+  font-weight: 400;
+}
+
+.read-more {
+  font-size: 13px;
+  margin: 41px 11px;
+  letter-spacing: 1px;
+}
+.titles-hero {
+}
+.title-hero {
+  font-size: 40px;
+  margin-top: 0;
+}
+.secondary-title {
+  font-size: 30px;
+}

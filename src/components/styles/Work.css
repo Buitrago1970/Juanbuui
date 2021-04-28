@@ -1,0 +1,34 @@
+span {
+  font-size: 23px;
+  color: #e8e6e3;
+  text-transform: uppercase;
+}
+.h1-work {
+  white-space: nowrap;
+  font-size: 8.1vw;
+  color: #ffffff;
+  font-family: sequel, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  font-weight: normal;
+}
+.container {
+  font-family: "Noto Sans", sans-serif;
+}
+.work-title {
+}
+.row {
+  display: flex;
+  flex-flow: column;
+}
+.outline {
+  -webkit-text-stroke-color: #fff;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  font-weight: 900;
+  line-height: 111px;
+  font-size: 130px;
+  white-space: nowrap;
+  /* text-overflow: initial; */
+  overflow: hidden;
+}

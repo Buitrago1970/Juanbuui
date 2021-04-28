@@ -1,0 +1,45 @@
+.container-projects {
+  margin-left: 60px;
+  padding: 100px 40px;
+}
+
+.container-img-projects {
+  max-width: 480px;
+  border: 3px solid #fff;
+  /* box-shadow: rgb(24 26 27) 0px 0px 50px, rgb(24 26 27) 0px 0px 75px, rgb(24 26 27) 0px 0px 15px, rgb(0 204 204) 0px 0px 25px, rgb(0 204 204) 0px 0px 15px, rgb(0 204 204) 0px 0px 35px, rgb(0 204 204) 0px 0px 10px, rgb(0 204 204) 0px 0px 50px; */
+  /* box-shadow: 0 0 50px #fff, 0 0 75px #fff, 0 0 15px #fff, 0 0 25px #0ff,
+    0 0 15px #0ff, 0 0 35px #0ff, 0 0 10px #0ff, 0 0 50px #0ff;
+  border-image: linear-gradient(to right, #0df 25%, #ab18ae 75%) 5; */
+  /* box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
+    0 0 2rem var(--neon-border-color), inset 0 0 2rem var(--neon-border-color),
+    0 0 4rem var(--neon-border-color), inset 0 0 4rem var(--neon-border-color); */
+  box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
+    0 0 2rem var(--neon-border-color), inset 0 0 2rem var(--neon-border-color),
+    0 0 4rem var(--neon-border-color), inset 0 0 4rem var(--neon-border-color);
+}
+.img {
+}
+.img-principal-project {
+  width: 100%;
+}
+.container-paragraph-project {
+  padding: 0;
+}
+.title-project {
+  margin-bottom: 0px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+.class-projects {
+  color: #898888;
+  margin: 0;
+  font-size: 16px;
+}
+:root {
+  /* Base font size */
+  font-size: 10px;
+
+  /* Set neon color */
+  --neon-text-color: #f40;
+  --neon-border-color: #08f;
+}
