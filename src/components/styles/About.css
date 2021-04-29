@@ -40,9 +40,10 @@ p {
 }
 .title-about {
   color: rgb(255 255 255);
-  text-shadow: 0 0 5px rgb(155 155 155), 0 0 10px rgb(92 92 92),
-    0 0 20px rgb(255 255 255), 0 0 40px #0ff, 0px 0px 8px #0ff, 0 0 17px #0ff,
-    0 0 17px #0ff, 0 0 16px #0ff;
+  text-shadow: rgb(0 0 0) 0px 0px 65px, rgb(255 255 255) 0px 0px 7px,
+    rgb(255 255 255) 0px 0px 60px, rgb(0 255 255) -16px -2px 70px,
+    rgb(0 255 255) -6px -2px 20px, rgb(0 255 255) -5px 1px 20px,
+    rgb(0 255 255) 2px 1px 20px, rgb(0 255 255) -9px 0px 20px;
   text-align: initial;
   font-size: 30px;
 

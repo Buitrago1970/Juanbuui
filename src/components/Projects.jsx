@@ -19,9 +19,19 @@ export default function Projects() {
           </a>
         </div>
 
-        <div className="container-paragraph-projec">
-          <h1 className="title-project">SANDIEGO</h1>
-          <p className="class-projects">website</p>
+        <div className="container-text-projects">
+          <a className="title-project" href="/">
+            SANDIEGO &rarr;
+          </a>
+          <div className="paragraph-projects">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
+              exercitationem nobis veniam praesentium distinctio aliquam al
+              reiciendis minima dolore! minima dolore! Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Error quibusdam quam sapiente
+              voluptate.
+            </p>
+          </div>
         </div>
       </div>
     </>
