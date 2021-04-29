@@ -39,12 +39,10 @@ nav {
   border: 1px solid;
   border-radius: 5px;
   padding: 0.8rem 0.8rem;
-  /* font-family: ; */
   line-height: 1;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-  --hamburger-width: 30px;
   margin-left: 15px;
   font-size: 13px;
   box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,

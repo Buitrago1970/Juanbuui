@@ -3,7 +3,7 @@ import React from "react";
 //styles
 import "./styles/Work.css";
 //components
-import Projects from "./Projects.jsx";
+import Projects from "./Projects";
 
 export default function Work() {
   return (

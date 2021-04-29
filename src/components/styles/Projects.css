@@ -1,8 +1,7 @@
 .container-projects {
   margin-left: 60px;
-  padding: 100px 40px;
+  padding: 60px 40px;
 }
-
 .container-img-projects {
   max-width: 480px;
   border: 3px solid #fff;
@@ -35,11 +34,6 @@
   line-height: 1.5;
   color: #b6b6b6;
 }
-:root {
-  /* Set neon color */
-  --neon-text-color: #f40;
-  --neon-border-color: #08f;
-}
 
 .title-project:hover {
   color: #c6e2ff;
@@ -47,4 +41,28 @@
     0 0 10px rgba(255, 255, 255, 0.34), 0 0 4px rgba(157, 30, 242, 0.52),
     0 0 7px rgba(147, 30, 242, 0.92), 0 0 11px rgba(164, 30, 242, 0.78),
     0 0 16px rgba(217, 30, 242, 0.92);
+}
+.container-projects-rv {
+  padding-top: 40px;
+  margin-right: 60px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+.container-text-projects-rv {
+  text-align: end;
+}
+.container-img-projects-rv {
+  max-width: 490px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
+    0 0 2rem var(--neon-border-color2), inset 0 0 2rem var(--neon-border-color2),
+    0 0 4rem var(--neon-border-color2), inset 0 0 4rem var(--neon-border-color2);
+}
+.title-project-rv:hover {
+  color: #c6e2ff;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.92),
+    0 0 10px rgba(255, 255, 255, 0.34), 0 0 4px rgba(44, 30, 242, 0.52),
+    0 0 7px rgba(44, 30, 242, 0.52), 0 0 11px rgba(44, 30, 242, 0.52),
+    0 0 16px rgba(44, 30, 242, 0.52);
 }

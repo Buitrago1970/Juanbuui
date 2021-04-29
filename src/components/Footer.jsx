@@ -2,6 +2,8 @@ import React from "react";
 
 //styles
 import "./styles/Footer.css";
+//icons
+import { AiFillHeart } from "react-icons/ai";
 
 export default function Work() {
   return (
@@ -12,9 +14,14 @@ export default function Work() {
           <p className="footers">All Rights reserved.</p>
         </div>
         <div className="con-amor">
-          <p>Echo Con En Colombia</p>
+          <p>
+            Echo Con <AiFillHeart />
+            En Colombia
+          </p>
         </div>
-        <a href="/">GET IN TOUCH</a>
+        <a className="footer-button" href="/">
+          GET IN TOUCH
+        </a>
       </footer>
     </>
   );

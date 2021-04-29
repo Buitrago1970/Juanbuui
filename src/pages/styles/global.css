@@ -12,3 +12,14 @@ a {
   position: relative;
   transition: color 0.4s;
 }
+p {
+  margin: 20px 10px;
+}
+:root {
+  /* Set neon container-img-project1 color */
+  --neon-border-color: #08f;
+  /* Set neon container-img-project2 color */
+  --neon-border-color2: rgb(172, 207, 42);
+  /* Set neon button color */
+  --neon-button-color: rgb(0, 255, 128);
+}

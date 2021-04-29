@@ -3,11 +3,12 @@
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
   margin: 0px 10px;
-  height: 100px;
+  height: 90px;
 }
 .rights-reseved {
   display: flex;
   flex-flow: column;
+  font-family: Inter;
 }
 .footers {
   margin: 0;
@@ -15,4 +16,11 @@
   font-size: 14px;
   padding-left: 30px;
   text-decoration: none;
+}
+.footer-button {
+  max-width: 120px;
+  padding: 10px;
+  box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
+    0 0 1rem var(--neon-button-color), inset 0 0 1rem var(--neon-button-color),
+    0 0 1rem var(--neon-button-color), inset 0 0 0.5rem var(--neon-button-color);
 }
