@@ -4,6 +4,7 @@ import React from "react";
 import "./styles/Work.css";
 //components
 import Projects from "./Projects";
+import SecondaryProjects from "./SecondaryProjects";
 
 export default function Work() {
   return (
@@ -22,6 +23,7 @@ export default function Work() {
           </h1>
         </div>
         <Projects />
+        <SecondaryProjects />
       </div>
     </>
   );

@@ -20,6 +20,8 @@ p {
   --neon-border-color: #08f;
   /* Set neon container-img-project2 color */
   --neon-border-color2: rgb(172, 207, 42);
+  /* Set neon container-img-secondary-project color */
+  --neon-border-color3: rgb(33, 228, 75);
   /* Set neon button color */
   --neon-button-color: rgb(0, 255, 128);
 }

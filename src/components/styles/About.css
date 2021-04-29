@@ -43,42 +43,61 @@
     rgb(0 255 255) 2px 1px 20px, rgb(0 255 255) -9px 0px 20px;
   text-align: initial;
   font-size: 30px;
-
   position: relative;
   bottom: 17px;
 }
-.title-about::after {
-}
 .skills-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   padding: 0px;
   margin: 45px 0px 0px 10px;
   overflow: hidden;
   list-style: none;
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
   color: #e8e6e3;
+  gap: 10px;
 }
 .skills-list :hover {
-  font-size: 16px;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.92),
+    0 0 10px rgba(255, 255, 255, 0.34), 0 0 4px rgba(157, 30, 242, 0.52),
+    0 0 7px rgba(147, 30, 242, 0.92), 0 0 11px rgba(164, 30, 242, 0.78),
+    0 0 16px rgba(217, 30, 242, 0.92);
 }
 .icon-1 {
+  font-size: 18px;
   color: #efd81d;
 }
 .icon-2 {
+  font-size: 18px;
   color: rgb(94 211 243);
 }
 .icon-3 {
-  color: #633194;
+  font-size: 18px;
+  color: #df401b;
 }
 .icon-4 {
+  font-size: 18px;
   color: #dd4b25;
 }
 .icon-5 {
+  font-size: 18px;
   color: #006db4;
 }
 .icon-6 {
+  font-size: 18px;
+  color: rgb(21 118 187);
+}
+.icon-7 {
+  font-size: 18px;
+  color: #633194;
+}
+.icon-8 {
+  font-size: 18px;
+  color: #36adb5;
+}
+.icon-9 {
+  font-size: 18px;
   color: #8a8a8a;
 }
 @media screen and (max-width: 768px) {

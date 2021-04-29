@@ -5,9 +5,9 @@ import "./styles/About.css";
 //images
 import about from "../images/narutoS.jpg";
 //icons
-import { FaReact, FaHtml5, FaCss3 } from "react-icons/fa";
+import { FaReact, FaHtml5, FaCss3, FaGitAlt } from "react-icons/fa";
 import { GrGatsbyjs } from "react-icons/gr";
-import { SiJavascript, SiStylus } from "react-icons/si";
+import { SiJavascript, SiStylus, SiWebpack, SiNetlify } from "react-icons/si";
 
 export default function About() {
   return (
@@ -40,12 +40,14 @@ export default function About() {
               </div>
               React
             </li>
+
             <li>
               <div className="icon-containers-us">
-                <GrGatsbyjs className="icon-3" />
+                <FaGitAlt className="icon-3" />
               </div>
-              gatsby
+              Git
             </li>
+
             <li>
               <div className="icon-containers-us">
                 <FaHtml5 className="icon-4" />
@@ -60,8 +62,26 @@ export default function About() {
             </li>
             <li>
               <div className="icon-containers-us">
-                <SiStylus className="icon-6" />
-              </div>{" "}
+                <SiWebpack className="icon-6" />
+              </div>
+              Webpack
+            </li>
+            <li>
+              <div className="icon-containers-us">
+                <GrGatsbyjs className="icon-7" />
+              </div>
+              gatsby
+            </li>
+            <li>
+              <div className="icon-containers-us">
+                <SiNetlify className="icon-8" />
+              </div>
+              Netlify
+            </li>
+            <li>
+              <div className="icon-containers-us">
+                <SiStylus className="icon-9" />
+              </div>
               Stylus
             </li>
           </ul>

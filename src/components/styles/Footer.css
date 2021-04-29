@@ -20,6 +20,7 @@
 .footer-button {
   max-width: 120px;
   padding: 10px;
+  text-align: center;
   box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
     0 0 1rem var(--neon-button-color), inset 0 0 1rem var(--neon-button-color),
     0 0 1rem var(--neon-button-color), inset 0 0 0.5rem var(--neon-button-color);
