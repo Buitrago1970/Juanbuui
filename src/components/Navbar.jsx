@@ -6,20 +6,26 @@ import "./styles/Navbar.css";
 export default function Navbar() {
   return (
     <>
-      <nav>
+      <nav id="nav">
         <div className="logo">JuuanBuitrago</div>
         <div className="col-1">
           <div className="container-nav-links">
-            <a href="">About</a>
+            <a className="btn" href="">
+              About
+            </a>
             <br />
-            <a href="">Projects</a>
+            <a className="btn" href="">
+              Projects
+            </a>
           </div>
           <div>
-            <a href="">Email</a>
+            <a className=" btn" href="">
+              Email
+            </a>
           </div>
-          <div className="resume-button">
+          {/* <div className="resume-button">
             <a href="">Resume</a>
-          </div>
+          </div> */}
         </div>
       </nav>
     </>

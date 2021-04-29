@@ -23,7 +23,7 @@ nav {
   pointer-events: auto;
 }
 .col-1 {
-  width: 20%;
+  width: 10%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -33,6 +33,11 @@ nav {
   display: flex;
   flex-direction: column;
 }
+.btn:hover {
+  color: rgb(153, 49, 49);
+  text-decoration: line-through;
+}
+
 .resume-button {
   color: rgb(0, 132, 255);
   background-color: transparent;

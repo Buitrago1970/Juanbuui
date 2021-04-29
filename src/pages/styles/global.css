@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Lora:wght@400;500&family=Playfair+Display:wght@400;500;600;700&display=swap");
+
 body {
   margin: 0;
   background: rgb(15, 15, 15);
@@ -24,4 +25,25 @@ p {
   --neon-border-color3: rgb(33, 228, 75);
   /* Set neon button color */
   --neon-button-color: rgb(0, 255, 128);
+}
+/* tamaño */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+  margin: 50px;
+  padding: 10px;
+}
+/* fondo  */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+/* color bar */
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+/* hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(128, 128, 128);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }

@@ -34,3 +34,7 @@
 .secondary-title {
   font-size: 30px;
 }
+.read-more:hover {
+  color: rgb(153, 49, 49);
+  text-decoration: line-through;
+}
