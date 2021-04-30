@@ -25,3 +25,16 @@
     0 0 1rem var(--neon-button-color), inset 0 0 1rem var(--neon-button-color),
     0 0 1rem var(--neon-button-color), inset 0 0 0.5rem var(--neon-button-color);
 }
+@media screen and (max-width: 400px) {
+  .footer {
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+  .footers {
+    padding-left: 0px;
+  }
+  .footer-button {
+    margin: 26px 18px;
+    max-width: 100%;
+  }
+}

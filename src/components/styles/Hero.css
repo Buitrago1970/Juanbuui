@@ -18,7 +18,6 @@
   font-family: Lora;
   font-weight: 400;
 }
-
 .read-more {
   font-size: 13px;
   margin: 41px 11px;
@@ -34,7 +33,7 @@
   font-size: 30px;
 }
 .read-more:hover {
-  color: rgb(153, 49, 49);
+  color: rgb(204, 16, 126);
   text-decoration: line-through;
 }
 @media screen and (max-width: 800px) {
@@ -49,5 +48,17 @@
   }
   .img-about-us {
     max-width: 90%;
+  }
+  .title-hero {
+    font-size: 35px;
+  }
+  .secondary-title {
+    font-size: 25px;
+  }
+  .paragraph-hero {
+    font-size: 12px;
+  }
+  .read-more {
+    font-size: 12px;
   }
 }

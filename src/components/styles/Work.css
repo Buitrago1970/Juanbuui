@@ -32,9 +32,16 @@ span {
   /* text-overflow: initial; */
   overflow: hidden;
 }
+.container-secondary-title-projects {
+  text-align: end;
+  margin: 120px 50px;
+}
 @media screen and (max-width: 800px) {
   .outline {
     line-height: 73px;
     font-size: 85px;
+  }
+  .container-secondary-title-projects {
+    margin: 100px 15px;
   }
 }

@@ -9,27 +9,9 @@ import { GrGatsbyjs } from "react-icons/gr";
 import { SiJavascript, SiStylus, SiWebpack, SiNetlify } from "react-icons/si";
 //compress images
 import { GatsbyImage } from "gatsby-plugin-image";
-import { useStaticQuery, graphql } from "gatsby";
+import naruto from "../images/narutoS.jpg";
 
 export default function About() {
-  const data = useStaticQuery(graphql`
-    query {
-      allFile(
-        filter: {
-          ext: { regex: "/(jpg)|(png)|(jpeg)/" }
-          name: { in: ["narutoS"] }
-        }
-      ) {
-        edges {
-          node {
-            childImageSharp {
-              gatsbyImageData
-            }
-          }
-        }
-      }
-    }
-  `);
   return (
     <>
       <div className="container work" id="about-me">
@@ -106,12 +88,7 @@ export default function About() {
         </div>
 
         <div className="container-img">
-          {data.allFile.edges.map((image, key) => (
-            <GatsbyImage
-              key={key}
-              image={image.node.childImageSharp.gatsbyImageData}
-            />
-          ))}
+          <img className="img-about-us" src={naruto} alt="project img" />
         </div>
       </div>
     </>

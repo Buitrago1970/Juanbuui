@@ -9,7 +9,6 @@ nav {
   counter-reset: item 0;
   z-index: 12;
 }
-
 .logo {
   font-size: 18px;
   z-index: 10;
@@ -34,7 +33,7 @@ nav {
   flex-direction: column;
 }
 .btn:hover {
-  color: rgb(153, 49, 49);
+  color: rgb(204, 16, 126);
   text-decoration: line-through;
 }
 
@@ -53,4 +52,13 @@ nav {
   box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
     0 0 1rem var(--neon-border-color), inset 0 0 1rem var(--neon-border-color),
     0 0 1rem var(--neon-border-color), inset 0 0 0.5rem var(--neon-border-color);
+}
+@media screen and (max-width: 400px) {
+  .col-1 {
+    display: block;
+    width: 20%;
+  }
+  .btn-email {
+    margin-top: 15px;
+  }
 }

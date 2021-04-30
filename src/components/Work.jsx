@@ -22,6 +22,9 @@ export default function Work() {
             </span>
           </h1>
         </div>
+        <p className="container-secondary-title-projects">
+          <span className="">featured projects</span>
+        </p>
         <Projects />
         <SecondaryProjects />
       </div>

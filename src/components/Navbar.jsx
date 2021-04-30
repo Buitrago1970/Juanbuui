@@ -29,8 +29,8 @@ export default function Navbar() {
               Projects
             </LinkS>
           </div>
-          <div>
-            <a className=" btn" href="">
+          <div className="btn-email">
+            <a className=" btn " href="">
               Email
             </a>
           </div>

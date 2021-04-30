@@ -100,6 +100,9 @@
     grid-template-columns: 1fr;
     padding: 50px 40px;
   }
+  .img-about-us {
+    max-width: 80%;
+  }
   .title-about {
     text-align: center;
     position: initial;
@@ -116,8 +119,13 @@
   }
 }
 @media screen and (max-width: 400px) {
-  /* .work {
-    grid-template-columns: 1fr;
-    padding: 50px 0px;
-  } */
+  .work {
+    padding: 60px 0px;
+  }
+  .skills-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .img-about-us {
+    max-width: 85%;
+  }
 }
