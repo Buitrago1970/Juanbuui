@@ -7,11 +7,7 @@
   gap: 20px;
 }
 .container-img {
-  max-width: 73%;
-  overflow: hidden;
-  text-align: center;
-  position: relative;
-  margin-bottom: -5px;
+  width: 100%;
 }
 .container-paragraph {
   color: rgb(228, 226, 226);
@@ -22,11 +18,10 @@
   flex-flow: column;
   font-size: 14px;
 }
-.img {
-  width: 100%;
-  border-radius: 7px;
-}
-.img-principal-about {
+.img-about-us {
+  max-width: 73%;
+  border-radius: 4px;
+  margin-left: 15px;
 }
 .container-paragraph {
 }
@@ -100,20 +95,29 @@
   font-size: 18px;
   color: #8a8a8a;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .work {
-    display: block;
-    padding: 40px 40px;
-  }
-  .work-reverse {
-    padding-top: 190px;
-    display: flex;
-    flex-flow: column-reverse;
-    padding: 40px 40px;
+    grid-template-columns: 1fr;
+    padding: 50px 40px;
   }
   .title-about {
     text-align: center;
     position: initial;
     margin-top: 30px;
   }
+  .container-paragraph {
+    grid-row: 2;
+    text-align: center;
+  }
+  .container-img {
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  /* .work {
+    grid-template-columns: 1fr;
+    padding: 50px 0px;
+  } */
 }

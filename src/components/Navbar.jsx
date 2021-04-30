@@ -2,21 +2,32 @@ import React from "react";
 
 //styles
 import "./styles/Navbar.css";
+//scroll
+import { Link as LinkS } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 
 export default function Navbar() {
   return (
     <>
       <nav id="nav">
-        <div className="logo">JuuanBuitrago</div>
+        <div className="logo" onClick={scroll.scrollToTop}>
+          JuuanBuitrago
+        </div>
         <div className="col-1">
           <div className="container-nav-links">
-            <a className="btn" href="">
+            <LinkS to={"about-me"} smooth={true} className="btn">
               About
-            </a>
+            </LinkS>
             <br />
-            <a className="btn" href="">
+            <LinkS
+              to={"projects"}
+              offset={80}
+              smooth={true}
+              className="btn"
+              href=""
+            >
               Projects
-            </a>
+            </LinkS>
           </div>
           <div>
             <a className=" btn" href="">

@@ -2,6 +2,10 @@ import React from "react";
 
 import "./styles/Hero.css";
 
+//scroll
+import { Link as LinkS } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
+
 export default function Hero() {
   return (
     <>
@@ -13,9 +17,9 @@ export default function Hero() {
             dolorem. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             ea, quaerat soluta odio.
           </p>
-          <a className="read-more" href="">
+          <LinkS to={"about-me"} smooth={true} className="read-more">
             Read More About Me
-          </a>
+          </LinkS>
         </div>
         <div className="titles-hero">
           <h1 className="title-hero">Juan Sebastian Buitrago</h1>

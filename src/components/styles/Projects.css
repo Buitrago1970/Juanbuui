@@ -61,3 +61,22 @@
     0 0 7px rgba(44, 30, 242, 0.52), 0 0 11px rgba(44, 30, 242, 0.52),
     0 0 16px rgba(44, 30, 242, 0.52);
 }
+@media screen and (max-width: 800px) {
+  .container-projects {
+    padding: 60px 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container-projects {
+    padding: 30px 20px;
+    margin-left: 10px;
+  }
+  .container-projects-rv {
+    padding-top: 40px;
+    margin-right: 10px;
+  }
+  .container-text-projects {
+    margin: 40px 0px;
+    padding: 0;
+  }
+}

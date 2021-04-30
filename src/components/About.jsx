@@ -2,19 +2,37 @@ import React from "react";
 
 //styles
 import "./styles/About.css";
-//images
-import about from "../images/narutoS.jpg";
+
 //icons
 import { FaReact, FaHtml5, FaCss3, FaGitAlt } from "react-icons/fa";
 import { GrGatsbyjs } from "react-icons/gr";
 import { SiJavascript, SiStylus, SiWebpack, SiNetlify } from "react-icons/si";
+//compress images
+import { GatsbyImage } from "gatsby-plugin-image";
+import { useStaticQuery, graphql } from "gatsby";
 
 export default function About() {
+  const data = useStaticQuery(graphql`
+    query {
+      allFile(
+        filter: {
+          ext: { regex: "/(jpg)|(png)|(jpeg)/" }
+          name: { in: ["narutoS"] }
+        }
+      ) {
+        edges {
+          node {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
+      }
+    }
+  `);
   return (
     <>
-      <div className="container work" data-aos="fade-up">
-        {/*CAMBIAR POR UN LINK DE REACT ROUTER */}
-
+      <div className="container work" id="about-me">
         <div className="container-paragraph">
           <h1 className="title-about">About Me</h1>
           <p>
@@ -86,12 +104,14 @@ export default function About() {
             </li>
           </ul>
         </div>
+
         <div className="container-img">
-          <img
-            className="img img-principal-project"
-            src={about}
-            alt="project img"
-          />
+          {data.allFile.edges.map((image, key) => (
+            <GatsbyImage
+              key={key}
+              image={image.node.childImageSharp.gatsbyImageData}
+            />
+          ))}
         </div>
       </div>
     </>

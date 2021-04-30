@@ -1,8 +1,7 @@
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 50px 250px;
-  /* gap: 20px; */
+  margin: 3% 18%;
   margin-bottom: 105px;
 }
 .div {
@@ -37,4 +36,18 @@
 .read-more:hover {
   color: rgb(153, 49, 49);
   text-decoration: line-through;
+}
+@media screen and (max-width: 800px) {
+  .hero {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero {
+    margin: 3% 2%;
+  }
+  .img-about-us {
+    max-width: 90%;
+  }
 }

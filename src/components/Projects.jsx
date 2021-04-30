@@ -15,6 +15,7 @@ export default function Projects() {
               className=" img-principal-project"
               src={PrincipalProject}
               alt="project img"
+              id="projects"
             />
           </a>
         </div>

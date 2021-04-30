@@ -32,3 +32,9 @@ span {
   /* text-overflow: initial; */
   overflow: hidden;
 }
+@media screen and (max-width: 800px) {
+  .outline {
+    line-height: 73px;
+    font-size: 85px;
+  }
+}

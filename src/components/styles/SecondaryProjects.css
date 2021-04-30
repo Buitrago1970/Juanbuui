@@ -1,0 +1,19 @@
+.container-secondary-projects {
+  margin-left: 100px;
+}
+.container-img-SP-projects {
+  max-width: 380px;
+  border: 3px solid rgb(255, 255, 255);
+}
+.title-secondary-project:hover {
+  color: #c6e2ff;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.92),
+    0 0 10px rgba(255, 255, 255, 0.34), 0 0 4px rgba(242, 30, 129, 0.52),
+    0 0 7px rgba(242, 30, 65, 0.92), 0 0 11px rgba(242, 30, 136, 0.78),
+    0 0 16px rgba(242, 30, 30, 0.92);
+}
+@media screen and (max-width: 800px) {
+  .container-secondary-projects {
+    margin: 0 30px;
+  }
+}
