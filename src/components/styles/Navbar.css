@@ -33,11 +33,11 @@ nav {
   flex-direction: column;
 }
 .btn:hover {
-  color: rgb(204, 16, 126);
+  color: #0cebc9;
   text-decoration: line-through;
 }
 
-.resume-button {
+/* .resume-button {
   color: rgb(0, 132, 255);
   background-color: transparent;
   border: 1px solid;
@@ -52,7 +52,7 @@ nav {
   box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
     0 0 1rem var(--neon-border-color), inset 0 0 1rem var(--neon-border-color),
     0 0 1rem var(--neon-border-color), inset 0 0 0.5rem var(--neon-border-color);
-}
+} */
 @media screen and (max-width: 400px) {
   .col-1 {
     display: block;

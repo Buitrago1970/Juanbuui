@@ -32,9 +32,19 @@ span {
   /* text-overflow: initial; */
   overflow: hidden;
 }
+.outline {
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.92),
+    0 0 10px rgba(255, 255, 255, 0.34), 0 0 4px rgba(157, 30, 242, 0.52),
+    0 0 7px rgba(147, 30, 242, 0.92), 0 0 11px rgba(164, 30, 242, 0.78),
+    0 0 16px rgba(217, 30, 242, 0.92);
+}
 .container-secondary-title-projects {
   text-align: end;
   margin: 120px 50px;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.92),
+    0 0 10px rgba(255, 255, 255, 0.34), 0 0 4px rgba(242, 30, 30, 0.52),
+    0 0 7px rgba(242, 30, 30, 0.92), 0 0 11px rgba(242, 30, 30, 0.78),
+    0 0 16px rgba(242, 30, 30, 0.92);
 }
 @media screen and (max-width: 800px) {
   .outline {

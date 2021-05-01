@@ -3,58 +3,63 @@ import React from "react";
 //styles
 import "./styles/Projects.css";
 //images
-import PrincipalProject from "../images/1.jpg";
+// import PrincipalProject from "../images/1.jpg";
+import project1 from "../images/estaes.png";
+import project2 from "../images/oficial.png";
 
 export default function Projects() {
   return (
     <>
       <div className="container-projects">
         <div className="container-img-projects">
-          <a href="#">
+          <a href="https://www.Surtisandiego.com" target="_blank">
             <img
               className=" img-principal-project"
-              src={PrincipalProject}
+              src={project1}
               alt="project img"
               id="projects"
             />
           </a>
         </div>
         <div className="container-text-projects ">
-          <a className="title-project" href="/">
+          <a
+            className="title-project"
+            href="https://www.Surtisandiego.com"
+            target="_blank"
+          >
             SANDIEGO &rarr;
           </a>
           <div className="paragraph-projects">
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-              exercitationem nobis veniam praesentium distinctio aliquam al
-              reiciendis minima dolore! minima dolore! Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Error quibusdam quam sapiente
-              voluptate.
+              Ecommerce para brindar la conveniencia de la entrega a domicilio a
+              aquellos que admiran la verdadera calidad de Prime Beef, una
+              variedad de carnes para todos los gustos y preferencias
             </p>
           </div>
         </div>
       </div>
       <div className="container-projects container-projects-rv">
         <div className=" container-img-projects-rv">
-          <a href="#">
+          <a href="https://oficialmente512.com/" target="_blank">
             <img
               className=" img-principal-project"
-              src={PrincipalProject}
+              src={project2}
               alt="project img"
             />
           </a>
         </div>
         <div className="container-text-projects container-text-projects-rv">
-          <a className="title-project title-project-rv" href="/">
-            SANDIEGO &rarr;
+          <a
+            className="title-project title-project-rv"
+            href="https://oficialmente512.com/"
+            target="_blank"
+          >
+            Oficialmente512 &rarr;
           </a>
           <div className="paragraph-projects">
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-              exercitationem nobis veniam praesentium distinctio aliquam al
-              reiciendis minima dolore! minima dolore! Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Error quibusdam quam sapiente
-              voluptate.
+              Compañia dedicada a la creacion en apps webs mobile utilizando
+              tecnologias como React.js React Native Gatsby entre otras.
             </p>
           </div>
         </div>

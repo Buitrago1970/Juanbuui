@@ -3,13 +3,13 @@ import React from "react";
 //styles
 import "./styles/SecondaryProjects.css";
 //images
-import project from "../images/descarga.jpg";
+import project from "../images/Captura de pantalla (21).png";
 export default function SecondaryProjects() {
   return (
     <>
       <div className="container-projects  container-secondary-projects">
         <div className="container-img-SP-projects">
-          <a href="#">
+          <a href="#" target="_blank">
             <img
               className=" img-principal-project"
               src={project}
@@ -18,17 +18,16 @@ export default function SecondaryProjects() {
           </a>
         </div>
         <div className="container-text-projects ">
-          <a className="title-project title-secondary-project" href="/">
-            GAME &rarr;
+          <a
+            className="title-project title-secondary-project"
+            href="https://platzi.com/p/juan-sebastian-buitrago/"
+            target="_blank"
+          >
+            Cursos Aprobados &rarr;
           </a>
+          <p className="sse">Certificados</p>
           <div className="paragraph-projects">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-              exercitationem nobis veniam praesentium distinctio aliquam al
-              reiciendis minima dolore! minima dolore! Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Error quibusdam quam sapiente
-              voluptate.
-            </p>
+            {/* <p>Certificados obtenidos en plataformas como Platzi.</p> */}
           </div>
         </div>
       </div>

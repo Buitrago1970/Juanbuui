@@ -33,7 +33,7 @@
   font-size: 30px;
 }
 .read-more:hover {
-  color: rgb(204, 16, 126);
+  color: #0cebc9;
   text-decoration: line-through;
 }
 @media screen and (max-width: 800px) {

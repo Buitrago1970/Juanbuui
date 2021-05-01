@@ -10,9 +10,9 @@ export default function Navbar() {
   return (
     <>
       <nav id="nav">
-        <div className="logo" onClick={scroll.scrollToTop}>
+        <a className="logo" onClick={scroll.scrollToTop} href="/">
           JuuanBuitrago
-        </div>
+        </a>
         <div className="col-1">
           <div className="container-nav-links">
             <LinkS to={"about-me"} smooth={true} className="btn">
@@ -30,7 +30,7 @@ export default function Navbar() {
             </LinkS>
           </div>
           <div className="btn-email">
-            <a className=" btn " href="">
+            <a className=" btn " href="mailto:juanbuitrago2002@outlook.com">
               Email
             </a>
           </div>

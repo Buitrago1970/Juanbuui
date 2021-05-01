@@ -18,14 +18,18 @@ export default function About() {
         <div className="container-paragraph">
           <h1 className="title-about">About Me</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-            exercitationem nobis veniam praesentium distinctio aliquam al
-            reiciendis minima dolore! minima dolore!
+            ¡Hola! Me llamo Juan Sebastian y disfruto creando cosas que viven en
+            Internet. Mi interés en el desarrollo web comenzó en 2018 cuando
+            decidi comezar con una proyecto vendiendo gafas en linea. aprendindo
+            las bases de crear un sitio web con HTML-CSS-JAVASCRIPT.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Su
-            accusantium a corrupti quaerat quia ipsum necessitatib iusto
-            possimus quam! sto possimus quam!
+            Actualmente me enfoco en crear y diseñar experiencias digitales
+            excepcionales
+          </p>
+          <p>
+            Aquí hay algunas tecnologías con las que he estado trabajando
+            recientemente:
           </p>
           <ul className="skills-list">
             <li>

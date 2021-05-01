@@ -19,8 +19,8 @@ export default function Work() {
             En Colombia
           </p>
         </div>
-        <a className="footer-button" href="#nav">
-          GET IN TOUCH
+        <a className="footer-button" href="mailto:juanbuitrago2002@outlook.com">
+          Escríbeme al email
         </a>
       </footer>
     </>
