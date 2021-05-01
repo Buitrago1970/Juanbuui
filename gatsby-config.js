@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "JuanBui",
+    title: ` juanbuui `,
   },
   plugins: [
-    "gatsby-plugin-netlify-cms",
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
@@ -20,7 +20,7 @@ module.exports = {
         name: `juanbuui`,
         short_name: `juanbuui`,
         lang: `es`,
-        icon: `src/images/JB.svg`, // This path is relative to the root of the site.
+        icon: `src/images/JB (5).png`, // This path is relative to the root of the site.
         icons: [
           {
             src: `src/images/JB.png`,
