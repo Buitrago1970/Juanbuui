@@ -12,7 +12,11 @@ export default function Projects() {
     <>
       <div className="container-projects">
         <div className="container-img-projects">
-          <a href="https://www.Surtisandiego.com" target="_blank">
+          <a
+            href="https://www.Surtisandiego.com"
+            target="_blank"
+            rel="noreferrer nofollow"
+          >
             <img
               className=" img-principal-project"
               src={project1}
@@ -26,6 +30,7 @@ export default function Projects() {
             className="title-project"
             href="https://www.Surtisandiego.com"
             target="_blank"
+            rel="noreferrer nofollow"
           >
             SANDIEGO &rarr;
           </a>
@@ -40,7 +45,11 @@ export default function Projects() {
       </div>
       <div className="container-projects container-projects-rv">
         <div className=" container-img-projects-rv">
-          <a href="https://oficialmente512.com/" target="_blank">
+          <a
+            href="https://oficialmente512.com/"
+            target="_blank"
+            rel="noreferrer nofollow"
+          >
             <img
               className=" img-principal-project"
               src={project2}
@@ -53,6 +62,7 @@ export default function Projects() {
             className="title-project title-project-rv"
             href="https://oficialmente512.com/"
             target="_blank"
+            rel="noreferrer nofollow"
           >
             Oficialmente512 &rarr;
           </a>

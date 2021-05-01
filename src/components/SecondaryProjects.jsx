@@ -9,7 +9,11 @@ export default function SecondaryProjects() {
     <>
       <div className="container-projects  container-secondary-projects">
         <div className="container-img-SP-projects">
-          <a href="#" target="_blank">
+          <a
+            href="https://platzi.com/p/juan-sebastian-buitrago/"
+            target="_blank"
+            rel="noreferrer nofollow"
+          >
             <img
               className=" img-principal-project"
               src={project}
@@ -22,6 +26,7 @@ export default function SecondaryProjects() {
             className="title-project title-secondary-project"
             href="https://platzi.com/p/juan-sebastian-buitrago/"
             target="_blank"
+            rel="noreferrer nofollow"
           >
             Cursos Aprobados &rarr;
           </a>

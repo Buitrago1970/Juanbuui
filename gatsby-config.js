@@ -7,27 +7,38 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `./src/images/`,
+        path: `src/images/`,
       },
     },
     {
-      resolve: "gatsby-plugin-favicons",
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        logo: "./src/logo.svg",
-        appName: "tu te fuiste",
-        background: "#fff",
-        icons: {
-          android: true,
-          appleIcon: true,
-          appleStartup: true,
-          coast: false,
-          favicons: true,
-          yandex: false,
-          windows: false,
-        },
+        name: `juanbuui`,
+        short_name: `juanbuui`,
+        lang: `es`,
+        icon: `src/images/JB.svg`, // This path is relative to the root of the site.
+        icons: [
+          {
+            src: `src/images/JB.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+        ],
+        start_url: `/`,
+        display: `standalone`,
+        localize: [
+          {
+            start_url: `/de/`,
+            lang: `de`,
+            name: `Die coole Anwendung`,
+            short_name: `Coole Anwendung`,
+            description: `Die Anwendung macht coole Dinge und macht Ihr Leben besser.`,
+          },
+        ],
       },
     },
   ],

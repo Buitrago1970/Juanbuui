@@ -4,7 +4,6 @@ import "./styles/Hero.css";
 
 //scroll
 import { Link as LinkS } from "react-scroll";
-import { animateScroll as scroll } from "react-scroll";
 
 export default function Hero() {
   return (
