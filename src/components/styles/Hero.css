@@ -28,13 +28,18 @@
 .title-hero {
   font-size: 40px;
   margin-top: 0;
+  margin-bottom: 10px;
 }
 .secondary-title {
   font-size: 30px;
+  margin: 0;
 }
 .read-more:hover {
-  color: #0cebc9;
   text-decoration: line-through;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.92), 0 0 10px rgb(255, 255, 255),
+    0 0 4px var(--neon-button-color1), 0 0 7px var(--neon-button-color1),
+    0 0 11px var(--neon-button-color1), 0 0 16px var(--neon-button-color1);
+  cursor: pointer;
 }
 @media screen and (max-width: 800px) {
   .hero {

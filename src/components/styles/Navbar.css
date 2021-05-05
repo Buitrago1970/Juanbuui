@@ -33,8 +33,11 @@ nav {
   flex-direction: column;
 }
 .btn:hover {
-  color: #0cebc9;
   text-decoration: line-through;
+  cursor: pointer;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.92), 0 0 10px rgb(255, 255, 255),
+    0 0 4px var(--neon-button-color1), 0 0 7px var(--neon-button-color1),
+    0 0 11px var(--neon-button-color1), 0 0 16px var(--neon-button-color1);
 }
 
 /* .resume-button {

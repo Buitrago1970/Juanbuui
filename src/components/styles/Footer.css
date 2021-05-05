@@ -25,6 +25,21 @@
     0 0 1rem var(--neon-button-color), inset 0 0 1rem var(--neon-button-color),
     0 0 1rem var(--neon-button-color), inset 0 0 0.5rem var(--neon-button-color);
 }
+.footer-button:hover {
+  box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
+    0 0 1rem var(--neon-hover-button-color),
+    inset 0 0 1rem var(--neon-hover-button-color),
+    0 0 1rem var(--neon-hover-button-color),
+    inset 0 0 0.5rem var(--neon-hover-button-color);
+}
+.container-img-f {
+  max-width: 240px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.img-email {
+  width: 100%;
+}
 @media screen and (max-width: 400px) {
   .footer {
     grid-template-columns: 1fr;

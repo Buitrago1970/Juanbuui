@@ -19,13 +19,7 @@ export default function Navbar() {
               About
             </LinkS>
             <br />
-            <LinkS
-              to={"projects"}
-              offset={80}
-              smooth={true}
-              className="btn"
-              href=""
-            >
+            <LinkS to={"projects"} offset={80} smooth={true} className="btn">
               Projects
             </LinkS>
           </div>
@@ -35,7 +29,7 @@ export default function Navbar() {
             </a>
           </div>
           {/* <div className="resume-button">
-            <a href="">Resume</a>
+            <a >Resume</a>
           </div> */}
         </div>
       </nav>
