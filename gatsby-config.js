@@ -8,6 +8,13 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/about-us/`, `/projects/*`],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -17,28 +24,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `juanbuui`,
+        name: `juanbuitrago`,
         short_name: `juanbuui`,
-        lang: `es`,
-        icon: `src/images/JB (3).png`, // This path is relative to the root of the site.
-        icons: [
-          {
-            src: `src/images/JB.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-        ],
         start_url: `/`,
         display: `standalone`,
-        localize: [
-          {
-            start_url: `/de/`,
-            lang: `de`,
-            name: `Die coole Anwendung`,
-            short_name: `Coole Anwendung`,
-            description: `Die Anwendung macht coole Dinge und macht Ihr Leben besser.`,
-          },
-        ],
+        lang: `es`,
+        icon: `src/images/JB (3).png`, // This path is relative to the root of the site.
+        display: `standalone`,
+        crossOrigin: `use-credentials`,
       },
     },
   ],
