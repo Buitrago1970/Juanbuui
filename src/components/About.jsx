@@ -8,7 +8,7 @@ import { FaReact, FaHtml5, FaCss3, FaGitAlt } from "react-icons/fa";
 import { GrGatsbyjs } from "react-icons/gr";
 import { SiJavascript, SiStylus, SiWebpack, SiNetlify } from "react-icons/si";
 //compress images
-import naruto from "../images/narutoS.jpg";
+import image from "../images/IMG_9389.jpg";
 
 export default function About() {
   return (
@@ -91,7 +91,7 @@ export default function About() {
         </div>
 
         <div className="container-img">
-          <img className="img-about-us" src={naruto} alt="project img" />
+          <img className="img-about-us" src={image} alt="project img" />
         </div>
       </div>
     </>

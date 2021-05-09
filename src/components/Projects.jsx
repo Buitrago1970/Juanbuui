@@ -5,7 +5,7 @@ import "./styles/Projects.css";
 //images
 // import PrincipalProject from "../images/1.jpg";
 import project1 from "../images/estaes.png";
-import project2 from "../images/oficial.png";
+import project2 from "../images/Sin título.png";
 
 export default function Projects() {
   return (
