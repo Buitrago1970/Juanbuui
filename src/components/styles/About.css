@@ -26,7 +26,6 @@
 .container-paragraph {
 }
 /* reverse */
-
 .work-reverse {
   padding-top: 190px;
 }
@@ -101,7 +100,7 @@
     padding: 50px 40px;
   }
   .img-about-us {
-    max-width: 80%;
+    max-width: 70%;
   }
   .title-about {
     text-align: center;
@@ -126,7 +125,7 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
   .img-about-us {
-    max-width: 70%;
+    max-width: 40%;
     margin-left: 0;
   }
 }
