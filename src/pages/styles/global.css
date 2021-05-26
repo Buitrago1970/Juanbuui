@@ -16,6 +16,9 @@ a {
 p {
   margin: 20px 10px;
 }
+li {
+  list-style: none;
+}
 :root {
   /* Set neon container-img-project1 color */
   --neon-border-color: #08f;
