@@ -125,7 +125,6 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
   .img-about-us {
-    max-width: 40%;
     margin-left: 0;
     height: auto;
   }

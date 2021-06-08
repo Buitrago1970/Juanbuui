@@ -18,6 +18,16 @@
   text-decoration: none;
 }
 .footer-button {
+  font-size: 25px;
+  margin: 0 5px;
+  cursor: ne-resize;
+}
+.footer-button:hover {
+  position: relative;
+  bottom: 1px;
+}
+.footer-button-email {
+  font-size: 15px;
   max-width: 120px;
   padding: 10px;
   text-align: center;
@@ -25,7 +35,7 @@
     0 0 1rem var(--neon-button-color), inset 0 0 1rem var(--neon-button-color),
     0 0 1rem var(--neon-button-color), inset 0 0 0.5rem var(--neon-button-color);
 }
-.footer-button:hover {
+.footer-button-email:hover {
   box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
     0 0 1rem var(--neon-hover-button-color),
     inset 0 0 1rem var(--neon-hover-button-color),
@@ -39,6 +49,15 @@
 }
 .img-email {
   width: 100%;
+}
+.instagram {
+  color: #e44862;
+}
+.linkedin {
+  color: #0270ad;
+}
+.github {
+  color: #2f2f2f;
 }
 @media screen and (max-width: 400px) {
   .footer {

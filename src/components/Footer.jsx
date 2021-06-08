@@ -3,7 +3,12 @@ import React from "react";
 //styles
 import "./styles/Footer.css";
 //icons
-import { AiFillHeart } from "react-icons/ai";
+import {
+  AiFillHeart,
+  AiOutlineInstagram,
+  AiOutlineLinkedin,
+  AiOutlineGithub,
+} from "react-icons/ai";
 //images
 import email from "../images/email.png";
 
@@ -22,12 +27,27 @@ export default function Work() {
           </p>
         </div>
         <div className="email">
-          <a
-            className="footer-button"
-            href="mailto:juanbuitrago2002@outlook.com"
-          >
-            Escríbeme al email
-          </a>
+          <div className="social-media">
+            <a
+              className="footer-button instagram"
+              href="https://www.instagram.com/el_guaso0n_bebe/"
+            >
+              <AiOutlineInstagram />
+            </a>
+            <a className="footer-button linkedin" href="">
+              {" "}
+              <AiOutlineLinkedin />
+            </a>
+            <a className="footer-button github" href="">
+              <AiOutlineGithub />
+            </a>
+            <a
+              className="footer-button footer-button-email"
+              href="mailto:juanbuitrago2002@outlook.com"
+            >
+              Escríbeme al email
+            </a>
+          </div>
           <div className="container-img-f">
             <img className="img-email" src={email} alt="" />
           </div>

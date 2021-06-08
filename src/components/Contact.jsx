@@ -1,0 +1,32 @@
+import React from "react";
+import "./styles/Contact.css";
+import { AiFillThunderbolt } from "react-icons/ai";
+import { GiBleedingEye } from "react-icons/gi";
+import { RiEyeCloseLine } from "react-icons/ri";
+
+export default function Contact() {
+  return (
+    <div className="contact container-projects" id="contact">
+      <div className="matrice">
+        <div className="div1"> 🧠</div>
+        <div className="div2"> </div>
+        <div className="div3"> 🌎</div>
+        <div className="div4"></div>
+        <div className="div5">🌌</div>
+        <div className="div6"> </div>
+        <div className="div7"></div>
+        <div className="div8"> 🎠</div>
+        <div className="div9">
+          {" "}
+          <RiEyeCloseLine />
+        </div>
+        <div className="div10"> </div>
+        <div className="div11"></div>
+        <div className="contact-titles">
+          <p className="contact-subtitle">Other Noteworthy Projects</p>
+          <h1 className="contact-title">Contacto</h1>
+        </div>
+      </div>
+    </div>
+  );
+}

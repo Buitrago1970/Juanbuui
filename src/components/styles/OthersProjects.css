@@ -1,0 +1,25 @@
+.container-projects {
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: "Noto Sans", sans-serif;
+}
+.container-others-projects {
+  padding-top: 0;
+}
+.title {
+  color: #ffffff;
+  text-shadow: #00ff80 0px 0px 8px, #00ff80 0px 0px 6px, #00ff80 0px 0px 4px;
+  font-size: 30px;
+}
+.title-others-projects {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.project-list {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  max-width: 1100px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}

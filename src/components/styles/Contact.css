@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Hanalei&family=Monoton&family=Press+Start+2P&family=Reenie+Beanie&display=swap");
+.matrice {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 50px;
+  text-align: center;
+}
+.contact-subtitle {
+  color: #ffffff;
+  text-shadow: #00ff80 0px 0px 8px, #00ff80 0px 0px 6px, #00ff80 0px 0px 4px;
+  font-size: 30px;
+  margin-bottom: 22px;
+}
+.contact-title {
+  -webkit-text-stroke-color: #ffffffb8;
+  color: #dd99114f;
+  -webkit-text-stroke-width: 3px;
+  font-size: 100px;
+  margin: 0;
+  font-family: auto;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 4px #d91,
+    0 0 40px #d91, 0 0 70px #d91, 0 0 80px #d91, 0 0 100px #d91, 0 0 150px #d91;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+  text-shadow: #00ff80 0px 0px 8px, #00ff80 0px 0px 6px, #00ff80 0px 0px 4px;
+  font-size: 30px;
+  margin-bottom: 22px;
+  -webkit-text-stroke-color: #ffffffb8;
+  color: #ffffff85;
+  -webkit-text-stroke-width: 1px;
+  position: relative;
+  left: 40px;
+  top: 90px;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+  grid-area: 1 / 3 / 2 / 4;
+  text-shadow: #0084ff 0px 0px 9px, #0084ff 0px 0px 4px;
+  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  color: #fff0;
+  font-size: 26px;
+}
+.div4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.div5 {
+  grid-area: 1 / 5 / 2 / 6;
+  text-shadow: #ff0000 0px 0px 8px, #ff0000 0px 0px 6px, #ff0000 0px 0px 4px;
+  -webkit-text-stroke-color: #ffffffb8;
+  -webkit-text-stroke-width: 1px;
+  color: #fff0;
+  font-size: 37px;
+  position: relative;
+  left: 40px;
+}
+.div6 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.div7 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.div8 {
+  grid-area: 4 / 1 / 5 / 2;
+  text-shadow: #514fe0 0px 0px 8px, #514fe0 0px 0px 6px, #514fe0 0px 0px 4px;
+  -webkit-text-stroke-color: #ffffffb8;
+  -webkit-text-stroke-width: 1px;
+  color: #fff0;
+  font-size: 25px;
+  position: relative;
+  top: 40px;
+}
+.div9 {
+  grid-area: 4 / 5 / 5 / 6;
+}
+.div10 {
+  grid-area: 3 / 5 / 4 / 6;
+}
+.div11 {
+  grid-area: 2 / 5 / 3 / 6;
+}
+.contact-titles {
+  grid-area: 2 / 2 / 4 / 5;
+}

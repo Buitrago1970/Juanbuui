@@ -15,7 +15,7 @@ export default function Navbar() {
         </a>
         <div className="col-1">
           <div className="container-nav-links">
-            <LinkS to={"about-me"} smooth={true} className="btn">
+            <LinkS to={"about-me"} offset={70} smooth={true} className="btn">
               About
             </LinkS>
             <br />
@@ -24,9 +24,15 @@ export default function Navbar() {
             </LinkS>
           </div>
           <div className="btn-email">
-            <a className=" btn " href="mailto:juanbuitrago2002@outlook.com">
+            <LinkS
+              to={"contact"}
+              offset={80}
+              smooth={true}
+              className=" btn "
+              href="mailto:juanbuitrago2002@outlook.com"
+            >
               Email
-            </a>
+            </LinkS>
           </div>
           {/* <div className="resume-button">
             <a >Resume</a>

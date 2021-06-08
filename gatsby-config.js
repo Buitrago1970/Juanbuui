@@ -28,7 +28,7 @@ module.exports = {
         start_url: `/`,
         display: `standalone`,
         lang: `es`,
-        icon: `src/images/JB (3).png`, // This path is relative to the root of the site.
+        icon: `src/images/JB (6).png`, // This path is relative to the root of the site.
         display: `standalone`,
         crossOrigin: `use-credentials`,
       },

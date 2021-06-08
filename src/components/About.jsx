@@ -8,7 +8,7 @@ import { FaReact, FaHtml5, FaCss3, FaGitAlt } from "react-icons/fa";
 import { GrGatsbyjs } from "react-icons/gr";
 import { SiJavascript, SiStylus, SiWebpack, SiNetlify } from "react-icons/si";
 //compress images
-import image from "../images/IMG_9389.jpg";
+import image from "../images/narutoS.jpg";
 
 export default function About() {
   return (
