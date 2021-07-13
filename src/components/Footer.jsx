@@ -16,34 +16,49 @@ export default function Work() {
   return (
     <>
       <footer className="footer" id="footer">
-        <div className="rights-reseved">
-          <p className="footers">Desing and developed by Juuan Bui.</p>
-          <p className="footers">All Rights reserved.</p>
-        </div>
-        <div className="whit-love">
-          <p>
-            Echo Con <AiFillHeart />
-            En Colombia
-          </p>
+        <div className="container-rights-reseved">
+          <div className="rights-reseved">
+            <p className="footers">Desing and developed by Juuan Bui.</p>
+            <p className="footers">All Rights reserved.</p>
+          </div>
+          <div className="whit-love">
+            <p className="whit-love-p">
+              Echo Con <AiFillHeart />
+              en Colombia
+            </p>
+          </div>
         </div>
         <div className="email">
           <div className="social-media">
             <a
               className="footer-button instagram"
               href="https://www.instagram.com/el_guaso0n_bebe/"
+              target="_blank"
+              rel="noreferrer nofollow"
             >
               <AiOutlineInstagram />
             </a>
-            <a className="footer-button linkedin" href="">
+            <a
+              className="footer-button linkedin"
+              href=""
+              target="_blank"
+              rel="noreferrer nofollow"
+            >
               {" "}
               <AiOutlineLinkedin />
             </a>
-            <a className="footer-button github" href="">
+            <a
+              className="footer-button github"
+              href=""
+              target="_blank"
+              rel="noreferrer nofollow"
+            >
               <AiOutlineGithub />
             </a>
             <a
               className="footer-button footer-button-email"
               href="mailto:juanbuitrago2002@outlook.com"
+              // title="World Health Organization"
             >
               Escríbeme al email
             </a>

@@ -2,6 +2,7 @@ import React from "react";
 
 //styles
 import "./styles/SecondaryProjects.css";
+import { GoLinkExternal } from "react-icons/go";
 //images
 import project from "../images/Captura de pantalla (21).png";
 export default function SecondaryProjects() {
@@ -28,7 +29,7 @@ export default function SecondaryProjects() {
             target="_blank"
             rel="noreferrer nofollow"
           >
-            Cursos Aprobados &rarr;
+            Cursos Aprobados <GoLinkExternal />
           </a>
           <p className="sse">Certificados</p>
           <div className="paragraph-projects">

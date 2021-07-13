@@ -1,3 +1,7 @@
+@font-face {
+  font-family: lasenter;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/lasenter.ttf);
+}
 nav {
   display: flex;
   -webkit-box-pack: justify;
@@ -10,10 +14,22 @@ nav {
   z-index: 12;
 }
 .logo {
-  font-size: 18px;
+  padding-left: 20px;
+  font-size: 25px;
   z-index: 10;
-  position: relative;
-  left: 30px;
+  color: lightyellow;
+  --color1: yellow;
+  --color2: orange;
+  --color3: brown;
+  --color4: purple;
+  font-family: Bad Script;
+  --interval: 1s;
+  display: block;
+  text-shadow: 0 0 10px var(--color1), 0 0 20px var(--color2),
+    0 0 40px var(--color3), 0 0 80px var(--color4);
+  will-change: filter, color;
+  filter: saturate(60%);
+  animation: flicker steps(100) var(--interval) 1s infinite;
 }
 .col-1 a {
   font-size: 13px;

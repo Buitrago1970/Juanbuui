@@ -1,10 +1,12 @@
 .container-projects {
   max-width: 1400px;
   margin: 0 auto;
+
   font-family: "Noto Sans", sans-serif;
 }
 .container-others-projects {
   padding-top: 0;
+  display: block;
 }
 .title {
   color: #ffffff;

@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 
 //styles
 import "./styles/Work.css";
 //components
 import Projects from "./Projects";
 import SecondaryProjects from "./SecondaryProjects";
+import ProjectContext from "../context/ProjectContext";
 
 export default function Work() {
+  const { principalProjects } = useContext(ProjectContext);
   return (
     <>
       <div id="proyectos" className="container ">
@@ -25,7 +27,9 @@ export default function Work() {
         <p className="container-secondary-title-projects">
           <span className="">featured projects</span>
         </p>
-        <Projects />
+        {principalProjects.map((value) => (
+          <Projects data={value} />
+        ))}
         <SecondaryProjects />
       </div>
     </>

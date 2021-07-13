@@ -17,18 +17,24 @@ export default function About() {
         <div className="container-paragraph">
           <h1 className="title-about">About Me</h1>
           <p>
-            ¡Hola! Me llamo Juan Sebastian y disfruto creando cosas que viven en
+            {/* ¡Hola! Me llamo Juan Sebastian y disfruto creando cosas que viven en
             Internet. Mi interés en el desarrollo web comenzó en 2018 cuando
             decidi comezar con una proyecto vendiendo gafas en linea. aprendindo
-            las bases de crear un sitio web con HTML-CSS-JAVASCRIPT.
+            las bases de crear un sitio web con HTML-CSS-JAVASCRIPT. */}
+            aqui hay que meter info Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Asperiores velit accusamus quos qui soluta, libero
+            laborum alias esse inventore consequuntur perspiciatis nihil dolorem
+            odit veniam possimus? Minima aut rem possimus?
           </p>
           <p>
-            Actualmente me enfoco en crear y diseñar experiencias digitales
-            excepcionales
+            {/* Actualmente me enfoco en crear y diseñar experiencias digitales
+            excepcionales */}
+            aqui hay que meter info
           </p>
           <p>
-            Aquí hay algunas tecnologías con las que he estado trabajando
-            recientemente:
+            aqui hay que meter info
+            {/* Aquí hay algunas tecnologías con las que he estado trabajando
+            recientemente: */}
           </p>
           <ul className="skills-list">
             <li>

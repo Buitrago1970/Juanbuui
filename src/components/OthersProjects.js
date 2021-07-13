@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import ProjectItem from "./ProjectItem";
 import "./styles/OthersProjects.css";
+import ProjectContext from "../context/ProjectContext";
 
 export default function OthersProjects() {
+  const { secondaryProjects } = useContext(ProjectContext);
   return (
     <>
       <div className="container-projects container-others-projects">
@@ -10,10 +12,9 @@ export default function OthersProjects() {
           Other Noteworthy Projects
         </h2>
         <ul className="project-list">
-          <ProjectItem />
-          <ProjectItem />
-          <ProjectItem />
-          <ProjectItem />
+          {secondaryProjects.map((value) => (
+            <ProjectItem data={value} />
+          ))}
         </ul>
       </div>
     </>
