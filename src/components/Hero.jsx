@@ -11,12 +11,8 @@ export default function Hero() {
       <div className="hero">
         <div className="div">
           <p className="paragraph-hero">
-            {/* Soy un ingeniero de software con sede en Colombia que se especializa
-            en crear y diseñar experiencias digitales excepcionales. me enfoco
-            en crear productos accesibles a través del desarrolo font-end. */}
-            fue un músico, guitarrista y compositor jamaicano. Durante su
-            carrera musical fue el líder, compositor y guitarrista de las bandas
-            The Wailers y Bob Marley & The Wailers.
+            Soy un ingeniero de software en Colombia que se especializa en crear
+            y diseñar experiencias digitales excepcionales💫
           </p>
           <LinkS to={"about-me"} smooth={true} className="read-more">
             Leer mas sobre mi
@@ -24,10 +20,7 @@ export default function Hero() {
         </div>
         <div className="titles-hero">
           <h1 className="title-hero">Juan Sebastian Buitrago</h1>
-          <h3 className="secondary-title">
-            {/* Construyo cosas para la web. */}
-            músico, guitarrista y compositor jamaicano
-          </h3>
+          <h3 className="secondary-title">Programador web🤍</h3>
         </div>
       </div>
     </>

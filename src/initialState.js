@@ -3,14 +3,16 @@ export default {
     {
       link: "https://www.Surtisandiego.com",
       title: " SANDIEGO",
+      path: `/static/e82df19bdaa017772dca01d464db2a92/SAN.png`,
       description:
-        "Ecommerce para brindar la conveniencia de la entrega a domicilio aquellos que admiran la verdadera calidad de Prime Beef, una variedad de carnes para todos los gustos y preferencias",
+        "Ecommerce para brindar la conveniencia de la entrega a domicilio aquellos que admiran la verdadera calidad de Prime Beef, una variedad de carnes para todos los gustos y preferencias.",
     },
     {
       link: "https://www.512.com",
       title: " Oficialmente 512",
+      path: "/static/16371c6670830a2fe8b8b3023dcbc6ac/512.png",
       description:
-        " Compañia dedicada a la creacion en apps webs mobile utilizando tecnologias como React.js React Native Gatsby entre otras.",
+        " Compañía dedicada a la creación en apps webs mobile utilizando tecnologías como React.js React Native Gatsby entre otras.",
     },
   ],
   secondaryProjects: [

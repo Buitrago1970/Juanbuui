@@ -49,7 +49,7 @@ export default function Work() {
             </a>
             <a
               className="footer-button github"
-              href=""
+              href="https://github.com/Buitrago1970"
               target="_blank"
               rel="noreferrer nofollow"
             >

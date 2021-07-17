@@ -5,14 +5,15 @@ import "./styles/Projects.css";
 import { GoLinkExternal } from "react-icons/go";
 
 export default function Projects({ data }) {
+  console.log(data);
   return (
     <>
       <div className="container-projects">
         <div className="container-img-projects">
           <a href={data.link} target="_blank" rel="noreferrer nofollow">
             <img
-              className=" img-principal-project"
-              src={data.img}
+              className="img-principal-project"
+              src={data.path}
               alt="project img"
               id="projects"
             />

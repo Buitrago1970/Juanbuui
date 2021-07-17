@@ -1,7 +1,7 @@
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 3% 18%;
+  margin: 3% 15%;
   margin-bottom: 105px;
 }
 .div {
@@ -23,8 +23,6 @@
   margin: 41px 11px;
   letter-spacing: 1px;
 }
-.titles-hero {
-}
 .title-hero {
   font-size: 40px;
   margin-top: 0;
@@ -33,6 +31,7 @@
 .secondary-title {
   font-size: 30px;
   margin: 0;
+  color: #c296ff;
 }
 .read-more:hover {
   text-decoration: line-through;
@@ -46,6 +45,12 @@
     display: flex;
     flex-flow: column-reverse;
   }
+  .title-hero {
+    margin-bottom: 40px;
+  }
+  .div {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 400px) {
   .hero {
@@ -58,6 +63,7 @@
     font-size: 35px;
   }
   .secondary-title {
+    text-align: center;
     font-size: 25px;
   }
   .paragraph-hero {

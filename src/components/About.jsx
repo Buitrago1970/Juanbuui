@@ -27,15 +27,10 @@ export default function About() {
             odit veniam possimus? Minima aut rem possimus?
           </p>
           <p>
-            {/* Actualmente me enfoco en crear y diseñar experiencias digitales
-            excepcionales */}
-            aqui hay que meter info
+            Actualmente me enfoco en crear, diseñar y producir paginas
+            jodidamente cabronas
           </p>
-          <p>
-            aqui hay que meter info
-            {/* Aquí hay algunas tecnologías con las que he estado trabajando
-            recientemente: */}
-          </p>
+          <p>Tecnologías con las que he estado trabajando recientemente:</p>
           <ul className="skills-list">
             <li>
               <div className="icon-containers-us">

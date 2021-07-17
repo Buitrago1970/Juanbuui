@@ -49,6 +49,7 @@
 @media screen and (max-width: 800px) {
   .container-projects {
     padding: 60px 40px;
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 450px) {
