@@ -25,10 +25,10 @@ export default function Work() {
           </h1>
         </div>
         <p className="container-secondary-title-projects">
-          <span className="">featured projects</span>
+          <span className="">PROYECTOS DESTACADOS</span>
         </p>
         {principalProjects.map((value) => (
-          <Projects data={value} />
+          <Projects key={value.key} data={value} />
         ))}
         <SecondaryProjects />
       </div>

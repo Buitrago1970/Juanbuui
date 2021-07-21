@@ -5,11 +5,18 @@ import "./styles/Projects.css";
 import { GoLinkExternal } from "react-icons/go";
 
 export default function Projects({ data }) {
-  console.log(data);
+  let container = "container-projects";
+  let imgContainer = "container-img-projects";
+  let text = "container-text-projects";
+  if (data.reverse) {
+    container += " reverse";
+    imgContainer += " container-img-projects-reverse";
+    text += " container-text-projects-reverse";
+  }
   return (
     <>
-      <div className="container-projects">
-        <div className="container-img-projects">
+      <div className={container}>
+        <div className={imgContainer}>
           <a href={data.link} target="_blank" rel="noreferrer nofollow">
             <img
               className="img-principal-project"
@@ -19,7 +26,7 @@ export default function Projects({ data }) {
             />
           </a>
         </div>
-        <div className="container-text-projects ">
+        <div className={text}>
           <a
             className="title-project"
             href={data.link}

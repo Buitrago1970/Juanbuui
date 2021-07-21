@@ -29,7 +29,7 @@ export default function SecondaryProjects() {
             target="_blank"
             rel="noreferrer nofollow"
           >
-            Cursos Aprobados <GoLinkExternal />
+            ✅Cursos Aprobados <GoLinkExternal />
           </a>
           <p className="sse">Certificados</p>
           <div className="paragraph-projects">

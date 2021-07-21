@@ -8,14 +8,14 @@ nav {
   justify-content: space-between;
   -webkit-box-align: center;
   align-items: center;
-  position: relative;
   width: 100%;
-  counter-reset: item 0;
-  z-index: 12;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 .logo {
   padding-left: 20px;
-  font-size: 25px;
+  font-size: 23px;
 }
 .col-1 a {
   font-size: 13px;
@@ -28,7 +28,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 25px 1%;
+  padding: 25px 3%;
 }
 .container-nav-links {
   display: flex;
@@ -62,6 +62,7 @@ nav {
   .col-1 {
     display: block;
     width: 20%;
+    padding: 25px 0%;
   }
   .btn-email {
     margin-top: 15px;

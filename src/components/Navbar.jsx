@@ -16,11 +16,11 @@ export default function Navbar() {
         <div className="col-1">
           <div className="container-nav-links">
             <LinkS to={"about-me"} offset={70} smooth={true} className="btn">
-              About
+              Sobre Mí
             </LinkS>
             <br />
             <LinkS to={"projects"} offset={80} smooth={true} className="btn">
-              Projects
+              proyectos
             </LinkS>
           </div>
           <div className="btn-email">
