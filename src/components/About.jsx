@@ -4,9 +4,10 @@ import React from "react";
 import "./styles/About.css";
 
 //icons
-import { FaReact, FaHtml5, FaCss3, FaGitAlt } from "react-icons/fa";
+import { FaReact, FaHtml5, FaCss3, FaGitAlt, FaPython } from "react-icons/fa";
 import { GrGatsbyjs } from "react-icons/gr";
-import { SiJavascript, SiStylus, SiWebpack, SiNetlify } from "react-icons/si";
+import { SiJavascript, SiWebpack } from "react-icons/si";
+import pythonIcon from "../images/python-5.svg";
 //compress images
 import image from "../images/narutoS.jpg";
 
@@ -15,20 +16,23 @@ export default function About() {
     <>
       <div className="container work" id="about-me">
         <div className="container-paragraph">
-          <h1 className="title-about">About Me</h1>
+          <h1 className="title-about">Sobre mí</h1>
           <p>
             {/* ¡Hola! Me llamo Juan Sebastian y disfruto creando cosas que viven en
             Internet. Mi interés en el desarrollo web comenzó en 2018 cuando
             decidi comezar con una proyecto vendiendo gafas en linea. aprendindo
             las bases de crear un sitio web con HTML-CSS-JAVASCRIPT. */}
-            aqui hay que meter info Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Asperiores velit accusamus quos qui soluta, libero
-            laborum alias esse inventore consequuntur perspiciatis nihil dolorem
-            odit veniam possimus? Minima aut rem possimus?
+            Desde muy joven comenzó a rapear y al realizar una actuación en un
+            supermercado, llamó la atención de una señora, quien era esposa de
+            un director ejecutivo de un sello discográfico, por lo que Jam firmó
+            un contrato de grabación y con casi catorce años, lanzó su primer EP
+            titulado ...Distinto a los demás.✨
           </p>
           <p>
             Actualmente me enfoco en crear, diseñar y producir paginas
-            jodidamente cabronas
+            jodidamente cabronas, En 2013, Nicky 👁‍🗨 empezó a ganar popularidad
+            nuevamente en varios países de Latinoamérica con el sencillo «Voy a
+            beber».4​ En 2015, lanza el tema «El perdón»🔅
           </p>
           <p>Tecnologías con las que he estado trabajando recientemente:</p>
           <ul className="skills-list">
@@ -72,25 +76,12 @@ export default function About() {
             </li>
             <li>
               <div className="icon-containers-us">
-                <GrGatsbyjs className="icon-7" />
+                <img className="python-icon" src={pythonIcon} alt="" />
               </div>
-              gatsby
-            </li>
-            <li>
-              <div className="icon-containers-us">
-                <SiNetlify className="icon-8" />
-              </div>
-              Netlify
-            </li>
-            <li>
-              <div className="icon-containers-us">
-                <SiStylus className="icon-9" />
-              </div>
-              Stylus
+              Python
             </li>
           </ul>
         </div>
-
         <div className="container-img">
           <img className="img-about-us" src={image} alt="project img" />
         </div>

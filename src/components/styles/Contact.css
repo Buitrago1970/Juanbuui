@@ -16,6 +16,7 @@
   text-shadow: #00ff80 0px 0px 8px, #00ff80 0px 0px 6px, #00ff80 0px 0px 4px;
   font-size: 30px;
   margin-bottom: 22px;
+  margin: 0;
 }
 .contact-title {
   -webkit-text-stroke-color: #ffffffb8;

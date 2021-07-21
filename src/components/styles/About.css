@@ -1,4 +1,5 @@
 .container {
+  font-family: consolas;
 }
 .work {
   display: grid;
@@ -42,7 +43,7 @@
 }
 .skills-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 0px;
   margin: 45px 0px 0px 10px;
   overflow: hidden;
@@ -54,9 +55,9 @@
 }
 .skills-list :hover {
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.92),
-    0 0 10px rgba(255, 255, 255, 0.34), 0 0 4px rgba(157, 30, 242, 0.52),
-    0 0 7px rgba(147, 30, 242, 0.92), 0 0 11px rgba(164, 30, 242, 0.78),
-    0 0 16px rgba(217, 30, 242, 0.92);
+    0 0 10px rgba(255, 255, 255, 0.34), 0 0 4px rgba(30, 242, 203, 0.92),
+    0 0 7px rgba(30, 242, 203, 0.92), 0 0 11px rgba(30, 242, 203, 0.92),
+    0 0 16px rgba(30, 242, 203, 0.92);
 }
 .icon-1 {
   font-size: 18px;
@@ -82,17 +83,8 @@
   font-size: 18px;
   color: rgb(21 118 187);
 }
-.icon-7 {
-  font-size: 18px;
-  color: #633194;
-}
-.icon-8 {
-  font-size: 18px;
-  color: #36adb5;
-}
-.icon-9 {
-  font-size: 18px;
-  color: #8a8a8a;
+.python-icon {
+  width: 18px;
 }
 @media screen and (max-width: 800px) {
   .work {
