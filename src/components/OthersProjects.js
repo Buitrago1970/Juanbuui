@@ -9,11 +9,11 @@ export default function OthersProjects() {
     <>
       <div className="container-projects container-others-projects">
         <h2 className="title title-others-projects">
-          Other Noteworthy Projects
+          Otros proyectos destacados 🦄
         </h2>
         <ul className="project-list">
           {secondaryProjects.map((value) => (
-            <ProjectItem data={value} />
+            <ProjectItem key={value.key} data={value} />
           ))}
         </ul>
       </div>

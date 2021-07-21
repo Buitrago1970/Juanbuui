@@ -40,7 +40,7 @@ export default function Work() {
             </a>
             <a
               className="footer-button linkedin"
-              href=""
+              href="https://twitter.com/home"
               target="_blank"
               rel="noreferrer nofollow"
             >

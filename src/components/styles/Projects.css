@@ -1,7 +1,10 @@
 .container-projects {
   margin-left: 60px;
-  padding: 60px 40px;
+  padding: 70px 40px;
   display: flex;
+}
+.reverse {
+  flex-direction: row-reverse;
 }
 .container-img-projects {
   max-width: 480px;
@@ -9,6 +12,11 @@
   box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
     0 0 2rem var(--neon-border-color), inset 0 0 2rem var(--neon-border-color),
     0 0 4rem var(--neon-border-color), inset 0 0 4rem var(--neon-border-color);
+}
+.container-img-projects-reverse {
+  box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
+    0 0 2rem var(--neon-border-color2), inset 0 0 2rem var(--neon-border-color2),
+    0 0 4rem var(--neon-border-color2), inset 0 0 4rem var(--neon-border-color2);
 }
 .img-principal-project {
   width: 100%;
@@ -23,6 +31,10 @@
   justify-content: center;
   text-align: center;
   width: 100%;
+}
+.container-text-projects-reverse {
+  margin-left: 0;
+  margin-right: 34px;
 }
 .title-project {
   margin-bottom: 0px;
