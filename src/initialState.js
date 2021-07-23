@@ -1,23 +1,23 @@
 export default {
-  principalProjects: [
-    {
-      key: "10",
-      link: "https://www.Surtisandiego.com",
-      title: "🥩 SANDIEGO",
-      path: `/static/e82df19bdaa017772dca01d464db2a92/8df4d/SAN.png`,
-      description:
-        "Ecommerce para brindar la conveniencia de la entrega a domicilio aquellos que admiran la verdadera calidad de Prime Beef, una variedad de carnes para todos los gustos y preferencias.",
-    },
-    {
-      key: "11",
-      link: "https://www.512.com",
-      title: "5️⃣1️⃣2️⃣ Oficialmente 512",
-      path: `/static/16371c6670830a2fe8b8b3023dcbc6ac/48734/512.png`,
-      description:
-        " Compañía dedicada a la creación en apps webs mobile utilizando tecnologías como React.js React Native Gatsby entre otras.",
-      reverse: "True",
-    },
-  ],
+  // principalProjects: [
+  //   {
+  //     key: "10",
+  //     link: "https://www.Surtisandiego.com",
+  //     title: "🥩 SANDIEGO",
+  //     path: `/static/e82df19bdaa017772dca01d464db2a92/8df4d/SAN.png`,
+  //     description:
+  //       "Ecommerce para brindar la conveniencia de la entrega a domicilio aquellos que admiran la verdadera calidad de Prime Beef, una variedad de carnes para todos los gustos y preferencias.",
+  //   },
+  //   {
+  //     key: "11",
+  //     link: "https://www.512.com",
+  //     title: "5️⃣1️⃣2️⃣ Oficialmente 512",
+  //     path: `/static/16371c6670830a2fe8b8b3023dcbc6ac/48734/512.png`,
+  //     description:
+  //       " Compañía dedicada a la creación en apps webs mobile utilizando tecnologías como React.js React Native Gatsby entre otras.",
+  //     reverse: "True",
+  //   },
+  // ],
   secondaryProjects: [
     {
       key: "1",
@@ -78,7 +78,7 @@ export default {
       key: "5",
       title: "JavaScript Vanilla Video",
       github: "https://github.com/Buitrago1970/Platzi-Video-JS/tree/master",
-      link: "https://platzi-video-js.netlify.app/",
+      link: "https://videoclip.netlify.app//",
       description:
         "Platzi video Busca Peliculas en tendencia Echa en Js vanilla .",
       technologies: {
