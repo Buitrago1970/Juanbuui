@@ -78,7 +78,7 @@ export default {
       key: "5",
       title: "JavaScript Vanilla Video",
       github: "https://github.com/Buitrago1970/Platzi-Video-JS/tree/master",
-      link: "https://platzi-video-js.netlify.app/",
+      link: "https://videoclip.netlify.app//",
       description:
         "Platzi video Busca Peliculas en tendencia Echa en Js vanilla .",
       technologies: {
