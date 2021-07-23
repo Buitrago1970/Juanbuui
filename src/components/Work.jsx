@@ -6,7 +6,8 @@ import "./styles/Work.css";
 import Projects from "./Projects";
 import SecondaryProjects from "./SecondaryProjects";
 // import ProjectContext from "../context/ProjectContext";
-
+import Project1 from "../images/SAN.png";
+import Project2 from "../images/512.png";
 export default function Work() {
   // const { principalProjects } = useContext(ProjectContext);
   const value = [
@@ -14,7 +15,6 @@ export default function Work() {
       key: "10",
       link: "https://www.Surtisandiego.com",
       title: "🥩 SANDIEGO",
-      path: `/static/e82df19bdaa017772dca01d464db2a92/8df4d/SAN.png`,
       description:
         "Ecommerce para brindar la conveniencia de la entrega a domicilio aquellos que admiran la verdadera calidad de Prime Beef, una variedad de carnes para todos los gustos y preferencias.",
     },
@@ -22,7 +22,6 @@ export default function Work() {
       key: "11",
       link: "https://www.512.com",
       title: "5️⃣1️⃣2️⃣ Oficialmente 512",
-      path: `/static/16371c6670830a2fe8b8b3023dcbc6ac/48734/512.png`,
       description:
         " Compañía dedicada a la creación en apps webs mobile utilizando tecnologías como React.js React Native Gatsby entre otras.",
       reverse: "True",
@@ -49,8 +48,8 @@ export default function Work() {
         {/* {principalProjects.map((value) => (
           <Projects key={value.key} data={value} />
         ))} */}
-        <Projects key={value.keys} data={value[0]} />
-        <Projects key={value.keys} data={value[1]} />
+        <Projects image={Project1} key={value[0].keys} data={value[0]} />
+        <Projects image={Project2} key={value[1].keys} data={value[1]} />
         <SecondaryProjects />
       </div>
     </>

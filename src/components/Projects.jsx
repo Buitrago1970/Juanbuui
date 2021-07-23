@@ -4,7 +4,7 @@ import React from "react";
 import "./styles/Projects.css";
 import { GoLinkExternal } from "react-icons/go";
 
-export default function Projects({ data }) {
+export default function Projects({ data, image }) {
   let container = "container-projects";
   let imgContainer = "container-img-projects";
   let text = "container-text-projects";
@@ -20,7 +20,7 @@ export default function Projects({ data }) {
           <a href={data.link} target="_blank" rel="noreferrer nofollow">
             <img
               className="img-principal-project"
-              src={data.path}
+              src={image}
               alt="project img"
               id="projects"
             />
