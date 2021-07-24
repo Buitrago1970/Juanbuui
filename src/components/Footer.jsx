@@ -24,7 +24,7 @@ export default function Work() {
           <div className="whit-love">
             <p className="whit-love-p">
               Echo Con <AiFillHeart />
-              en Colombia
+              en Bogotá, Colombia
             </p>
           </div>
         </div>
@@ -58,9 +58,9 @@ export default function Work() {
             <a
               className="footer-button footer-button-email"
               href="mailto:juanbuitrago2002@outlook.com"
-              // title="World Health Organization"
+              title="juanbuitrago2002@outlook.com"
             >
-              Escríbeme al email
+              Escríbeme un email
             </a>
           </div>
           <div className="container-img-f">

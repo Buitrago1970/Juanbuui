@@ -1,12 +1,6 @@
 module.exports = {
   siteMetadata: {
     title: ` juanbuui `,
-    titleTemplate: "%s · The Real Hero",
-    description:
-      "Hogwarts Potions master, Head of Slytherin house and former Death Eater.",
-    url: "https://www.doe.com", // No trailing slash allowed!
-    image: "/images/snape.jpg", // Path to your image you placed in the 'static' folder
-    twitterUsername: "@occlumency",
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
@@ -35,7 +29,7 @@ module.exports = {
         start_url: `/`,
         display: `standalone`,
         lang: `es`,
-        icon: `src/images/JB (6).png`, // This path is relative to the root of the site.
+        icon: `src/images/Neon Balloon Dog.png`, // This path is relative to the root of the site.
         display: `standalone`,
         crossOrigin: `use-credentials`,
       },

@@ -9,10 +9,10 @@ export default function Contact() {
       <div className="matrice">
         <div className="div1 div-container-contact-icons"> 🧠</div>
         <div className="div2 div-container-contact-icons"> </div>
-        <div className="div3 div-container-contact-icons"> 🌎</div>
+        <div className="div3 div-container-contact-icons"> 🌠</div>
         <div className="div4 div-container-contact-icons"> </div>
-        <div className="div5 div-container-contact-icons"> 💥</div>
-        <div className="div6 div-container-contact-icons">🦜 </div>
+        <div className="div5 div-container-contact-icons"> 🎈</div>
+        <div className="div6 div-container-contact-icons">🦋 </div>
         <div className="div7 div-container-contact-icons"> </div>
         <div className="div8 div-container-contact-icons">
           {" "}

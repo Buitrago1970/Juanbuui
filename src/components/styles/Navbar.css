@@ -4,14 +4,13 @@
 }
 nav {
   display: flex;
-  -webkit-box-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
   align-items: center;
-  width: 100%;
   position: sticky;
   top: 0;
   z-index: 10;
+  background: #33333359;
+  height: 70px;
 }
 .logo {
   padding-left: 20px;
@@ -28,9 +27,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 25px 3%;
+  margin: 17px 3%;
+  margin-right: 13%;
 }
 .container-nav-links {
+  margin-right: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -42,8 +43,7 @@ nav {
     0 0 11px var(--neon-button-color1), 0 0 16px var(--neon-button-color1);
 }
 
-/* .resume-button {
-  color: rgb(0, 132, 255);
+.resume-button {
   background-color: transparent;
   border: 1px solid;
   border-radius: 5px;
@@ -52,17 +52,22 @@ nav {
   text-decoration: none;
   cursor: pointer;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-  margin-left: 15px;
+  margin-left: 30px;
   font-size: 13px;
   box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
-    0 0 1rem var(--neon-border-color), inset 0 0 1rem var(--neon-border-color),
-    0 0 1rem var(--neon-border-color), inset 0 0 0.5rem var(--neon-border-color);
-} */
+    0 0 1rem var(--neon-button-color), inset 0 0 1rem var(--neon-button-color),
+    0 0 1rem var(--neon-button-color), inset 0 0 0.5rem var(--neon-button-color);
+  min-width: 120px;
+}
+
 @media screen and (max-width: 400px) {
+  nav {
+    height: 100px;
+  }
   .col-1 {
     display: block;
     width: 20%;
-    padding: 25px 0%;
+    margin: 25px 0%;
   }
   .btn-email {
     margin-top: 15px;

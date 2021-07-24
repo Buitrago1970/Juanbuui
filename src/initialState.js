@@ -21,7 +21,7 @@ export default {
   secondaryProjects: [
     {
       key: "1",
-      title: "Webpack",
+      title: "Random User  ",
       github: "https://github.com/Buitrago1970/Webpack/blob/main/README.md",
       link: "https://userwebpack.netlify.app/",
       description:

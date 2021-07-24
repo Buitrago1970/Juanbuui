@@ -52,14 +52,7 @@ export default function ProjecItem({ data }) {
                 </li>
 
                 <li className="">
-                  <div
-                    // style={
-                    //   data.technologies.segundo
-                    //     ? { color: data.technologies.segundo.color }
-                    //     : null
-                    // }
-                    className="item-technologies"
-                  >
+                  <div className="item-technologies">
                     {data.technologies.segundo
                       ? data.technologies.segundo.name
                       : null}
@@ -67,14 +60,7 @@ export default function ProjecItem({ data }) {
                 </li>
 
                 <li className="">
-                  <div
-                    // style={
-                    //   data.technologies.tercero
-                    //     ? { color: data.technologies.tercero.color }
-                    //     : null
-                    // }
-                    className="item-technologies"
-                  >
+                  <div ull className="item-technologies">
                     {data.technologies.tercero
                       ? data.technologies.tercero.name
                       : null}

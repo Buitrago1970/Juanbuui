@@ -20,7 +20,7 @@ export default function Work() {
     },
     {
       key: "11",
-      link: "https://www.512.com",
+      link: "https://oficialmente512.com/",
       title: "5️⃣1️⃣2️⃣ Oficialmente 512",
       description:
         " Compañía dedicada a la creación en apps webs mobile utilizando tecnologías como React.js React Native Gatsby entre otras.",
