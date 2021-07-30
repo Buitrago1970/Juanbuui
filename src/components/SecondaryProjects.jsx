@@ -1,5 +1,4 @@
-import React from "react";
-
+import * as React from "react";
 //styles
 import "./styles/SecondaryProjects.css";
 import { GoLinkExternal } from "react-icons/go";

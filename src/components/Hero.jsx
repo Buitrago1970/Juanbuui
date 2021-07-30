@@ -1,5 +1,4 @@
-import React from "react";
-
+import * as React from "react";
 import "./styles/Hero.css";
 import { AiOutlineHeart } from "react-icons/ai";
 

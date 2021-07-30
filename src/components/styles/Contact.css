@@ -96,7 +96,7 @@
 
 @media screen and (max-width: 800px) {
   .contact {
-    padding: 30px 10px;
+    padding: 0 10px;
   }
   .contact-subtitle {
     font-size: 21px;

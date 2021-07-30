@@ -1,7 +1,6 @@
 .container-projects {
   max-width: 1400px;
   margin: 0 auto;
-
   font-family: "Noto Sans", sans-serif;
 }
 .container-others-projects {
@@ -10,7 +9,7 @@
 }
 .title {
   color: #ffffff;
-  text-shadow: #00ff80 0px 0px 8px, #00ff80 0px 0px 6px, #00ff80 0px 0px 4px;
+  text-shadow: #0048ff 0px 0px 8px, #0048ff 0px 0px 6px, #0048ff 0px 0px 4px;
   font-size: 30px;
 }
 .title-others-projects {

@@ -1,6 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: ` juanbuui `,
+    title: "Juan Buui",
+    titleTemplate: `%s · a starting point`,
+    description:
+      "Hogwarts Potions master, Head of Slytherin house and former Death Eater.",
+    url: `https://www.juanbuui.com`,
+    image: "/Neon Balloon Dog.png",
+    twitterUsername: "@SSYBuitrago",
+    author: "JuanBuitrago",
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,

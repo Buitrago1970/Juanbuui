@@ -1,6 +1,7 @@
 import React from "react";
 
 //components
+import Seo from "../components/Seo";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
@@ -16,6 +17,7 @@ import "../pages/styles/global.css";
 const App = () => {
   return (
     <>
+      <Seo />
       <ProjectContext.Provider value={initialState}>
         <Navbar />
         <Hero />

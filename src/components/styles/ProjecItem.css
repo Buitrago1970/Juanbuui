@@ -2,6 +2,7 @@
   border: solid 1px #707070;
   background: #0b0c0d;
   max-width: 290px;
+  min-width: 290px;
   min-height: 240px;
   margin: 5px 5px;
   padding: 20px 25px;
@@ -13,12 +14,11 @@
   border: solid 1px rgba(0, 85, 85, 0.582);
 }
 .container-projects-secondary-projects:hover {
-  color: #0080ff;
+  color: #00ff80;
   position: relative;
   bottom: 1px;
 }
-.other-projects {
-}
+
 .header {
   margin-bottom: 30px;
   min-height: 160px;

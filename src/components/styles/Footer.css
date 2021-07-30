@@ -82,7 +82,7 @@
     padding-left: 0;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .footer {
     grid-template-columns: 1fr;
     height: 100%;

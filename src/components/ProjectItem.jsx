@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import "./styles/ProjecItem.css";
 import { AiFillGithub } from "react-icons/ai";
 import { BsArrowBarUp } from "react-icons/bs";

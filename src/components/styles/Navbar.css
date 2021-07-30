@@ -23,12 +23,10 @@ nav {
   pointer-events: auto;
 }
 .col-1 {
-  width: 10%;
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
-  margin: 17px 3%;
-  margin-right: 13%;
+  justify-content: space-between;
+  padding-right: 10px;
 }
 .container-nav-links {
   margin-right: 30px;
@@ -59,17 +57,17 @@ nav {
     0 0 1rem var(--neon-button-color), inset 0 0 0.5rem var(--neon-button-color);
   min-width: 120px;
 }
-
-@media screen and (max-width: 400px) {
-  nav {
-    height: 100px;
-  }
-  .col-1 {
-    display: block;
-    width: 20%;
-    margin: 25px 0%;
+@media screen and (max-width: 600px) {
+  .resume-button {
+    display: none;
   }
   .btn-email {
-    margin-top: 15px;
+    text-shadow: #00ff80 0px 0px 8px, #00ff80 0px 0px 6px, #00ff80 0px 0px 4px;
+  }
+
+  @media screen and (max-width: 400px) {
+    nav {
+      height: 100px;
+    }
   }
 }

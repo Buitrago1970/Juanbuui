@@ -1,15 +1,11 @@
-import React, { useContext } from "react";
-
-//styles
-import "./styles/Work.css";
-//components
+import * as React from "react";
 import Projects from "./Projects";
 import SecondaryProjects from "./SecondaryProjects";
-// import ProjectContext from "../context/ProjectContext";
 import Project1 from "../images/SAN.png";
 import Project2 from "../images/512.png";
+import "./styles/Work.css";
+
 export default function Work() {
-  // const { principalProjects } = useContext(ProjectContext);
   const value = [
     {
       key: "10",
@@ -24,7 +20,7 @@ export default function Work() {
       title: "5️⃣1️⃣2️⃣ Oficialmente 512",
       description:
         " Compañía dedicada a la creación en apps webs mobile utilizando tecnologías como React.js React Native Gatsby entre otras.",
-      reverse: "True",
+      reverse: "Yes",
     },
   ];
   return (
@@ -45,9 +41,6 @@ export default function Work() {
         <p className="container-secondary-title-projects">
           <span className="">PROYECTOS DESTACADOS</span>
         </p>
-        {/* {principalProjects.map((value) => (
-          <Projects key={value.key} data={value} />
-        ))} */}
         <Projects image={Project1} key={value[0].keys} data={value[0]} />
         <Projects image={Project2} key={value[1].keys} data={value[1]} />
         <SecondaryProjects />
