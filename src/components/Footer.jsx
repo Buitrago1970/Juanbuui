@@ -23,7 +23,7 @@ export default function Work() {
           </div>
           <div className="whit-love">
             <p className="whit-love-p">
-              Echo Con <AiFillHeart />
+              Echo Con <AiFillHeart />{' '}
               en Bogotá, Colombia
             </p>
           </div>

@@ -1,26 +1,12 @@
 export default {
   secondaryProjects: [
-    {
-      key: "1",
-      title: "React",
-      github: "https://github.com/Buitrago1970/Webpack",
-      link: "https://prueba1970.netlify.app/",
-      description:
-        "CRUD Create - Read - Update - Delete Badges Echa con React Hooks.",
-      technologies: {
-        primero: {
-          name: "React",
-        },
-      },
-    },
-
     // {
-    //   key: "3",
-    //   title: "Webpack React",
+    //   key: "1",
+    //   title: "React",
     //   github: "https://github.com/Buitrago1970/Webpack",
     //   link: "https://prueba1970.netlify.app/",
     //   description:
-    //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae beatae. Lorem ipsum dolor sit amet consectetur.",
+    //     "CRUD Create - Read - Update - Delete Badges Echa con React Hooks.",
     //   technologies: {
     //     primero: {
     //       name: "React",
@@ -28,8 +14,27 @@ export default {
     //   },
     // },
     {
+      key: "8",
+      title: "🌿Plantana",
+      github: "https://github.com/Buitrago1970/flower-marketPlace",
+      link: "https://plantas-el-camello.web.app/",
+      description: " Las plantas medicinales más importantes para Colombia.",
+      technologies: {
+        primero: {
+          name: "⚛React",
+        },
+        segundo: {
+          name: "🔥Firebase",
+        },
+        tercero: {
+          name: "🐈Github Actions",
+        },
+      },
+    },
+
+    {
       key: "5",
-      title: "JavaScript Video",
+      title: "📽JavaScript Video",
       github: "https://github.com/Buitrago1970/Platzi-Video-JS/tree/master",
       link: "https://videoclip.netlify.app//",
       description:
@@ -43,6 +48,24 @@ export default {
         },
         tercero: {
           name: "CSS",
+        },
+      },
+    },
+    {
+      key: "9",
+      title: "💛Mc donald's",
+      github: "https://github.com/Buitrago1970/McDonalds",
+      link: "https://mc-donalds-co.firebaseapp.com/",
+      description: "❤Mc donald's App (F.a)🔅.",
+      technologies: {
+        primero: {
+          name: "⚛React",
+        },
+        segundo: {
+          name: "🔥Firebase",
+        },
+        tercero: {
+          name: "💫Css",
         },
       },
     },
@@ -67,7 +90,7 @@ export default {
     },
     {
       key: "2",
-      title: "Random User  ",
+      title: "🕵️‍♀️Random User",
       github: "https://github.com/Buitrago1970/Webpack/blob/main/README.md",
       link: "https://userwebpack.netlify.app/",
       description:
@@ -81,6 +104,18 @@ export default {
         },
       },
     },
+    {
+      key: "10",
+      title: "💚Hangman",
+      github: "https://github.com/Buitrago1970/Hangman-PY",
+      link: "https://github.com/Buitrago1970/Hangman-PY",
+      description: "Juego hangman Echo en 🤍Python🐍.",
+      technologies: {
+        primero: {
+          name: "Python",
+        },
+      },
+    },
     // {
     //   key: "6",
     //   title: "Bad ",
@@ -91,19 +126,6 @@ export default {
     //   technologies: {
     //     primero: {
     //       name: "React",
-    //     },
-    //   },
-    // },
-    // {
-    //   key: "7",
-    //   title: "aqui hay que agregar otro xd",
-    //   github: "https://github.com/Buitrago1970/Webpack",
-    //   link: "https://prueba1970.netlify.app/",
-    //   description:
-    //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit.👁 Repudiandae beatae. Lorem ipsum dolor sit amet consectetur.",
-    //   technologies: {
-    //     primero: {
-    //       name: "JavaScript Python",
     //     },
     //   },
     // },

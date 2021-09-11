@@ -7,7 +7,7 @@ import { FaReact, FaHtml5, FaCss3, FaGitAlt } from "react-icons/fa";
 import { SiJavascript, SiWebpack } from "react-icons/si";
 import pythonIcon from "../images/python-5.svg";
 //compress images
-import image from "../images/images.jpg";
+import image from "../images/lv chrome10.1.png";
 
 export default function About() {
   return (
