@@ -1,8 +1,8 @@
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 6% 16%;
-  margin-bottom: 105px;
+  padding: 6% 16% 105px;
+  background: #00bcd4;
 }
 .div {
   font-size: 14px;
@@ -31,7 +31,7 @@
 .secondary-title {
   font-size: 30px;
   margin: 0;
-  color: #c296ff;
+  color: #d41577;
 }
 .read-more:hover {
   text-decoration: line-through;

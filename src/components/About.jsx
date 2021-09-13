@@ -7,7 +7,7 @@ import { FaReact, FaHtml5, FaCss3, FaGitAlt } from "react-icons/fa";
 import { SiJavascript, SiWebpack } from "react-icons/si";
 import pythonIcon from "../images/python-5.svg";
 //compress images
-import image from "../images/lv chrome10.1.png";
+import image from "../images/giphy.gif";
 
 export default function About() {
   return (
@@ -23,7 +23,7 @@ export default function About() {
           <p>
             Tengo 2 años de experiencia en el diseño y la capacidad de llevar
             conceptos a la vida a través del desarrollo front-end para proyectos
-            mas pequeños 👨‍💻
+            👨‍💻
           </p>
           <p>
             Aquí hay algunas tecnologías con las que he estado trabajando

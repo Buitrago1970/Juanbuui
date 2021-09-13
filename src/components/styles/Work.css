@@ -16,6 +16,8 @@ span {
   font-family: consolas;
 }
 .work-title {
+  background: #ff9800;
+  padding: 20px 0;
 }
 .row {
   display: flex;
@@ -33,10 +35,8 @@ span {
   overflow: hidden;
 }
 .outline {
-  text-shadow: 0 0 2px rgba(255, 255, 255, 0.92),
-    0 0 10px rgba(255, 255, 255, 0.34), 0 0 4px rgba(157, 30, 242, 0.52),
-    0 0 7px rgba(147, 30, 242, 0.92), 0 0 11px rgba(164, 30, 242, 0.78),
-    0 0 16px rgba(217, 30, 242, 0.92);
+  text-shadow: rgb(255 255 255 / 92%) 0px 0px 2px,
+    rgb(255 255 255 / 59%) 0px 0px 10px, rgb(18 255 0) 0px 0px 4px;
 }
 .container-secondary-title-projects {
   text-align: end;

@@ -27,11 +27,10 @@ export default {
           name: "🔥Firebase",
         },
         tercero: {
-          name: "🐈Github Actions",
+          name: "💙PayPal",
         },
       },
     },
-
     {
       key: "5",
       title: "📽JavaScript Video",
