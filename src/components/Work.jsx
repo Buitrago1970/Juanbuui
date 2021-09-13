@@ -9,7 +9,7 @@ export default function Work() {
   const value = [
     {
       key: "10",
-      link: "https://www.Surtisandiego.com",
+      link: "https://sandiegoco.firebaseapp.com/",
       title: "🥩 SANDIEGO",
       description:
         "Ecommerce para brindar la conveniencia de la entrega a domicilio aquellos que admiran la verdadera calidad de Prime Beef, una variedad de carnes para todos los gustos y preferencias.",
