@@ -34,7 +34,6 @@ export default function Projects({ data, image }) {
             rel="noreferrer nofollow"
           >
             {data.title}
-
             <GoLinkExternal />
           </a>
           <div className="paragraph-projects">

@@ -6,6 +6,7 @@ import "./styles/About.css";
 import { FaReact, FaHtml5, FaCss3, FaGitAlt } from "react-icons/fa";
 import { SiJavascript, SiWebpack } from "react-icons/si";
 import pythonIcon from "../images/python-5.svg";
+import webflowIcon from "../images/Webflow.svg";
 //compress images
 import image from "../images/giphy.gif";
 
@@ -73,6 +74,12 @@ export default function About() {
                 <img className="python-icon" src={pythonIcon} alt="" />
               </div>
               Python
+            </li>
+            <li title="x">
+              <div className="icon-containers-us">
+                <img className="python-icon" src={webflowIcon} alt="" />
+              </div>
+              Webflow
             </li>
           </ul>
         </div>

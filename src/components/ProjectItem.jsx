@@ -2,6 +2,7 @@ import * as React from "react";
 import "./styles/ProjecItem.css";
 import { AiFillGithub } from "react-icons/ai";
 import { BsArrowBarUp } from "react-icons/bs";
+// import lv from "../images/lv chrome10.1.png";
 export default function ProjecItem({ data }) {
   return (
     <>
@@ -16,6 +17,10 @@ export default function ProjecItem({ data }) {
           <div className="other-projects">
             <div className="header">
               <div className="project-top">
+                {data.image ? (
+                  <img className="gymclass" src={`${data.image}`} alt="" />
+                ) : null}
+
                 <h2 className="title-other-projects">{data.title}</h2>
                 <div className="icons-project">
                   <a

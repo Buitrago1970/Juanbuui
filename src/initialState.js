@@ -32,8 +32,20 @@ export default {
       },
     },
     {
+      key: "11",
+      image: "https://strapi-last.s3.amazonaws.com/lv+chrome9.3.png",
+      title: "Louis Vuitton",
+      link: "https://louisvuitton-fa.webflow.io/",
+      description: "Rediseño completo del Home/page de LOUIS VUITTON.",
+      technologies: {
+        primero: {
+          name: "🔮webflow",
+        },
+      },
+    },
+    {
       key: "5",
-      title: "📽JavaScript Video",
+      title: "📼JavaScript Video",
       github: "https://github.com/Buitrago1970/Platzi-Video-JS/tree/master",
       link: "https://videoclip.netlify.app//",
       description:
@@ -52,7 +64,8 @@ export default {
     },
     {
       key: "9",
-      title: "💛Mc donald's",
+      title: "Mc donald's",
+      image: "https://mc-donalds-co.firebaseapp.com/d7c9a87deaf0bb9c1f1f.png",
       github: "https://github.com/Buitrago1970/McDonalds",
       link: "https://mc-donalds-co.firebaseapp.com/",
       description: "❤Mc donald's App (F.a)🔅.",

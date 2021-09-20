@@ -54,7 +54,7 @@
 }
 @media screen and (max-width: 400px) {
   .hero {
-    margin: 3% 2%;
+    padding: 4% 2% 105px;
   }
   .img-about-us {
     max-width: 90%;

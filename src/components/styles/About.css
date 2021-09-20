@@ -7,7 +7,10 @@
   gap: 20px;
 }
 .container-img {
-  width: 440px;
+  width: 100%;
+}
+.container-img img {
+  width: 75%;
 }
 .container-paragraph {
   color: rgb(228, 226, 226);
@@ -93,9 +96,7 @@
     grid-template-columns: 1fr;
     padding: 50px 40px;
   }
-  .img-about-us {
-    width: 100%;
-  }
+
   .title-about {
     text-align: center;
     position: initial;
