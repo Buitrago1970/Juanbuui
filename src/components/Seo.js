@@ -33,7 +33,7 @@ class Seo extends React.Component {
           ></meta>
           <meta
             property="og:description"
-            content="Hogwarts Potions master, Head of Slytherin house and former Death Eater."
+            content="Juan Buitrago es un ingeniero de software que se especializa en crear (y ocasionalmente diseñar) experiencias digitales excepcionales."
             data-react-helmet="true"
           ></meta>
           <meta
@@ -48,7 +48,7 @@ class Seo extends React.Component {
           ></meta>
           <meta
             name="twitter:description"
-            content="Hogwarts Potions master, Head of Slytherin house and former Death Eater."
+            content="Juan Buitrago es un ingeniero de software que se especializa en crear (y ocasionalmente diseñar) experiencias digitales excepcionales."
             data-react-helmet="true"
           ></meta>
           <meta

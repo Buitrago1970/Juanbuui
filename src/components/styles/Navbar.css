@@ -57,6 +57,14 @@ nav {
     0 0 1rem var(--neon-button-color), inset 0 0 0.5rem var(--neon-button-color);
   min-width: 120px;
 }
+.resume-button:hover {
+  box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
+    0 0 1rem var(--neon-hover-button-color),
+    inset 0 0 1rem var(--neon-hover-button-color),
+    0 0 1rem var(--neon-hover-button-color),
+    inset 0 0 0.5rem var(--neon-hover-button-color);
+}
+
 @media screen and (max-width: 600px) {
   .resume-button {
     display: none;

@@ -1,18 +1,5 @@
 export default {
   secondaryProjects: [
-    // {
-    //   key: "1",
-    //   title: "React",
-    //   github: "https://github.com/Buitrago1970/Webpack",
-    //   link: "https://prueba1970.netlify.app/",
-    //   description:
-    //     "CRUD Create - Read - Update - Delete Badges Echa con React Hooks.",
-    //   technologies: {
-    //     primero: {
-    //       name: "React",
-    //     },
-    //   },
-    // },
     {
       key: "8",
       title: "🌿Plantana",
@@ -82,6 +69,19 @@ export default {
       },
     },
     {
+      key: "1",
+      title: "React",
+      github: "https://github.com/Buitrago1970/Webpack",
+      link: "https://adoring-clarke-bb8501.netlify.app/",
+      description:
+        "CRUD Create - Read - Update - Delete, Badges Echa con React Hooks.",
+      technologies: {
+        primero: {
+          name: "React",
+        },
+      },
+    },
+    {
       key: "4",
       title: "Simón Dice",
       github:
@@ -128,18 +128,18 @@ export default {
         },
       },
     },
-    // {
-    //   key: "6",
-    //   title: "Bad ",
-    //   github: "https://github.com/Buitrago1970/Webpack",
-    //   link: "https://prueba1970.netlify.app/",
-    //   description:
-    //     "es un rapero, cantante y compositor puertorriqueño. Su estilo de música es generalmente definido como trap latino y reggaeton.",
-    //   technologies: {
-    //     primero: {
-    //       name: "React",
-    //     },
-    //   },
-    // },
+    {
+      key: "13",
+      link:
+        "https://614f6b4ced3a4c000765008f--sleepy-hopper-2ea302.netlify.app/",
+      title: "👁bad",
+      description:
+        " Compañía dedicada a la creación en apps webs mobile utilizando tecnologías como React.js React Native Gatsby entre otras.",
+      technologies: {
+        primero: {
+          name: "Python",
+        },
+      },
+    },
   ],
 };

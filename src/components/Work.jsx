@@ -4,7 +4,8 @@ import SecondaryProjects from "./SecondaryProjects";
 import Project1 from "../images/SAN.png";
 import Project2 from "../images/512.png";
 import Project3 from "../images/Louis vuitton (2).png";
-import Project4 from "../images/McDonald's FA.png";
+import Project4 from "../images/https___614f6b4c (1).png";
+
 import "./styles/Work.css";
 
 export default function Work() {
@@ -26,18 +27,19 @@ export default function Work() {
     },
     {
       key: "13",
-      link: "https://mc-donalds-co.firebaseapp.com/",
-      title: "Mc donald's",
+      link:
+        "https://614f6b4ced3a4c000765008f--sleepy-hopper-2ea302.netlify.app/",
+      title: "👁bad",
       // description:
       //   " Compañía dedicada a la creación en apps webs mobile utilizando tecnologías como React.js React Native Gatsby entre otras.",
+      reverse: "Yes",
     },
     {
       key: "12",
       link: "https://louisvuitton-fa.webflow.io/",
       title: "LOUIS VUITTON",
       description:
-        "Diseño de la pagina principal de LOUIS VUITTON, con las temporadas de 2021 echa en Webflow con diseño mobile.",
-      reverse: "Yes",
+        "Diseño de la pagina principal de LOUIS VUITTON, con las temporadas de 2021 echa en Webflow, diseño mobile.",
     },
   ];
   return (
@@ -60,8 +62,8 @@ export default function Work() {
         </p>
         <Projects image={Project1} key={value[0].key} data={value[0]} />
         <Projects image={Project2} key={value[1].key} data={value[1]} />
-        <Projects image={Project4} key={value[2].key} data={value[2]} />
         <Projects image={Project3} key={value[3].key} data={value[3]} />
+        <Projects image={Project4} key={value[2].key} data={value[2]} />
         <SecondaryProjects />
       </div>
     </>
