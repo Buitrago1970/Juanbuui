@@ -3,7 +3,7 @@ module.exports = {
     title: "Juan Buui",
     titleTemplate: `%s · a starting point`,
     description:
-      "Hogwarts Potions master, Head of Slytherin house and former Death Eater.",
+      "Juan Buitrago es un ingeniero de software que se especializa en crear (y ocasionalmente diseñar) experiencias digitales excepcionales",
     url: `https://www.juanbuui.com`,
     image: "/Neon Balloon Dog.png",
     twitterUsername: "@SSYBuitrago",

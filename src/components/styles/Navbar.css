@@ -70,7 +70,7 @@ nav {
     display: none;
   }
   .btn-email {
-    text-shadow: #00ff80 0px 0px 8px, #00ff80 0px 0px 6px, #00ff80 0px 0px 4px;
+    text-shadow: #ff00f7 0px 0px 8px, #ff00f7 0px 0px 6px, #ff00f7 0px 0px 4px;
   }
 
   @media screen and (max-width: 400px) {

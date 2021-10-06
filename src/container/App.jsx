@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 
 //components
 import Seo from "../components/Seo";
@@ -15,8 +15,16 @@ import initialState from "../initialState";
 import "../pages/styles/global.css";
 
 const App = () => {
+  let refScrollBar = useRef();
+  let totalHeight = document.body.scrollHeight - window.innerHeight;
+  window.onscroll = function () {
+    let progresHeigth = (window.pageYOffset / totalHeight) * 100;
+    refScrollBar.current.style.height = progresHeigth + "%";
+  };
   return (
     <>
+      <div ref={refScrollBar} className="progressbar"></div>
+      <div className="scrollPath"> </div>
       <Seo />
       <ProjectContext.Provider value={initialState}>
         <Navbar />

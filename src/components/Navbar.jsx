@@ -30,7 +30,7 @@ export default function Navbar() {
               className="btn"
               title="i"
             >
-              proyectos
+              Proyectos
             </LinkS>
           </div>
           <div className="btn-email">

@@ -44,11 +44,11 @@
   cursor: ne-resize;
 }
 .paragraph-projects {
-  font-size: 14px;
+  filter: drop-shadow(rgb(255, 255, 255) 0px 0px 1px);
+  font-size: 16px;
   max-width: 800px;
-  font-size: 14px;
   line-height: 1.5;
-  color: #b6b6b6;
+  color: #ffffff;
 }
 
 .title-project:hover {

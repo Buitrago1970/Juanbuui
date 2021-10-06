@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 6% 16% 105px;
-  background: #00bcd4;
 }
 .div {
   font-size: 14px;

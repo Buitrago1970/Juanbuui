@@ -130,14 +130,18 @@ export default {
     },
     {
       key: "13",
-      link:
-        "https://614f6b4ced3a4c000765008f--sleepy-hopper-2ea302.netlify.app/",
+      link: "https://b-a-d.netlify.app/",
       title: "👁bad",
-      description:
-        " Compañía dedicada a la creación en apps webs mobile utilizando tecnologías como React.js React Native Gatsby entre otras.",
+      description: "FanArt pagina de Bad Bunny utilizando API de Strapi y AWS.",
       technologies: {
         primero: {
-          name: "Python",
+          name: "Strapi",
+        },
+        segundo: {
+          name: "AWS",
+        },
+        tercero: {
+          name: "Styled Compnents",
         },
       },
     },
