@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 
 //components
 import Seo from "../components/Seo";
@@ -16,11 +16,14 @@ import "../pages/styles/global.css";
 
 const App = () => {
   let refScrollBar = useRef();
-  let totalHeight = document.body.scrollHeight - window.innerHeight;
-  window.onscroll = function () {
-    let progresHeigth = (window.pageYOffset / totalHeight) * 100;
-    refScrollBar.current.style.height = progresHeigth + "%";
-  };
+  useEffect(() => {
+    let totalHeight = document.body.scrollHeight - window.innerHeight;
+    window.onscroll = function () {
+      let progresHeigth = (window.pageYOffset / totalHeight) * 100;
+      refScrollBar.current.style.height = progresHeigth + "%";
+    };
+  }, []);
+
   return (
     <>
       <div ref={refScrollBar} className="progressbar"></div>

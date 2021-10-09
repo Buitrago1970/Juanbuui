@@ -2,6 +2,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 6% 16% 105px;
+  border-top: 1px solid #c9c9c9;
+  border-bottom: 1px solid #c9c9c9;
 }
 .div {
   font-size: 14px;
@@ -53,13 +55,14 @@
 }
 @media screen and (max-width: 400px) {
   .hero {
-    padding: 4% 2% 105px;
+    padding: 9% 2% 9%;
   }
   .img-about-us {
     max-width: 90%;
   }
   .title-hero {
-    font-size: 35px;
+    font-size: 32px;
+    text-align: center;
   }
   .secondary-title {
     text-align: center;

@@ -132,7 +132,7 @@ export default {
       key: "13",
       link: "https://b-a-d.netlify.app/",
       title: "👁bad",
-      description: "FanArt pagina de Bad Bunny utilizando API de Strapi y AWS.",
+      description: "Conectando una API de strapi con AWS y styled components.",
       technologies: {
         primero: {
           name: "Strapi",

@@ -22,6 +22,7 @@
   width: 100%;
 }
 .container-text-projects {
+  border: 1px solid lightgrey;
   margin: 30px 0px;
   padding: 0;
   margin-left: 34px;

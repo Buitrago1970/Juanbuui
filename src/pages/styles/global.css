@@ -24,7 +24,7 @@ li {
   /* Set neon container-img-project1 color */
   --neon-border-color: #08f;
   /* Set neon container-img-project2 color */
-  --neon-border-color2: #accf2a;
+  --neon-border-color2: #f200ff;
   /* Set neon container-img-secondary-project color */
   --neon-border-color3: #21e44b;
   /* Set neon button color */
@@ -87,11 +87,17 @@ li {
 ::-webkit-scrollbar-track {
   background: transparent;
 }
+.container-loader {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
 .container-loader img {
-  width: 30%;
+  width: 35%;
 }
 @media screen and (max-width: 820px) {
   .container-loader img {
-    width: 100%;
+    width: 85%;
   }
 }
