@@ -5,6 +5,8 @@
   grid-template-columns: 1fr 1fr;
   padding: 100px 40px;
   gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 .container-img {
   width: 100%;

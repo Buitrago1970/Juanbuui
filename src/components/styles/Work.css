@@ -44,6 +44,8 @@ span {
     0 0 10px rgba(255, 255, 255, 0.34), 0 0 4px rgba(242, 30, 30, 0.52),
     0 0 7px rgba(242, 30, 30, 0.92), 0 0 11px rgba(242, 30, 30, 0.78),
     0 0 16px rgba(242, 30, 30, 0.92);
+  max-width: 1400px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 800px) {
   .outline {
