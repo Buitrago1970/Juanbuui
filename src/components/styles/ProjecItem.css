@@ -1,6 +1,4 @@
 .xxx {
-  border: solid 1px #151515;
-  background: #0b0c0de5;
   max-width: 290px;
   min-width: 285px;
   min-height: 240px;
@@ -8,11 +6,39 @@
   padding: 20px 25px 5px;
   border-radius: 5px;
   cursor: ne-resize;
-  padding-bottom: 5px;
+  padding-bottom: 5px;  
+  background: linear-gradient(-45deg, #0b0c0de5, #0a0909e5, #0e0d0d, #251052e5);
+  /* background: linear-gradient(-45deg, #ffffffe5, #0077ee, #000000e5, #6600ec25); */
+ background-size: 800% 400%;
+ display: inline-block;
+ border: none;
+ color: white;
+ transition: all .5s ease-in-out;
+ animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
 }
 .xxx:hover {
-  border: solid 1px rgba(0, 85, 85, 0.582);
-}
+  animation: gradient 3s infinite;
+  transform: scale(1.05);
+ }
+ 
+ .xxx:active {
+  animation: gradient 3s infinite;
+  transform: scale(0.8);
+ }
+ 
+ @keyframes gradient {
+  0% {
+   background-position: 0% 50%;
+  }
+ 
+  50% {
+   background-position: 100% 50%;
+  }
+ 
+  100% {
+   background-position: 0% 50%;
+  }
+ }
 .container-projects-secondary-projects:hover {
   color: #00ff80;
   position: relative;
@@ -78,3 +104,4 @@
     margin: 8px 5px;
   }
 }
+

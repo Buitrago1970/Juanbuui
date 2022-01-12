@@ -1,7 +1,3 @@
-@font-face {
-  font-family: lasenter;
-  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/lasenter.ttf);
-}
 nav {
   display: flex;
   justify-content: space-between;
@@ -56,15 +52,11 @@ nav {
     0 0 1rem var(--neon-button-color), inset 0 0 1rem var(--neon-button-color),
     0 0 1rem var(--neon-button-color), inset 0 0 0.5rem var(--neon-button-color);
   min-width: 120px;
+  background: linear-gradient(-45deg, #0073e6e5, #ff5c5ce5, #0e0d0d, #3c1888e5);
+  transition: all .5s ease-in-out;
+  animation: gradient 15s infinite cubic-bezier(.62, .28, .23, .99) both;
+ background-size: 800% 8%;
 }
-.resume-button:hover {
-  box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
-    0 0 1rem var(--neon-hover-button-color),
-    inset 0 0 1rem var(--neon-hover-button-color),
-    0 0 1rem var(--neon-hover-button-color),
-    inset 0 0 0.5rem var(--neon-hover-button-color);
-}
-
 @media screen and (max-width: 600px) {
   .resume-button {
     display: none;
@@ -79,3 +71,4 @@ nav {
     }
   }
 }
+ 

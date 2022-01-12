@@ -29,14 +29,17 @@
 .whit-love-p {
   margin: 0;
 }
+.footer-button-:hover {
+  transition: all .5s ease-in-out;
+  position: relative;
+  bottom: 1px;
+}
 .footer-button {
   font-size: 25px;
   margin: 0 5px;
 }
-.footer-button:hover {
-  position: relative;
-  bottom: 1px;
-}
+
+
 .footer-button-email {
   background-color: transparent;
   border: 1px solid;
@@ -52,14 +55,12 @@
     0 0 1rem var(--neon-button-color), inset 0 0 1rem var(--neon-button-color),
     0 0 1rem var(--neon-button-color), inset 0 0 0.5rem var(--neon-button-color);
   min-width: 120px;
+  background: linear-gradient(-45deg, #0073e6e5, #ff5c5ce5, #0e0d0d, #3c1888e5);
+  transition: all .5s ease-in-out;
+  animation: gradient 15s infinite cubic-bezier(.62, .28, .23, .99) both;
+ background-size: 800% 8%;
 }
-.footer-button-email:hover {
-  box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
-    0 0 1rem var(--neon-hover-button-color),
-    inset 0 0 1rem var(--neon-hover-button-color),
-    0 0 1rem var(--neon-hover-button-color),
-    inset 0 0 0.5rem var(--neon-hover-button-color);
-}
+
 .email {
   min-width: 295px;
 }

@@ -18,10 +18,10 @@ const App = () => {
   let refScrollBar = useRef();
   useEffect(() => {
     debugger;
-    let totalHeight = 7900;
+    let totalHeight = refScrollBar.current.scrollHeight;
     window.onscroll = function () {
       let scroll = window.scrollY;
-      let percent = (scroll / totalHeight) * 98;
+      let percent = (scroll / totalHeight) * 100;
       refScrollBar.current.style.height = `${percent}%`;
     };
   }, [refScrollBar]);
