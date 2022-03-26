@@ -10,10 +10,10 @@
 }
 .contact {
   padding: 160px 50px;
-  background: linear-gradient(-45deg, #0e0d0d,#0073e6e5, #ff5c5ce5, #3c1888e5);
-  transition: all .2s ease-in-out;
-  animation: gradient 8s infinite cubic-bezier(.62, .28, .23, .99) both;
- background-size: 800% 8%;
+  background: linear-gradient(90deg, #0e0d0d,#0073e6e5, #ff5c5ce5, #3c1888e5);
+  transition: all .0s ease-in-out;
+  animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+ /* background-size: 800% ; */
  margin-bottom: 25px;
 }
 .contact-subtitle {

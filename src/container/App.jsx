@@ -17,11 +17,10 @@ import "../pages/styles/global.css";
 const App = () => {
   let refScrollBar = useRef();
   useEffect(() => {
-    debugger;
     let totalHeight = refScrollBar.current.scrollHeight;
     window.onscroll = function () {
       let scroll = window.scrollY;
-      let percent = (scroll / totalHeight) * 100;
+      let percent = (scroll / totalHeight) * 99;
       refScrollBar.current.style.height = `${percent}%`;
     };
   }, [refScrollBar]);
