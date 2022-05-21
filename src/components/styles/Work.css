@@ -2,6 +2,7 @@ span {
   font-size: 23px;
   color: #e8e6e3;
   text-transform: uppercase;
+  font-family: helvetica;
 }
 .h1-work {
   white-space: nowrap;

@@ -32,6 +32,8 @@
   justify-content: center;
   text-align: center;
   width: 100%;
+  font-family: helvetica;
+
 }
 .container-text-projects-reverse {
   margin-left: 0;
@@ -50,6 +52,7 @@
   max-width: 800px;
   line-height: 1.5;
   color: #ffffff;
+
 }
 
 .title-project:hover {
