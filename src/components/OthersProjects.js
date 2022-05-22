@@ -1,10 +1,12 @@
 import React, { useContext } from "react";
 import ProjectItem from "./ProjectItem";
-import "./styles/OthersProjects.css";
+import ProjectItemAR from "./ProjectItemAR";
+
+import "./styles/OthersProjectsAR.css";
 import ProjectContext from "../context/ProjectContext";
 
 export default function OthersProjects() {
-  const { secondaryProjects } = useContext(ProjectContext);
+  const { secondaryProjects, secondaryProjectsAR } = useContext(ProjectContext);
   return (
     <>
       <div className="container-projects container-others-projects">
@@ -14,6 +16,9 @@ export default function OthersProjects() {
         <ul className="project-list">
           {secondaryProjects.map((value) => (
             <ProjectItem key={value.key} data={value} />
+          ))}
+          {secondaryProjectsAR.map((value) => (
+            <ProjectItemAR key={value.key} data={value} />
           ))}
         </ul>
       </div>

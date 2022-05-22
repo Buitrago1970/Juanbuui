@@ -19,6 +19,24 @@ export default {
       },
     },
     {
+      key: "8",
+      title: "Hardvard",
+      github: "https:github.com/Buitrago1970/flower-marketPlace",
+      link: "https:plantas-el-camello.web.app/",
+      description: " Todo Todo Todo Todo Todov Todo.",
+      technologies: {
+        primero: {
+          name: "⚛React",
+        },
+        segundo: {
+          name: "🔥Firebase",
+        },
+        tercero: {
+          name: "💙PayPal",
+        },
+      },
+    },
+    {
       key: "11",
       image: "https://strapi-last.s3.amazonaws.com/lv+chrome9.3.png",
       title: "Louis Vuitton",
@@ -65,6 +83,24 @@ export default {
         },
         tercero: {
           name: "💫Css",
+        },
+      },
+    },
+    {
+      key: "8",
+      title: "ToDo",
+      github: "https:github.com/Buitrago1970/flower-marketPlace",
+      link: "https:plantas-el-camello.web.app/",
+      description: " Todo Todo Todo Todo Todov Todo.",
+      technologies: {
+        primero: {
+          name: "⚛React",
+        },
+        segundo: {
+          name: "🔥Firebase",
+        },
+        tercero: {
+          name: "💙PayPal",
         },
       },
     },
@@ -146,4 +182,24 @@ export default {
       },
     },
   ],
+  secondaryProjectsAR: [
+    {
+      key: "8",
+      title: "Filtros de AR",
+      // github: "https://github.com/Buitrago1970/flower-marketPlace",
+      link: "https://www.instagram.com/0_0hentay0_0/",
+      description: "+150k visitas en filtros de realidad aumentada en instagram y facebook",
+      technologies: {
+        primero: {
+          name: "Spark AR",
+        },
+        segundo: {
+          name: "AR - AR",
+        },
+        tercero: {
+          name: "AR - AR",
+        },
+      },
+    },
+  ]
 };
