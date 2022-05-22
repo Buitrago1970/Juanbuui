@@ -19,7 +19,6 @@ export default function Work() {
         <div className="container-rights-reseved">
           <div className="rights-reseved">
             <p className="footers">Desing and developed by Juuan Bui.</p>
-            <p className="footers">All Rights reserved.</p>
           </div>
           <div className="whit-love">
             <p className="whit-love-p">
@@ -32,7 +31,7 @@ export default function Work() {
           <div className="social-media">
             <a
               className="footer-button instagram"
-              href="https://www.instagram.com/el_guaso0n_bebe/"
+              href="https://www.instagram.com/0_0hentay0_0/"
               target="_blank"
               rel="noreferrer nofollow"
             >
@@ -40,7 +39,7 @@ export default function Work() {
             </a>
             <a
               className="footer-button linkedin"
-              href="https://twitter.com/home"
+              href="https://www.linkedin.com/in/juan-sebastian-buitrago-90a769165/"
               target="_blank"
               rel="noreferrer nofollow"
             >
