@@ -2,7 +2,7 @@ import * as React from "react";
 import Projects from "./Projects";
 import SecondaryProjects from "./SecondaryProjects";
 import Project1 from "../images/SAN.png";
-import Project2 from "../images/512.png";
+import Project2 from "../images/scope.png";
 import Project3 from "../images/Louis vuitton (2).png";
 import Project4 from "../images/https___b-a-d.ne.png";
 
@@ -19,10 +19,10 @@ export default function Work() {
     },
     {
       key: "11",
-      link: "https://oficialmente512.com/",
-      title: "5️⃣1️⃣2️⃣ Oficialmente 512",
+      link: "https://sc8pe.netlify.app",
+      title: "SCOPE",
       description:
-        " Compañía dedicada a la creación en apps webs mobile utilizando tecnologías como React.js React Native Gatsby entre otras.",
+        "Diseño web de marca de ropa scope echa en Next.js.",
     },
     {
       key: "13",
