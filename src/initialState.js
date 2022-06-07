@@ -5,25 +5,7 @@ export default {
       title: "🌿Plantana",
       github: "https://github.com/Buitrago1970/flower-marketPlace",
       link: "https://plantas-el-camello.web.app/",
-      description: " Las plantas medicinales más importantes para Colombia.",
-      technologies: {
-        primero: {
-          name: "⚛React",
-        },
-        segundo: {
-          name: "🔥Firebase",
-        },
-        tercero: {
-          name: "💙PayPal",
-        },
-      },
-    },
-    {
-      key: "8",
-      title: "Hardvard",
-      github: "https:github.com/Buitrago1970/flower-marketPlace",
-      link: "https:plantas-el-camello.web.app/",
-      description: " Todo Todo Todo Todo Todov Todo.",
+      description: "Ecommerce de Las plantas medicinales más importantes para Colombia.",
       technologies: {
         primero: {
           name: "⚛React",
@@ -73,7 +55,7 @@ export default {
       image: "https://mc-donalds-co.firebaseapp.com/d7c9a87deaf0bb9c1f1f.png",
       github: "https://github.com/Buitrago1970/McDonalds",
       link: "https://mc-donalds-co.firebaseapp.com/",
-      description: "❤Mc donald's App (F.a)🔅.",
+      description: "Ecommerce inspirado en Mc donald's.",
       technologies: {
         primero: {
           name: "⚛React",
@@ -91,7 +73,7 @@ export default {
       title: "ToDo",
       github: "https:github.com/Buitrago1970/flower-marketPlace",
       link: "https:plantas-el-camello.web.app/",
-      description: " Todo Todo Todo Todo Todov Todo.",
+      description: "Proyecto de Todo's en React manejando estado y conexion con multiples ventanas abirtas en sincronia.",
       technologies: {
         primero: {
           name: "⚛React",
@@ -123,7 +105,7 @@ export default {
       github:
         "https://github.com/Buitrago1970/buitrago1970.Simon-Dice.github.io",
       link: "https://buitrago1970.github.io/buitrago1970.Simon-Dice.github.io/",
-      description: "Simón dice Juego 🔴🔵🟡🟢",
+      description: "Juego de Simon dice 🔴🔵🟡🟢",
       technologies: {
         primero: {
           name: "JavaScript",

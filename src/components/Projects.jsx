@@ -4,6 +4,7 @@ import * as React from "react";
 import "./styles/Projects.css";
 import { GoLinkExternal } from "react-icons/go";
 
+
 export default function Projects({ data, image }) {
   let container = "container-projects";
   let imgContainer = "container-img-projects";
@@ -36,6 +37,9 @@ export default function Projects({ data, image }) {
             {data.title}
             <GoLinkExternal />
           </a>
+          
+         
+         
           <div className="paragraph-projects">
             <p>{data.description}</p>
           </div>
