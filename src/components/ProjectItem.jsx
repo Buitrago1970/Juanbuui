@@ -2,18 +2,10 @@ import * as React from "react";
 import "./styles/ProjecItem.css";
 import { AiFillGithub } from "react-icons/ai";
 import { BsArrowBarUp } from "react-icons/bs";
-// import lv from "../images/lv chrome10.1.png";
 export default function ProjecItem({ data }) {
   return (
     <>
-      <a
-        className={"container-projects-secondary-projects"}
-        key={data.key}
-        href={data.link}
-        target="_blank"
-        rel="noreferrer nofollow"
-      >
-        <li className="xxx">
+        <li className="projects__" key={data.key} onClick={()=>window.open('google.com', '_blank')}>
           <div className="other-projects">
             <div className="header">
               <div className="project-top">
@@ -75,7 +67,6 @@ export default function ProjecItem({ data }) {
             </div>
           </div>
         </li>
-      </a>
     </>
   );
 }

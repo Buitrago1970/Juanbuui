@@ -1,4 +1,4 @@
-.xxx {
+.projects__ {
   max-width: 290px;
   min-width: 285px;
   min-height: 240px;
@@ -16,12 +16,12 @@
  transition: all .5s ease-in-out;
  animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
 }
-.xxx:hover {
+.projects__:hover {
   animation: gradient 3s infinite;
   transform: scale(1.05);
  }
  
- .xxx:active {
+ .projects__:active {
   animation: gradient 3s infinite;
   transform: scale(0.8);
  }

@@ -37,6 +37,8 @@ class Seo extends React.Component {
             data-react-helmet="true"
           ></meta>
           <meta
+
+
             name="twitter:title"
             content="Juan Buui"
             data-react-helmet="true"

@@ -11,50 +11,48 @@ export default function Navbar() {
         <a className="logo" href="/" title="A">
           JuuanBuitrago
         </a>
-        <div className="col-1">
           <div className="container-nav-links">
             <LinkS
               to={"about-me"}
               offset={10}
               smooth={true}
-              className="btn"
+              className="navbar-btn"
               title="E"
             >
-              Sobre Mí
+            <p>01.</p>  Sobre Mí
             </LinkS>
-            <br />
+           
             <LinkS
               to={"projects"}
               offset={65}
               smooth={true}
-              className="btn"
+              className="navbar-btn"
               title="i"
             >
-              Proyectos
+               <p>02.</p>Proyectos
             </LinkS>
-          </div>
-          <div className="btn-email">
             <LinkS
               title="O"
               to={"contact"}
               offset={170}
               smooth={true}
-              className=" btn "
+              className="navbar-btn"
               href="mailto:juanbuitrago2002@outlook.com"
             >
-              Email
+           <p>03.</p> Otros Proyectos
+            </LinkS>
+          
+            <LinkS
+              title="O"
+              to={"contact"}
+              offset={170}
+              smooth={true}
+              className="navbar-btn"
+              href="mailto:juanbuitrago2002@outlook.com"
+            >
+             <p>04.</p> Email
             </LinkS>
           </div>
-          <div className="resume-button">
-            <a
-              href="mailto:juanbuitrago2002@outlook.com"
-              title="U juanbuitrago2002@outlook.com"
-            >
-              {" "}
-              Escríbeme un email
-            </a>
-          </div>
-        </div>
       </nav>
     </>
   );

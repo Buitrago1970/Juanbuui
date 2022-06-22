@@ -31,12 +31,14 @@ const App = () => {
       <div className="scrollPath"> </div>
       <Seo />
       <ProjectContext.Provider value={initialState}>
-        <Navbar />
+      <Navbar />
+        <section>
         <Hero />
         <About />
         <Work />
         <OthersProjects />
         <Contact />
+        </section>
         <Footer />
       </ProjectContext.Provider>
     </>

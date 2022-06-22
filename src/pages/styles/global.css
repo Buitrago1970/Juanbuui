@@ -23,42 +23,41 @@
          url("../../fonts/helvetica-rounded-bold.otf") format("truetype");
         font-weight: 700;
         }
-      
+        :root {
+          /* Set neon container-img-project1 color */
+          --neon-border-color: #08f;
+          /* Set neon container-img-project2 color */
+          --neon-border-color2: #f200ff;
+          /* Set neon container-img-secondary-project color */
+          --neon-border-color3: #21e44b;
+          /* Set neon button color */
+          --neon-button-color: #ff00f7;
+          /* Set neon hover button color */
+          --neon-hover-button-color: #ff24f8;
+          /* Set neon button navbar color */
+          --neon-button-color1: #a41ef2c7;
+        }
+        
 body{
   margin: 0;
-  background: #000000;
-  color: #e9e9e9;
+  background: #0A192F;
+  color: #ffffff;
   font-family: "Helvetica";
+  box-sizing: border-box;
 }
 a {
   text-decoration: none;
-
   font-size: 14px;
   color: #fff;
   position: relative;
   transition: color 0.4s;
 }
-p {
-  margin: 20px 10px;
-}
 li {
   list-style: none;
 }
-:root {
-  /* Set neon container-img-project1 color */
-  --neon-border-color: #08f;
-  /* Set neon container-img-project2 color */
-  --neon-border-color2: #f200ff;
-  /* Set neon container-img-secondary-project color */
-  --neon-border-color3: #21e44b;
-  /* Set neon button color */
-  --neon-button-color: #ff00f7;
-  /* Set neon hover button color */
-  --neon-hover-button-color: #ff24f8;
-  /* Set neon button navbar color */
-  --neon-button-color1: #a41ef2c7;
+section{
+  padding: 100px;
 }
-
 /* tamaño */
 ::-webkit-scrollbar {
   width: 0;

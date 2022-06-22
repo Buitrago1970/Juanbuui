@@ -1,12 +1,12 @@
-.container {
-}
-.work {
+
+#about-me {
   display: grid;
+  justify-items: stretch;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
-  padding: 100px 40px;
   gap: 20px;
   max-width: 1400px;
-  margin: 0 auto;
+  padding: 100px 0;
 }
 .container-img {
   width: 100%;
@@ -16,39 +16,39 @@
 }
 .container-paragraph {
   color: rgb(228, 226, 226);
-  padding: 0 5%;
   line-height: 26px;
   justify-content: center;
   display: flex;
   flex-flow: column;
   font-size: 14px;
   font-family: Helvetica-Bold;
+  max-width: 500px;
 
 }
 .img-about-us {
-  box-shadow: rgb(0 9 255) 0px 0px 10px 3px, rgb(6 255 0) 0px 0px 10px 6px,
-    rgb(255 214 0) 0px 0px 10px 9px, rgb(255 106 0) 0px 0px 10px 12px,
-    rgb(255 0 0) 0px 0px 10px 15px;
   width: 100%;
   border-radius: 4px;
   margin-left: 30px;
-}
-.container-paragraph {
 }
 /* reverse */
 .work-reverse {
   padding-top: 190px;
 }
+.container-titles{
+display: flex;
+font-size: 30px;
+margin: 20px 0;
+font-family: Helvetica-Bold;
+}
 .title-about {
   color: rgb(255 255 255);
-  text-shadow: rgb(0 0 0) 0px 0px 65px, rgb(255 255 255) 0px 0px 7px,
-    rgb(255 255 255) 0px 0px 60px, rgb(0 255 255) -16px -2px 70px,
-    rgb(0 255 255) -6px -2px 20px, rgb(0 255 255) -5px 1px 20px,
-    rgb(0 255 255) 2px 1px 20px, rgb(0 255 255) -9px 0px 20px;
-  text-align: initial;
   font-size: 30px;
-  position: relative;
-  bottom: 17px;
+  margin: 0;
+}
+.container-titles >p{
+  margin: 0;
+  color: #8CC0DE;
+  margin-right: 8px;
 }
 .skills-list {
   display: grid;

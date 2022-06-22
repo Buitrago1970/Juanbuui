@@ -37,9 +37,6 @@ export default function Projects({ data, image }) {
             {data.title}
             <GoLinkExternal />
           </a>
-          
-         
-         
           <div className="paragraph-projects">
             <p>{data.description}</p>
           </div>

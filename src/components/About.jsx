@@ -13,16 +13,19 @@ import image from "../images/giphy.gif";
 export default function About() {
   return (
     <>
-      <div className="container work" id="about-me">
+      <article id="about-me">
         <div className="container-paragraph">
-          <h1 className="title-about">Sobre mí</h1>
+          <div className="container-titles">
+          <p>01.</p>
+           <h1 className="title-about">Sobre mí</h1>
+          </div>
           <p>
-            !Hola¡ Mi nombre es Juan Buitrago y Me encanta diseñar interfaces
+          👋 ¡Hola! Mi nombre es Juan Buitrago y Me encanta diseñar interfaces
             frescas con atencion al detalle y coherencia para una representacion
             brillante✨
           </p>
           <p>
-            Tengo 2 años de experiencia en el diseño y la capacidad de llevar
+            Tengo 4 años de experiencia en el diseño y la capacidad de llevar
             conceptos a la vida a través del desarrollo front-end para proyectos
             👨‍💻
           </p>
@@ -86,7 +89,7 @@ export default function About() {
         <div className="container-img">
           <img className="img-about-us" src={image} alt="project img" />
         </div>
-      </div>
+      </article>
     </>
   );
 }

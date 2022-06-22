@@ -1,9 +1,6 @@
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 6% 16% 105px;
-  border-top: 1px solid #c9c9c9;
-  border-bottom: 1px solid #c9c9c9;
 }
 .div {
   font-size: 14px;
@@ -12,27 +9,32 @@
 .paragraph-hero {
   margin-top: 10px;
   color: rgb(255, 255, 255);
-  max-width: 420px;
+  max-width: 480px;
   text-align: inherit;
-  line-height: 24px;
-  font-size: 14px;
-  font-weight: 400;
+  line-height: 24.2px;
+  font-size: 20px;
   font-family: Helvetica-Bold;
+}
+
+.title-hero {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.secondary-title {
+  font-size: 35px;
+  margin: 0;
+  background: linear-gradient(180deg, #FF6500 36.61%, rgba(253, 6, 6, 0.69) 60.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 .read-more {
   font-size: 13px;
   margin: 41px 11px;
   letter-spacing: 1px;
-}
-.title-hero {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-.secondary-title {
-  font-size: 30px;
-  margin: 0;
-  color: #d41577;
+  font-style: italic;
 }
 .read-more:hover {
   text-decoration: line-through;
