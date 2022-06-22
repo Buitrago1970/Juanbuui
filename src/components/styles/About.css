@@ -21,7 +21,7 @@
   display: flex;
   flex-flow: column;
   font-size: 14px;
-  font-family: Helvetica-Bold;
+  /* font-family: 'Inter', sans-seriffont-family; */
   max-width: 500px;
 
 }
