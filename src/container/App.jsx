@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 
 //components
 import Seo from "../components/Seo";
-import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Work from "../components/Work";
@@ -12,7 +12,7 @@ import Contact from "../components/Contact";
 import ProjectContext from "../context/ProjectContext";
 import initialState from "../initialState";
 //styles
-import "../pages/styles/global.css";
+import "../pages/styles/index.scss";
 
 const App = () => {
   let refScrollBar = useRef();
@@ -31,13 +31,13 @@ const App = () => {
       <div className="scrollPath"> </div>
       <Seo />
       <ProjectContext.Provider value={initialState}>
-      <Navbar />
+        <Header />
         <section>
-        <Hero />
-        <About />
-        <Work />
-        <OthersProjects />
-        <Contact />
+          <Hero />
+          <About />
+          <Work />
+          <OthersProjects />
+          <Contact />
         </section>
         <Footer />
       </ProjectContext.Provider>

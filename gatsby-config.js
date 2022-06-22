@@ -14,6 +14,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-offline`,
       options: {
