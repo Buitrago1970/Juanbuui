@@ -1,48 +1,51 @@
+@use "./global" as *;
+
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-.div {
-  font-size: 14px;
-  line-height: 28px;
+  padding: 0px 105px;
 }
 .paragraph-hero {
+  font-weight: 700;
+  font-size: 1.4rem;
   margin-top: 10px;
-  color: rgb(255, 255, 255);
-  max-width: 480px;
-  text-align: inherit;
-  line-height: 24.2px;
-  font-size: 20px;
-  font-family: Helvetica-Bold;
+  max-width: 420px;
+  font-family: $font-titles;
 }
-
 .title-hero {
-  font-size: 50px;
-  margin-top: 0;
+  margin: 0;
+  font-size: 3.5rem;
   margin-bottom: 10px;
+  font-family: $font-titles;
 }
 .secondary-title {
-  font-size: 35px;
   margin: 0;
-  background: linear-gradient(180deg, #FF6500 36.61%, rgba(253, 6, 6, 0.69) 60.71%);
+  font-size: 3.5rem;
+  background-image: linear-gradient(90deg, #f56772 20%, #7280ff 80%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  font-weight: 800;
+  font-family: $font-titles;
 }
 .read-more {
-  font-size: 13px;
-  margin: 41px 11px;
+  font-size: 1.3rem;
   letter-spacing: 1px;
   font-style: italic;
+  text-decoration: underline;
+  color: $text-color;
 }
 .read-more:hover {
   text-decoration: line-through;
-  text-shadow: 0 0 2px rgba(255, 255, 255, 0.92), 0 0 10px rgb(255, 255, 255),
-    0 0 4px var(--neon-button-color1), 0 0 7px var(--neon-button-color1),
-    0 0 11px var(--neon-button-color1), 0 0 16px var(--neon-button-color1);
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.92), 0 0 1px rgb(255, 255, 255),
+    0 0 3px var(--neon-button-color1), 0 0 29px var(--neon-button-color1),
+    0 0 9px var(--neon-button-color1), 0 0 1px var(--neon-button-color1);
+  color: $titles-color;
   cursor: pointer;
 }
+
 @media screen and (max-width: 800px) {
   .hero {
     display: flex;

@@ -1,5 +1,4 @@
 import * as React from "react";
-import "./styles/Hero.css";
 import { AiOutlineHeart } from "react-icons/ai";
 
 //scroll
@@ -9,7 +8,7 @@ export default function Hero() {
   return (
     <>
       <div className="hero">
-        <div className="div">
+        <div className="short-description">
           <p className="paragraph-hero">
             Soy un ingeniero de software en Colombia que se especializa en crear
             y diseñar experiencias digitales excepcionales 💫
