@@ -1,7 +1,4 @@
 import * as React from "react";
-import { AiOutlineHeart } from "react-icons/ai";
-
-//scroll
 import { Link as LinkS } from "react-scroll";
 
 export default function Hero() {
@@ -24,9 +21,7 @@ export default function Hero() {
         </div>
         <div className="titles-hero">
           <h1 className="title-hero">Juan Sebastian Buitrago</h1>
-          <h3 className="secondary-title">
-            Programador Front-end <AiOutlineHeart />
-          </h3>
+          <h3 className="secondary-title">Programador Front-end.</h3>
         </div>
       </div>
     </>

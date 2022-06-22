@@ -1,10 +1,9 @@
 import * as React from "react";
-//styles
-import "./styles/About.css";
 
 //icons
 import { FaReact, FaHtml5, FaCss3, FaGitAlt } from "react-icons/fa";
 import { SiJavascript, SiWebpack } from "react-icons/si";
+import { DiSass } from "react-icons/di";
 import pythonIcon from "../images/python-5.svg";
 import webflowIcon from "../images/Webflow.svg";
 //compress images
@@ -16,18 +15,45 @@ export default function About() {
       <article id="about-me">
         <div className="container-paragraph">
           <div className="container-titles">
-          <p>01.</p>
-           <h1 className="title-about">Sobre mí</h1>
+            <p>01.</p>
+            <h1 className="title-about">Sobre mí</h1>
           </div>
           <p>
-          👋 ¡Hola! Mi nombre es Juan Buitrago y Me encanta diseñar interfaces
+            👋 ¡Hola! Mi nombre es Juan Buitrago y Me encanta diseñar interfaces
             frescas con atencion al detalle y coherencia para una representacion
-            brillante✨
+            brillante, tengo 3 años de experiencia en el diseño y la capacidad
+            de llevar conceptos a la vida a través del desarrollo front-end para
+            proyectos 👨‍💻
           </p>
           <p>
-            Tengo 4 años de experiencia en el diseño y la capacidad de llevar
-            conceptos a la vida a través del desarrollo front-end para proyectos
-            👨‍💻
+            Avanzando rápido hasta hoy, he tenido el privilegio de trabajar con
+            herramientas de realidad aumentada Spark AR,{" "}
+            {
+              <a
+                href="https://www.instagram.com/0_0hentay_kun0_0/"
+                rel="noopener"
+                target="_blank"
+                className="link__aboutMe"
+              >
+                creando filtros
+              </a>
+            }{" "}
+            para Instagram, Facebook, Messenger con mas 200k vistas
+          </p>
+          <p>
+            Recientemente lance{" "}
+            {
+              <a
+                href="https://www.instagram.com/0_0hentay_kun0_0/"
+                rel="noopener"
+                target="_blank"
+                className="link__aboutMe"
+              >
+                una pagina con conexión a la API del museo de arte de Harvard
+              </a>
+            }{" "}
+            para visualizar su catalogo de obras de arte usando React, Axios y
+            styles Components
           </p>
           <p>
             Aquí hay algunas tecnologías con las que he estado trabajando
@@ -62,15 +88,15 @@ export default function About() {
             </li>
             <li title="✨">
               <div className="icon-containers-us">
-                <FaCss3 className="icon-5" />
+                <DiSass className="icon-5" />
               </div>
-              Css
+              Sass
             </li>
             <li title="📦">
               <div className="icon-containers-us">
                 <SiWebpack className="icon-6" />
               </div>
-              Webpack
+              Next.js
             </li>
             <li title="🐍">
               <div className="icon-containers-us">
