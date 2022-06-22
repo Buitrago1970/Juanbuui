@@ -1,7 +1,5 @@
 import * as React from "react";
-//styles
-import "./styles/_header.scss";
-//scroll
+
 import { Link as LinkS } from "react-scroll";
 
 export default function Navbar() {
@@ -9,7 +7,7 @@ export default function Navbar() {
     <>
       <header>
         <a className="logo" href="/" title="A">
-          JuuanBuitrago
+          JuanBuitrago
         </a>
         <div className="container-header-links">
           <LinkS
@@ -19,7 +17,7 @@ export default function Navbar() {
             className="header-btn"
             title="E"
           >
-            <p>01.</p> Sobre Mí
+            {"< Sobre Mí />"}
           </LinkS>
 
           <LinkS
@@ -29,7 +27,7 @@ export default function Navbar() {
             className="header-btn"
             title="i"
           >
-            <p>02.</p>Proyectos
+            {"< Trabajos />"}
           </LinkS>
           <LinkS
             title="O"
@@ -39,18 +37,7 @@ export default function Navbar() {
             className="header-btn"
             href="mailto:juanbuitrago2002@outlook.com"
           >
-            <p>03.</p> Otros Proyectos
-          </LinkS>
-
-          <LinkS
-            title="O"
-            to={"contact"}
-            offset={170}
-            smooth={true}
-            className="header-btn"
-            href="mailto:juanbuitrago2002@outlook.com"
-          >
-            <p>04.</p> Email
+            {"< Email />"}
           </LinkS>
         </div>
       </header>
