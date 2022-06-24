@@ -1,7 +1,7 @@
 import * as React from "react";
 
 //icons
-import { FaReact, FaHtml5, FaCss3, FaGitAlt } from "react-icons/fa";
+import { FaReact, FaHtml5, FaGitAlt } from "react-icons/fa";
 import { SiJavascript, SiWebpack } from "react-icons/si";
 import { DiSass } from "react-icons/di";
 import pythonIcon from "../images/python-5.svg";
