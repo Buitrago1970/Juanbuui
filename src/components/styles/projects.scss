@@ -1,0 +1,66 @@
+@use "./global" as *;
+
+.project {
+  @include project-Box;
+}
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  &__description {
+    &__start-age {
+      display: inline-block;
+      border: 1px solid;
+      border-radius: 10px;
+      padding: 4px 20px;
+      font-size: 1.6rem;
+    }
+    &__text {
+      font-size: 2rem;
+      // color: $text-color;
+    }
+  }
+}
+.titles {
+  &__title {
+    font-size: 5rem;
+    margin: 20px 0;
+  }
+  &__color-list {
+    display: flex;
+    li {
+      content: "••••";
+      color: transparent;
+      border-radius: 50px;
+      margin-right: 1rem;
+      width: 35px;
+      height: 35px;
+      background: linear-gradient(
+        90deg,
+        rgba(131, 58, 180, 1) 0%,
+        rgba(253, 29, 29, 1) 50%,
+        rgba(252, 176, 69, 1) 100%
+      );
+    }
+  }
+}
+.image-tech--project {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  &__list {
+    display: flex;
+    background: linear-gradient(180deg, #f4bfbf 0%, #ba6bff 100%);
+    border: 1px solid #ffffff;
+    padding: 0;
+    height: 57px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    border: 1px solid;
+    font-size: 1.2rem;
+  }
+}

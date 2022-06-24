@@ -32,7 +32,7 @@ const App = () => {
       <Seo />
       <ProjectContext.Provider value={initialState}>
         <Header />
-        <section>
+        <section id="pricipal-section">
           <Hero />
           <About />
           <Work />

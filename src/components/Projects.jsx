@@ -1,47 +1,47 @@
 import * as React from "react";
+import image from "../images/scope.png";
 
-//styles
-import "./styles/Projects.css";
-import { GoLinkExternal } from "react-icons/go";
-
-
-export default function Projects({ data, image }) {
-  let container = "container-projects";
-  let imgContainer = "container-img-projects";
-  let text = "container-text-projects";
-  if (data.reverse) {
-    container += " reverse";
-    imgContainer += " container-img-projects-reverse";
-    text += " container-text-projects-reverse";
-  }
+export default function Projects({ data }) {
+  // let container = "container-projects";
+  // let imgContainer = "container-img-projects";
+  // let text = "container-text-projects";
+  // if (data.reverse) {
+  //   container += "reverse";
+  //   imgContainer += " container-img-projects-reverse";
+  //   text += " container-text-projects-reverse";
+  // }
   return (
-    <>
-      <div className={container}>
-        <div className={imgContainer}>
-          <a href={data.link} target="_blank" rel="noreferrer nofollow">
-            <img
-              className="img-principal-project"
-              src={image}
-              alt="project img"
-              id="projects"
-            />
-          </a>
+    <li className="project" key={data.key}>
+      <div className="content">
+        <div className="titles">
+          <h1 className="titles__title">{data.title}</h1>
+          <ul className="titles__color-list">
+            <li>xxx</li>
+            <li>xxx</li>
+            <li>xxx</li>
+            <li>xxx</li>
+          </ul>
         </div>
-        <div className={text}>
-          <a
-            className="title-project"
-            href={data.link}
-            target="_blank"
-            rel="noreferrer nofollow"
-          >
-            {data.title}
-            <GoLinkExternal />
-          </a>
-          <div className="paragraph-projects">
+        <div className="content__description">
+          <p className="content__description__start-age">Marzo 2020</p>
+          <div className="content__description__text">
             <p>{data.description}</p>
           </div>
         </div>
       </div>
-    </>
+      <div className="image-tech--project">
+        <ul className="image-tech--project__list">
+          {data.technologies.map((tech) => (
+            <li>{tech}</li>
+          ))}
+        </ul>
+        <picture>
+          <source media="(width: 100%)" srcset={image} />
+          <source media="(width: 100%)" srcset={image} />
+          <img src={image} alt="image" />
+          <figcaption>{data.figcaption}</figcaption>
+        </picture>
+      </div>
+    </li>
   );
 }
