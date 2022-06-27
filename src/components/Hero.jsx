@@ -14,7 +14,7 @@ export default function Hero() {
             to={"about-me"}
             smooth={true}
             className="read-more"
-            title="ヽ(°〇°)ﾉ"
+            title="Leer mas sobre mí"
           >
             Leer mas sobre mí
           </LinkS>

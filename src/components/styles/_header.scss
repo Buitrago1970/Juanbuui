@@ -17,16 +17,17 @@ header {
   font-family: $font-titles;
   color: $titles-color;
 }
-.container-header-links {
-}
 .header-btn {
   cursor: pointer;
   padding: 20px;
   font-weight: 600;
   font-family: $font-titles;
   color: $link-color;
-}
-.header-btn > p {
+  &:hover {
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.92), 0 0 1px rgb(255, 255, 255),
+      0 0 3px $purple, 0 0 29px $purple, 0 0 9px $purple, 0 0 1px $purple;
+    text-decoration: underline;
+  }
 }
 
 @media screen and (max-width: 400px) {

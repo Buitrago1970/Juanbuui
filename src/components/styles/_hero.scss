@@ -40,8 +40,7 @@
 .read-more:hover {
   text-decoration: line-through;
   text-shadow: 0 0 1px rgba(255, 255, 255, 0.92), 0 0 1px rgb(255, 255, 255),
-    0 0 3px var(--neon-button-color1), 0 0 29px var(--neon-button-color1),
-    0 0 9px var(--neon-button-color1), 0 0 1px var(--neon-button-color1);
+    0 0 3px $purple, 0 0 29px $purple, 0 0 9px $purple, 0 0 1px $purple;
   color: $titles-color;
   cursor: pointer;
 }

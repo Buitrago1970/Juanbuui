@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <>
       <header>
-        <a className="logo" href="/" title="A">
+        <a className="logo" href="/" title="juan Buitrago :)">
           JuanBuitrago
         </a>
         <div className="container-header-links">
@@ -15,22 +15,22 @@ export default function Navbar() {
             offset={10}
             smooth={true}
             className="header-btn"
-            title="E"
+            title="Sobre mi"
           >
             {"< Sobre Mí />"}
           </LinkS>
 
           <LinkS
             to={"projects"}
-            offset={65}
+            offset={0}
             smooth={true}
             className="header-btn"
-            title="i"
+            title="projects"
           >
             {"< Trabajos />"}
           </LinkS>
           <LinkS
-            title="O"
+            title="concact"
             to={"contact"}
             offset={170}
             smooth={true}

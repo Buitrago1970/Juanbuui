@@ -1,8 +1,6 @@
 import * as React from "react";
 import Projects from "./Projects";
 
-import "./styles/Work.css";
-
 export default function Work() {
   const value = [
     {

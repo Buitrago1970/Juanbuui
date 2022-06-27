@@ -11,7 +11,7 @@ export default function Projects({ data }) {
   //   text += " container-text-projects-reverse";
   // }
   return (
-    <li className="project" key={data.key}>
+    <li className="project" id="projects" key={data.key}>
       <div className="content">
         <div className="titles">
           <h1 className="titles__title">{data.title}</h1>

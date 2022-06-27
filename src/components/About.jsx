@@ -2,7 +2,7 @@ import * as React from "react";
 
 //icons
 import { FaReact, FaHtml5, FaGitAlt } from "react-icons/fa";
-import { SiJavascript, SiWebpack } from "react-icons/si";
+import { SiJavascript, SiNextdotjs } from "react-icons/si";
 import { DiSass } from "react-icons/di";
 import pythonIcon from "../images/python-5.svg";
 import webflowIcon from "../images/Webflow.svg";
@@ -77,7 +77,7 @@ export default function About() {
               <div className="icon-containers-us">
                 <FaGitAlt className="icon-3" />
               </div>
-              Git
+              Git/GitHub
             </li>
 
             <li title="←_←">
@@ -94,7 +94,7 @@ export default function About() {
             </li>
             <li title="📦">
               <div className="icon-containers-us">
-                <SiWebpack className="icon-6" />
+                <SiNextdotjs className="icon-6" />
               </div>
               Next.js
             </li>
