@@ -1,0 +1,48 @@
+@use "./global" as *;
+
+#contact {
+}
+.card-contact {
+  height: 300px;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 13px;
+  padding: 10px;
+  font-style: italic;
+  font-family: $font-titles;
+  background-color: $background-white-color;
+  color: $text-black-color;
+  &__info-contact {
+    & p {
+      font-size: 1.5rem;
+
+      margin: 0;
+    }
+  }
+  &__message {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #fc466b 20%, #3f5efb 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+  &__social-networks-links {
+    display: flex;
+    justify-content: space-around;
+    & a {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2rem;
+      text-decoration: underline;
+      color: $text-black-color;
+    }
+  }
+}

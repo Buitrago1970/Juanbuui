@@ -1,34 +1,34 @@
 import * as React from "react";
-import "./styles/Contact.css";
-import { RiEyeCloseLine } from "react-icons/ri";
 
 export default function Contact() {
   return (
-    <div className="contact" id="contact">
-      <div className="matrice">
-        <div className="div1 div-container-contact-icons"> 🧠</div>
-        <div className="div2 div-container-contact-icons"> </div>
-        <div className="div3 div-container-contact-icons"> 🦋</div>
-        <div className="div4 div-container-contact-icons"> </div>
-        <div className="div5 div-container-contact-icons"> 🎈</div>
-        <div className="div6 div-container-contact-icons"> 🌈</div>
-        <div className="div7 div-container-contact-icons"> </div>
-        <div className="div8 div-container-contact-icons">
-        👁
+    <article id="contact">
+      <div className="container-titles">
+        <p>04.</p>
+        <h1 className="title-about">Que sigue?</h1>
+        {/* <p>
+          Hola, mi nombre es Juan Buitrago. Si te gustó el aspecto de alguno de
+          mis trabajos, no dudes en contactarnos.
+        </p> */}
+      </div>
+      <div className="card-contact">
+        <div className="card-contact__info-contact">
+          <p>juanbuitrago2002@outlook.com</p>
+          <p>🇨🇴+57 3105706238</p>
         </div>
-        <div className="div9 div-container-contact-icons"></div>
-        <div className="div10 div-container-contact-icons">
-          <RiEyeCloseLine />
-        </div>
-        <div className="div11">
-          <div className="contact-titles">
-            <h1 className="contact-title">Contacto</h1>
-            <p className="contact-subtitle">
-              Por mail, Instagram, Linkedin y Github
-            </p>
-          </div>
+        <div className="card-contact__message">Saludar</div>
+        <div className="card-contact__social-networks-links">
+          <a href="#" target="_blank" rel="noreferrer nofollow">
+            LINKEDIN
+          </a>
+          <a href="#" target="_blank" rel="noreferrer nofollow">
+            GITHUB
+          </a>
+          <a href="#" target="_blank" rel="noreferrer nofollow">
+            TELEGRAM
+          </a>
         </div>
       </div>
-    </div>
+    </article>
   );
 }
