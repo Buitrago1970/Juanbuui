@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  &__principal-text {
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+    font-size: 1.5rem;
+  }
+}
+.whit-love {
+  text-align: center;
+}
