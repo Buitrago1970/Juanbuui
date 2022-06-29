@@ -18,7 +18,7 @@
     }
     &__text {
       font-size: 2rem;
-      // color: $text-color;
+      color: $text-color;
     }
   }
 }
@@ -26,6 +26,7 @@
   &__title {
     font-size: 5rem;
     margin: 20px 0;
+    color: $titles-color;
   }
   &__color-list {
     display: flex;
@@ -54,7 +55,6 @@
   &__list {
     display: flex;
     background: linear-gradient(180deg, #f4bfbf 0%, #ba6bff 100%);
-    border: 1px solid #ffffff;
     padding: 0;
     height: 57px;
     align-items: center;
@@ -62,5 +62,11 @@
     border-radius: 8px;
     border: 1px solid;
     font-size: 1.2rem;
+    & li {
+      font-weight: 600;
+      font-family: "Inter";
+      font-style: italic;
+      color: white;
+    }
   }
 }

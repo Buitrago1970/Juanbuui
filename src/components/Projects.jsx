@@ -14,7 +14,9 @@ export default function Projects({ data }) {
     <li className="project" id="projects" key={data.key}>
       <div className="content">
         <div className="titles">
-          <h1 className="titles__title">{data.title}</h1>
+          <a href={data.link} target="_blank" rel="noreferrer nofollow">
+            <h1 className="titles__title">{data.title}</h1>
+          </a>
           <ul className="titles__color-list">
             <li>xxx</li>
             <li>xxx</li>
@@ -23,7 +25,7 @@ export default function Projects({ data }) {
           </ul>
         </div>
         <div className="content__description">
-          <p className="content__description__start-age">Marzo 2020</p>
+          <p className="content__description__start-age">{data.endAge}</p>
           <div className="content__description__text">
             <p>{data.description}</p>
           </div>
@@ -35,12 +37,19 @@ export default function Projects({ data }) {
             <li>{tech}</li>
           ))}
         </ul>
-        <picture>
-          <source media="(width: 100%)" srcset={image} />
-          <source media="(width: 100%)" srcset={image} />
-          <img src={image} alt="image" />
-          <figcaption>{data.figcaption}</figcaption>
-        </picture>
+        <a href={data.link} target="_blank" rel="noreferrer nofollow">
+          <picture>
+            {/* <source media="(width: 100%)" srcset={image} />
+          <source media="(width: 100%)" srcset={image} /> */}
+            {data.image ? (
+              <img src={data.image} alt="image" />
+            ) : (
+              <img src={image} alt="image" />
+            )}
+
+            <figcaption>{data.figcaption}</figcaption>
+          </picture>
+        </a>
       </div>
     </li>
   );

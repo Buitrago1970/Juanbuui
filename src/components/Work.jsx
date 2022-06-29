@@ -8,36 +8,41 @@ export default function Work() {
       link: "https://san-diego.com.co",
       title: "🥩 SANDIEGO",
       technologies: ["React", "Strapi", "Heroku", "Axios", "JWT"],
+      image: "src/images/sanss.png",
       description:
-        "Ecommerce para brindar la conveniencia de la entrega a domicilio aquellos que admiran la verdadera calidad de Prime Beef, una variedad de carnes para todos los gustos y preferencias.",
+        "E-commerce para brindar la conveniencia de la entrega a domicilio de productos cárnicos, Desarrollo e implementación, Frontend y backend del e-commerce de San-Diego.",
       figcaption: "San-Diego Home Page",
+      endAge: "Diciembre 2021",
     },
     {
-      key: "scope",
-      link: "https://sc8pe.netlify.app",
-      title: "SCOPE",
+      key: "Avocado",
+      link: "https://avocado-x.netlify.app",
+      title: "Avocado",
       description:
         "Diseño de Ecommerce dedica al diseño y fabricación de artículos de moda, echa en Next.js, styled componets.",
       technologies: ["Next.js", "Styled Components", "Netlify"],
       figcaption: "Scope Home Page",
+      endAge: "Febrero 2022",
     },
     {
       key: "harvard",
       link: "https://harvard-api.netlify.app",
       title: "Harvard Museum API",
       description:
-        "Consumo de la API REST del museo de arte de harvard, Creando con un buscador de sus galerias, titulos, objetos y numeros de galeria ",
+        "Una aplicación web para visualizar datos del museo de arte de Harvard. Vea sus mejores obras de arte, títulos, pistas principales, pistas reproducidas recientemente e información del artista y técnicas detalladas sobre cada una.  ",
       technologies: ["React", "Harvard API", "Axios/fetch", "Netlify"],
       figcaption: "Harvard-Art-Museum API Home Page",
+      endAge: "abril 2022",
     },
     {
       key: "lv",
       link: "https://louisvuitton-fa.webflow.io/",
       title: "LOUIS VUITTON",
       description:
-        "Diseño de la pagina principal de LOUIS VUITTON, con las temporadas de 2021 echa en Webflow, diseño mobile.",
+        "Re-Diseño de la aplicación web principal de LOUIS VUITTON, con las temporadas de 2021 echa en Webflow.xw",
       technologies: ["Webflow", "Html", "CSS"],
       figcaption: "Louis-Vuitton Re-Desing Home Page",
+      endAge: "junio 2021",
     },
   ];
   return (
@@ -45,7 +50,7 @@ export default function Work() {
       <section id="proyectos">
         <div className="container-titles">
           <p>01.</p>
-          <h1 className="title-about">Algunas cosas q he creado</h1>
+          <h1 className="title-about">Algunos proyectos que he creado</h1>
         </div>
         <ul className="project-list">
           {value.map((project) => (

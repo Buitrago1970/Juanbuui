@@ -18,13 +18,25 @@ export default function Contact() {
         </div>
         <div className="card-contact__message">Saludar</div>
         <div className="card-contact__social-networks-links">
-          <a href="#" target="_blank" rel="noreferrer nofollow">
+          <a
+            href="https://www.linkedin.com/in/juan-sebastian-buitrago-90a769165/"
+            target="_blank"
+            rel="noreferrer nofollow"
+          >
             LINKEDIN
           </a>
-          <a href="#" target="_blank" rel="noreferrer nofollow">
+          <a
+            href="https://github.com/Buitrago1970"
+            target="_blank"
+            rel="noreferrer nofollow"
+          >
             GITHUB
           </a>
-          <a href="#" target="_blank" rel="noreferrer nofollow">
+          <a
+            href="https://t.me/LegalmenteJuanBuitrago"
+            target="_blank"
+            rel="noreferrer nofollow"
+          >
             TELEGRAM
           </a>
         </div>
