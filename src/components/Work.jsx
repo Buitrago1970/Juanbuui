@@ -1,5 +1,9 @@
 import * as React from "react";
 import Projects from "./Projects";
+import ImgSAN from "../images/sanss.png";
+import ImgAVO from "../images/avoss.png";
+import ImgHAR from "../images/harss.jpeg";
+import ImgLOU from "../images/louss.png";
 
 export default function Work() {
   const value = [
@@ -21,7 +25,8 @@ export default function Work() {
       description:
         "Diseño de Ecommerce dedica al diseño y fabricación de artículos de moda, echa en Next.js, styled componets.",
       technologies: ["Next.js", "Styled Components", "Netlify"],
-      figcaption: "Scope Home Page",
+      image: "src/images/sanss.png",
+      figcaption: "Avocado Home Page",
       endAge: "Febrero 2022",
     },
     {
@@ -31,6 +36,8 @@ export default function Work() {
       description:
         "Una aplicación web para visualizar datos del museo de arte de Harvard. Vea sus mejores obras de arte, títulos, pistas principales, pistas reproducidas recientemente e información del artista y técnicas detalladas sobre cada una.  ",
       technologies: ["React", "Harvard API", "Axios/fetch", "Netlify"],
+      image: "src/images/sanss.png",
+
       figcaption: "Harvard-Art-Museum API Home Page",
       endAge: "abril 2022",
     },
@@ -41,6 +48,8 @@ export default function Work() {
       description:
         "Re-Diseño de la aplicación web principal de LOUIS VUITTON, con las temporadas de 2021 echa en Webflow.xw",
       technologies: ["Webflow", "Html", "CSS"],
+      image: "src/images/sanss.png",
+
       figcaption: "Louis-Vuitton Re-Desing Home Page",
       endAge: "junio 2021",
     },
@@ -53,9 +62,13 @@ export default function Work() {
           <h1 className="title-about">Algunos proyectos que he creado</h1>
         </div>
         <ul className="project-list">
-          {value.map((project) => (
+          {/* {value.map((project) => (
             <Projects data={project} />
-          ))}
+          ))} */}
+          <Projects data={value[0]} image={ImgSAN} />
+          <Projects data={value[1]} image={ImgAVO} />
+          <Projects data={value[2]} image={ImgHAR} />
+          <Projects data={value[3]} image={ImgLOU} />
         </ul>
       </section>
     </>

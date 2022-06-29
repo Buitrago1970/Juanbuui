@@ -1,10 +1,7 @@
 import * as React from "react";
-import image from "../images/scope.png";
 
-export default function Projects({ data }) {
+export default function Projects({ data, image }) {
   // let container = "container-projects";
-  // let imgContainer = "container-img-projects";
-  // let text = "container-text-projects";
   // if (data.reverse) {
   //   container += "reverse";
   //   imgContainer += " container-img-projects-reverse";
@@ -39,18 +36,12 @@ export default function Projects({ data }) {
         </ul>
         <a href={data.link} target="_blank" rel="noreferrer nofollow">
           <picture>
-            {/* <source media="(width: 100%)" srcset={image} />
-          <source media="(width: 100%)" srcset={image} /> */}
-            {data.image ? (
-              <img src={data.image} alt="image" />
-            ) : (
-              <img src={image} alt="image" />
-            )}
-
+            <img src={image} alt="amg mercedes" />
             <figcaption>{data.figcaption}</figcaption>
           </picture>
         </a>
       </div>
+      <br />
     </li>
   );
 }

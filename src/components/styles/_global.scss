@@ -11,7 +11,8 @@ $purple: #ba6bff;
 $number-color: #8cc0de;
 
 @mixin project-Box {
-  margin-bottom: 100px;
+  margin: 30px 0;
+  padding: 0 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   -webkit-box-align: center;
