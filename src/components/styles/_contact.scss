@@ -17,6 +17,7 @@
   font-family: $font-titles;
 }
 .card-contact {
+  transition: all 0.9s ease-in-out;
   height: 300px;
   width: 600px;
   margin: 0 auto;

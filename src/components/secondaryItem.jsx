@@ -12,6 +12,8 @@ export default function ProjecItem({ data }) {
           <a href={data.link} target="_blank" rel="noreferrer nofollow">
             🔗
           </a>
+          <br />
+          <br />
         </div>
         <div className="secondary-projects__main">
           <h3 className="secondary-projects__main__title">{data.title}</h3>
@@ -19,6 +21,10 @@ export default function ProjecItem({ data }) {
             {data.description}
           </p>
         </div>
+        <br />
+        <br />
+        <br />
+
         <ul className="secondary-projects__tech-list">
           {data.technologies.map((item) => (
             <li>{item}</li>

@@ -1,8 +1,8 @@
 @use "./global" as *;
 
 $mobileS: "320px";
-$mobileM: "375px";
-$mobileL: "425px";
+$mobileM: "480px";
+$mobileL: "600px";
 $tablet: "768px";
 $laptop: "1024px";
 $laptopL: "1440px";
@@ -45,9 +45,49 @@ $desktop: "2560px";
   }
   .secondary-projects {
     width: 315px;
-    padding: 15px;
   }
   .text-contact {
     margin-bottom: 50px;
+  }
+  .project {
+    display: none;
+  }
+  .card-contact {
+    width: 100%;
+  }
+}
+// mobile large
+
+@media (max-width: $mobileL) {
+  .secondary-projects {
+    width: 500px;
+    &__main {
+      text-align: left;
+    }
+  }
+  .container-titles {
+    font-size: 2.2rem;
+  }
+  .title-about {
+    font-size: 2.2rem;
+  }
+  .footer {
+    display: flex;
+    &__principal-text {
+      transform: none;
+      text-align: center;
+    }
+  }
+  .card-contact {
+    height: 200px;
+    margin: 30px 0;
+    &__message {
+      height: 70%;
+    }
+  }
+}
+@media (max-width: $mobileM) {
+  #pricipal-section {
+    padding: 25px;
   }
 }

@@ -58,3 +58,19 @@ figcaption {
   max-width: 1500px;
   margin: auto;
 }
+.container-titles {
+  display: flex;
+  font-size: 3rem;
+  margin: 20px 0;
+  font-family: Helvetica-Bold;
+}
+.title-about {
+  color: $titles-color;
+  font-size: 3rem;
+  margin: 0;
+}
+.container-titles > p {
+  margin: 0;
+  color: $number-color;
+  margin-right: 8px;
+}
