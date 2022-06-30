@@ -16,6 +16,9 @@ $desktop: "2560px";
 }
 // tablet
 @media (max-width: $tablet) {
+  header {
+    padding: 0 30px;
+  }
   #pricipal-section {
     padding: 50px;
   }
@@ -59,6 +62,18 @@ $desktop: "2560px";
 // mobile large
 
 @media (max-width: $mobileL) {
+  header {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logo {
+    margin: 10px 0;
+  }
+  .header-btn {
+    padding: 20px 10px;
+  }
   .secondary-projects {
     width: 500px;
     &__main {
