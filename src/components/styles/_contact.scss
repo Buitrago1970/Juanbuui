@@ -2,6 +2,22 @@
 
 #contact {
 }
+.contact-titles {
+  justify-content: center;
+  font-size: 1.6rem;
+  margin: 5px 0;
+  & h1 {
+    font-size: 1.8rem;
+  }
+}
+.text-contact {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: 100px;
+  font-style: italic;
+  font-weight: 700;
+  font-family: $font-titles;
+}
 .card-contact {
   height: 300px;
   width: 600px;

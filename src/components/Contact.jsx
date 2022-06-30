@@ -3,14 +3,15 @@ import * as React from "react";
 export default function Contact() {
   return (
     <article id="contact">
-      <div className="container-titles">
+      <div className="container-titles contact-titles">
         <p>04.</p>
         <h1 className="title-about">Que sigue?</h1>
-        {/* <p>
-          Hola, mi nombre es Juan Buitrago. Si te gustó el aspecto de alguno de
-          mis trabajos, no dudes en contactarnos.
-        </p> */}
       </div>
+      <p className="text-contact">
+        Hola, mi nombre es Juan Buitrago. Si te gustó el aspecto de alguno de
+        mis trabajos, no dudes en contactarme.
+      </p>
+
       <div className="card-contact">
         <div className="card-contact__info-contact">
           <p>juanbuitrago2002@outlook.com</p>
