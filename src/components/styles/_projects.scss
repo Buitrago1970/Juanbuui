@@ -71,7 +71,6 @@
 }
 .link {
   font-size: 1.6rem;
-  transition: all 0.5s ease-in-out;
   margin: 0;
   background-image: linear-gradient(
     90deg,
@@ -87,9 +86,6 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-}
-.link:hover {
-  border: 1px solid white;
 }
 
 .image-tech--project {

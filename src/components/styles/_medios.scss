@@ -1,0 +1,53 @@
+@use "./global" as *;
+
+$mobileS: "320px";
+$mobileM: "375px";
+$mobileL: "425px";
+$tablet: "768px";
+$laptop: "1024px";
+$laptopL: "1440px";
+$desktop: "2560px";
+
+// laptop
+@media (max-width: $laptop) {
+  .hero {
+    padding: 0;
+  }
+}
+// tablet
+@media (max-width: $tablet) {
+  #pricipal-section {
+    padding: 50px;
+  }
+  .hero {
+    justify-items: center;
+    grid-template-columns: 1fr;
+  }
+  .titles-hero {
+    grid-row: 1;
+    margin-bottom: 50px;
+  }
+  #about-me {
+    grid-template-columns: 1fr;
+  }
+  .container-paragraph {
+    max-width: none;
+  }
+  .container-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    & img {
+      margin-left: 0;
+      width: 300px;
+    }
+  }
+  .secondary-projects {
+    width: 315px;
+    padding: 15px;
+  }
+  .text-contact {
+    margin-bottom: 50px;
+  }
+}

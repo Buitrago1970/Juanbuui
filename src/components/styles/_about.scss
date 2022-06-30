@@ -10,10 +10,13 @@
 }
 .container-img {
   width: 100%;
+  & img {
+    border-radius: 4px;
+    margin-left: 30px;
+    width: 75%;
+  }
 }
-.container-img img {
-  width: 75%;
-}
+
 .container-paragraph {
   display: flex;
   flex-flow: column;
@@ -30,11 +33,7 @@
     text-decoration: underline;
   }
 }
-.img-about-us {
-  width: 100%;
-  border-radius: 4px;
-  margin-left: 30px;
-}
+
 /* reverse */
 .work-reverse {
   padding-top: 190px;
@@ -96,37 +95,4 @@
 }
 .python-icon {
   width: 18px;
-}
-@media screen and (max-width: 800px) {
-  .work {
-    grid-template-columns: 1fr;
-    padding: 50px 40px;
-  }
-
-  .title-about {
-    text-align: center;
-    position: initial;
-    margin-top: 30px;
-  }
-  .container-paragraph {
-    grid-row: 2;
-    text-align: center;
-  }
-  .container-img {
-    grid-row: 1;
-    display: flex;
-    justify-content: center;
-  }
-}
-@media screen and (max-width: 400px) {
-  .work {
-    padding: 60px 0px;
-  }
-  .skills-list {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .img-about-us {
-    margin-left: 0;
-    height: auto;
-  }
 }
