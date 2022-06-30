@@ -2,12 +2,28 @@
 
 .project {
   @include project-Box;
+  & hr {
+    width: 24%;
+    margin: 0;
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(
+      90deg,
+      rgba(16, 190, 252, 1) 4%,
+      rgba(129, 188, 243, 1) 13%,
+      rgba(230, 177, 225, 1) 28%,
+      rgba(250, 127, 229, 1) 49%,
+      rgba(255, 125, 125, 1) 67%,
+      rgba(247, 152, 102, 1) 78%,
+      rgba(255, 212, 189, 1) 95%
+    );
+  }
 }
 .content {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   &__description {
     &__start-age {
       display: inline-block;
@@ -46,6 +62,36 @@
     }
   }
 }
+.short-description {
+  color: #484848;
+  font-style: italic;
+  font-size: 1.4rem;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.link {
+  font-size: 1.6rem;
+  transition: all 0.5s ease-in-out;
+  margin: 0;
+  background-image: linear-gradient(
+    90deg,
+    rgba(16, 190, 252, 1) 4%,
+    rgba(129, 188, 243, 1) 13%,
+    rgba(230, 177, 225, 1) 28%,
+    rgba(250, 127, 229, 1) 49%,
+    rgba(255, 125, 125, 1) 67%,
+    rgba(247, 152, 102, 1) 78%,
+    rgba(255, 212, 189, 1) 95%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.link:hover {
+  border: 1px solid white;
+}
+
 .image-tech--project {
   height: 100%;
   display: flex;
@@ -54,7 +100,7 @@
 
   &__list {
     display: flex;
-    background: linear-gradient(180deg, #f4bfbf 0%, #ba6bff 100%);
+    background: linear-gradient(180deg, #f4bfbf 20%, #ba6bff 100%);
     padding: 0;
     height: 57px;
     align-items: center;

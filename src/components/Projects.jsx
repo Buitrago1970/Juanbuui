@@ -14,12 +14,18 @@ export default function Projects({ data, image }) {
           <a href={data.link} target="_blank" rel="noreferrer nofollow">
             <h1 className="titles__title">{data.title}</h1>
           </a>
-          <ul className="titles__color-list">
-            <li>xxx</li>
-            <li>xxx</li>
-            <li>xxx</li>
-            <li>xxx</li>
-          </ul>
+          <div className="link-short-description">
+            <p className="short-description">{data.shortDescription}</p>
+            <a
+              href={data.link}
+              target="_blank"
+              rel="noreferrer nofollow"
+              className="link"
+            >
+              VER REPOSITORIO
+            </a>
+            <hr />
+          </div>
         </div>
         <div className="content__description">
           <p className="content__description__start-age">{data.endAge}</p>

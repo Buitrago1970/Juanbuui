@@ -15,6 +15,7 @@ export default function Work() {
       image: "src/images/sanss.png",
       description:
         "E-commerce para brindar la conveniencia de la entrega a domicilio de productos cárnicos, Desarrollo e implementación, Frontend y backend del e-commerce de San-Diego.",
+      shortDescription: "E-commerce website",
       figcaption: "San-Diego Home Page",
       endAge: "Diciembre 2021",
     },
@@ -24,6 +25,7 @@ export default function Work() {
       title: "Avocado",
       description:
         "Diseño de Ecommerce dedica al diseño y fabricación de artículos de moda, echa en Next.js, styled componets.",
+      shortDescription: "E-commerce website",
       technologies: ["Next.js", "Styled Components", "Netlify"],
       image: "src/images/sanss.png",
       figcaption: "Avocado Home Page",
@@ -35,6 +37,7 @@ export default function Work() {
       title: "Harvard Museum API",
       description:
         "Una aplicación web para visualizar datos del museo de arte de Harvard. Vea sus mejores obras de arte, títulos, pistas principales, pistas reproducidas recientemente e información del artista y técnicas detalladas sobre cada una.  ",
+      shortDescription: "Art website",
       technologies: ["React", "Harvard API", "Axios/fetch", "Netlify"],
       image: "src/images/sanss.png",
 
@@ -46,7 +49,8 @@ export default function Work() {
       link: "https://louisvuitton-fa.webflow.io/",
       title: "LOUIS VUITTON",
       description:
-        "Re-Diseño de la aplicación web principal de LOUIS VUITTON, con las temporadas de 2021 echa en Webflow.xw",
+        "Re-Diseño de la aplicación web principal de LOUIS VUITTON, con las temporadas de 2021 echa en Webflow",
+      shortDescription: "Website Home Page",
       technologies: ["Webflow", "Html", "CSS"],
       image: "src/images/sanss.png",
 

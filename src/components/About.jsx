@@ -44,7 +44,7 @@ export default function About() {
             Recientemente lance{" "}
             {
               <a
-                href="https://www.instagram.com/0_0hentay_kun0_0/"
+                href="https://harvard-api.netlify.app"
                 rel="noopener"
                 target="_blank"
                 className="link__aboutMe"
