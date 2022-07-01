@@ -24,7 +24,6 @@ export default function ProjecItem({ data }) {
         <br />
         <br />
         <br />
-
         <ul className="secondary-projects__tech-list">
           {data.technologies.map((item) => (
             <li>{item}</li>

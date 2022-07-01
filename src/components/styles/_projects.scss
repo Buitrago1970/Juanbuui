@@ -2,8 +2,12 @@
 
 .project {
   @include project-Box;
+  border-bottom: 1px solid;
+  border-bottom-style: dashed;
+  grid-template-columns: repeat(2, 1fr);
+
   & hr {
-    width: 24%;
+    width: 140px;
     margin: 0;
     border: none;
     height: 1px;
@@ -47,8 +51,6 @@
   &__color-list {
     display: flex;
     li {
-      content: "••••";
-      color: transparent;
       border-radius: 50px;
       margin-right: 1rem;
       width: 35px;

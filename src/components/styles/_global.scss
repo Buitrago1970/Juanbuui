@@ -14,12 +14,9 @@ $number-color: #8cc0de;
   margin: 30px 0;
   padding: 0 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   -webkit-box-align: center;
   align-items: center;
   height: 500px;
-  border-bottom: 1px solid;
-  border-bottom-style: dashed;
 }
 * {
   box-sizing: border-box;

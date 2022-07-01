@@ -42,7 +42,7 @@ export default function Projects({ data, image }) {
         </ul>
         <a href={data.link} target="_blank" rel="noreferrer nofollow">
           <picture>
-            <img src={image} alt="amg mercedes" />
+            <img src={image} alt="amg mercedes" className="img-project" />
             <figcaption>{data.figcaption}</figcaption>
           </picture>
         </a>
