@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 
 //components
 import Seo from "../components/Seo";
@@ -17,7 +17,7 @@ import "../pages/styles/index.scss";
 const App = () => {
   return (
     <>
-      <div ref={refScrollBar} className="progressbar"></div>
+      <div className="progressbar"></div>
       <div className="scrollPath"> </div>
       <Seo />
       <ProjectContext.Provider value={initialState}>

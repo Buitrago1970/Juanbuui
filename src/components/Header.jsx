@@ -6,7 +6,13 @@ export default function Navbar() {
   return (
     <>
       <header>
-        <a className="logo" href="/" title="juan Buitrago :)">
+        <a
+          className="logo"
+          href="/"
+          title="juan Buitrago :)"
+          target="_blank"
+          rel="noreferrer"
+        >
           JuanBuitrago
         </a>
         <div className="container-header-links">

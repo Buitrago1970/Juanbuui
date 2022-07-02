@@ -31,8 +31,8 @@ export default function About() {
             {
               <a
                 href="https://www.instagram.com/0_0hentay_kun0_0/"
-                rel="noopener"
                 target="_blank"
+                rel="noreferrer"
                 className="link__aboutMe"
               >
                 creando filtros
