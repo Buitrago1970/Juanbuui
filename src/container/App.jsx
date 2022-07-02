@@ -15,16 +15,6 @@ import initialState from "../initialState";
 import "../pages/styles/index.scss";
 
 const App = () => {
-  let refScrollBar = useRef();
-  useEffect(() => {
-    let totalHeight = refScrollBar.current.scrollHeight;
-    window.onscroll = function () {
-      let scroll = window.scrollY;
-      let percent = (scroll / totalHeight) * 99;
-      refScrollBar.current.style.height = `${percent}%`;
-    };
-  }, [refScrollBar]);
-
   return (
     <>
       <div ref={refScrollBar} className="progressbar"></div>
