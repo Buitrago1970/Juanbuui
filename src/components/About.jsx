@@ -45,8 +45,8 @@ export default function About() {
             {
               <a
                 href="https://harvard-api.netlify.app"
-                rel="noopener"
                 target="_blank"
+                rel="noreferrer"
                 className="link__aboutMe"
               >
                 una pagina con conexión a la API del museo de arte de Harvard
