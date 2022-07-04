@@ -31,16 +31,28 @@ $desktop: "2560px";
   .hero {
     justify-items: center;
     grid-template-columns: 1fr;
+    margin-top: 20px;
   }
   .titles-hero {
     grid-row: 1;
     margin-bottom: 50px;
+    width: 100%;
+  }
+  .title-hero {
+    font-size: 3rem;
+  }
+  .secondary-title {
+    font-size: 3rem;
   }
   #about-me {
     grid-template-columns: 1fr;
   }
   .container-paragraph {
     max-width: none;
+  }
+  .skills-list {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 45px 0 0 0;
   }
   .container-img {
     width: 100%;
@@ -49,14 +61,25 @@ $desktop: "2560px";
     margin: 50px 0;
     & img {
       margin-left: 0;
-      width: 300px;
+      width: 45%;
     }
   }
   .secondary-projects {
     width: 315px;
+    padding: 15px;
+    &:hover {
+      -moz-transition: none;
+      -webkit-transition: none;
+      -o-transition: color 0 ease-in;
+      transition: none;
+      transform: none;
+      background-color: none;
+    }
   }
   .text-contact {
     margin-bottom: 50px;
+    font-weight: 400;
+    color: $text-color;
   }
   .card-contact {
     width: 100%;
@@ -94,9 +117,6 @@ $desktop: "2560px";
       }
     }
   }
-  .short-description {
-    color: #b3b3b3;
-  }
   .link {
     text-decoration: underline;
     -webkit-text-fill-color: $titles-color;
@@ -115,6 +135,9 @@ $desktop: "2560px";
     width: 99%;
     height: 99%;
   }
+  .card-contact__social-networks-links a {
+    font-size: 1.5rem;
+  }
 }
 // mobile large
 
@@ -124,6 +147,15 @@ $desktop: "2560px";
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 80px;
+    position: initial;
+  }
+  .greeting {
+    display: inline-block;
+    font-size: 1.4rem;
+    font-family: "Inter";
+    font-weight: 700;
+    color: #bbbbbb;
   }
   .logo {
     margin: 10px 0;
@@ -141,7 +173,10 @@ $desktop: "2560px";
     font-size: 2.2rem;
   }
   .title-about {
-    font-size: 2.2rem;
+    font-size: 2rem;
+  }
+  #contact {
+    margin-bottom: 100px;
   }
   .footer {
     display: flex;
@@ -151,10 +186,17 @@ $desktop: "2560px";
     }
   }
   .card-contact {
-    height: 200px;
+    height: 250px;
     margin: 30px 0;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: #2c2c2c;
+    color: #ffffff;
     &__message {
-      height: 70%;
+      height: 80%;
+    }
+    &__social-networks-links a {
+      color: #ffffff;
     }
   }
 

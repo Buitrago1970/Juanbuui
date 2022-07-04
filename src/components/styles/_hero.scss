@@ -18,6 +18,9 @@
   margin-bottom: 10px;
   font-family: $font-titles;
 }
+.greeting {
+  display: none;
+}
 .secondary-title {
   margin: 0;
   font-size: 3.5rem;
@@ -29,6 +32,13 @@
   box-decoration-break: clone;
   font-weight: 800;
   font-family: $font-titles;
+}
+.short-description {
+  color: #b3b3b3;
+  font-style: italic;
+  font-size: 1.4rem;
+  margin: 0;
+  margin-bottom: 5px;
 }
 .read-more {
   font-size: 1.3rem;

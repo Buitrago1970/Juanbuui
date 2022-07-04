@@ -10,12 +10,13 @@
   padding: 15px 20px;
   border-radius: 5px;
   cursor: ne-resize;
-  transition: all 0.9s ease-in-out;
+  transition: all 0.5s ease-in-out;
   border: 2px solid rgba(255, 255, 255, 0.6);
   color: $titles-color;
   background-color: $number-color;
   &__header {
-    text-align: end;
+    justify-content: end;
+    display: flex;
     a {
       font-size: 19px;
       margin: 0 2px;
@@ -38,8 +39,8 @@
     }
   }
   &__tech-list {
-    // color: #faf0e6;
-    color: $titles-color;
+    color: #faf0e6;
+    // color: $titles-color;
     display: flex;
     justify-content: space-evenly;
     font-size: 1.2rem;
@@ -49,7 +50,7 @@
   }
 }
 .secondary-projects:hover {
-  transform: scale(1.04);
+  transform: scale(1.02);
   border: 2px solid rgb(255, 255, 255);
   background-image: linear-gradient(
     to right,
@@ -59,5 +60,11 @@
 }
 
 .secondary-projects:active {
-  transform: scale(1.09);
+  transform: scale(1.01);
+}
+.secondary-projects__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }

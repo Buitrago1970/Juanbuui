@@ -4,7 +4,12 @@ import { AiFillGithub } from "react-icons/ai";
 export default function ProjecItem({ data }) {
   return (
     <li className="secondary-projects" key={data.key}>
-      <a href={data.link} target="_blank" rel="noreferrer nofollow">
+      <a
+        href={data.link}
+        target="_blank"
+        rel="noreferrer nofollow"
+        className="secondary-projects__body"
+      >
         <div className="secondary-projects__header">
           <a href={data.github} target="_blank" rel="noreferrer nofollow">
             <AiFillGithub />
@@ -12,8 +17,6 @@ export default function ProjecItem({ data }) {
           <a href={data.link} target="_blank" rel="noreferrer nofollow">
             🔗
           </a>
-          <br />
-          <br />
         </div>
         <div className="secondary-projects__main">
           <h3 className="secondary-projects__main__title">{data.title}</h3>
@@ -21,9 +24,6 @@ export default function ProjecItem({ data }) {
             {data.description}
           </p>
         </div>
-        <br />
-        <br />
-        <br />
         <ul className="secondary-projects__tech-list">
           {data.technologies.map((item) => (
             <li>{item}</li>

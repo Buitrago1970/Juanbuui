@@ -20,6 +20,7 @@ export default function Hero() {
           </LinkS>
         </div>
         <div className="titles-hero">
+          <p className="greeting">Hola, me llamo</p>
           <h1 className="title-hero">Juan Sebastian Buitrago</h1>
           <h3 className="secondary-title">Programador Front-end.</h3>
         </div>
