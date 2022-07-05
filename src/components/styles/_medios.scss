@@ -74,6 +74,7 @@ $desktop: "2560px";
       transition: none;
       transform: none;
       background-color: none;
+      background-color: $number-color;
     }
   }
   .text-contact {
@@ -165,6 +166,7 @@ $desktop: "2560px";
   }
   .secondary-projects {
     width: 500px;
+    justify-content: space-around;
     &__main {
       text-align: left;
     }
@@ -199,7 +201,6 @@ $desktop: "2560px";
       color: #ffffff;
     }
   }
-
   .titles {
     &__title {
       font-size: 2.5rem;
