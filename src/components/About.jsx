@@ -25,7 +25,7 @@ export default function About() {
             de llevar conceptos a la vida a través del desarrollo front-end para
             proyectos 👨‍💻
           </p>
-          <p>
+          {/* <p>
             Avanzando rápido hasta hoy, he tenido el privilegio de trabajar con
             herramientas de realidad aumentada Spark AR,{" "}
             {
@@ -39,7 +39,7 @@ export default function About() {
               </a>
             }{" "}
             para Instagram, Facebook, Messenger con mas 200k vistas
-          </p>
+          </p> */}
           <p>
             Recientemente lance{" "}
             {

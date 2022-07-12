@@ -43,7 +43,7 @@
     text-align: center;
     font-weight: 900;
     font-size: 2.5rem;
-    background: linear-gradient(90deg, #fc466b 20%, #3f5efb 80%);
+    background: linear-gradient(90deg, #fc466b 35%, #3f5efb 65%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -59,6 +59,13 @@
       font-size: 2rem;
       text-decoration: underline;
       color: $text-black-color;
+      &:hover {
+        text-shadow: 0 0 1px rgba(255, 255, 255, 0.92),
+          0 0 1px rgb(255, 255, 255), 0 0 3px $purple, 0 0 29px $purple,
+          0 0 9px $purple, 0 0 1px $purple;
+        text-decoration: underline;
+        color: aliceblue;
+      }
     }
   }
 }

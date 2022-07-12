@@ -11,10 +11,21 @@ export default function ProjecItem({ data }) {
         className="secondary-projects__body"
       >
         <div className="secondary-projects__header">
-          <a href={data.github} target="_blank" rel="noreferrer nofollow">
+          <a
+            href={data.github}
+            target="_blank"
+            rel="noreferrer nofollow"
+            className="github-icon-2items"
+          >
             <AiFillGithub />
           </a>
-          <a href={data.link} target="_blank" rel="noreferrer nofollow">
+
+          <a
+            href={data.link}
+            target="_blank"
+            rel="noreferrer nofollow"
+            className="link-icon-2items"
+          >
             🔗
           </a>
         </div>

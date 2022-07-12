@@ -93,8 +93,7 @@ $desktop: "2560px";
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
     height: 100%;
-    & br,
-    hr {
+    & br {
       display: none;
     }
   }
@@ -112,16 +111,13 @@ $desktop: "2560px";
         font-size: 1.6rem;
       }
       &__start-age {
-        width: 36%;
+        width: 50%;
         text-align: center;
         padding: 6px 0px;
       }
     }
   }
-  .link {
-    text-decoration: underline;
-    -webkit-text-fill-color: $titles-color;
-  }
+
   .image-tech--project {
     height: auto;
     position: absolute;
