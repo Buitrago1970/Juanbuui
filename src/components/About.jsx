@@ -19,27 +19,12 @@ export default function About() {
             <h1 className="title-about">Sobre mí</h1>
           </div>
           <p>
-            👋 ¡Hola! Mi nombre es Juan Buitrago y Me encanta diseñar interfaces
+            👋 ¡Hola! Me llamo Juan Buitrago y Me encanta diseñar interfaces
             frescas con atencion al detalle y coherencia para una representacion
             brillante, tengo 3 años de experiencia en el diseño y la capacidad
             de llevar conceptos a la vida a través del desarrollo front-end para
             proyectos 👨‍💻
           </p>
-          {/* <p>
-            Avanzando rápido hasta hoy, he tenido el privilegio de trabajar con
-            herramientas de realidad aumentada Spark AR,{" "}
-            {
-              <a
-                href="https://www.instagram.com/0_0hentay_kun0_0/"
-                target="_blank"
-                rel="noreferrer"
-                className="link__aboutMe"
-              >
-                creando filtros
-              </a>
-            }{" "}
-            para Instagram, Facebook, Messenger con mas 200k vistas
-          </p> */}
           <p>
             Recientemente lance{" "}
             {
@@ -90,7 +75,7 @@ export default function About() {
               <div className="icon-containers-us">
                 <DiSass className="icon-5" />
               </div>
-              Sass
+              CSS/Sass/tailwind
             </li>
             <li title="📦">
               <div className="icon-containers-us">

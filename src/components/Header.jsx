@@ -23,7 +23,7 @@ export default function Navbar() {
             className="header-btn"
             title="Sobre mi"
           >
-            {"< Sobre Mí />"}
+            {"Sobre Mí"}
           </LinkS>
 
           <LinkS
@@ -33,7 +33,7 @@ export default function Navbar() {
             className="header-btn"
             title="projects"
           >
-            {"< Trabajos />"}
+            {"Trabajos"}
           </LinkS>
           <LinkS
             title="concact"
@@ -43,7 +43,7 @@ export default function Navbar() {
             className="header-btn"
             href="mailto:juanbuitrago2002@outlook.com"
           >
-            {"< Email />"}
+            {"Email"}
           </LinkS>
         </div>
       </header>

@@ -2,7 +2,6 @@
 
 header {
   display: flex;
-
   justify-content: space-between;
   align-items: center;
   padding: 0 50px;
@@ -26,6 +25,7 @@ header {
   font-family: $font-titles;
   color: $link-color;
   &:hover {
+    
     text-shadow: 0 0 1px rgba(255, 255, 255, 0.92), 0 0 1px rgb(255, 255, 255),
       0 0 3px $purple, 0 0 29px $purple, 0 0 9px $purple, 0 0 1px $purple;
     text-decoration: underline;
