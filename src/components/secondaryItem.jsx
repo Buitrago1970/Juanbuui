@@ -31,9 +31,11 @@ export default function ProjecItem({ data }) {
         </div>
         <div className="secondary-projects__main">
           <h3 className="secondary-projects__main__title">{data.title}</h3>
-          <p className="secondary-projects__main__description">
-            {data.description}
-          </p>
+          <div className="secondary-projects__main__description-container">
+            <p className="secondary-projects__main__description">
+              {data.description}
+            </p>
+          </div>
         </div>
         <ul className="secondary-projects__tech-list">
           {data.technologies.map((item) => (

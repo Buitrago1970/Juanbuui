@@ -1,23 +1,6 @@
 export default {
   secondaryProjects: [
     {
-      key: "1",
-      title: "Plantana",
-      github: "https://github.com/Buitrago1970/flower-marketPlace",
-      link: "https://plantas-el-camello.web.app/",
-      description: "Aplicacion Web de compra de plantas medicinales ",
-      technologies: ["React", "firebase", "Paypal"],
-    },
-    {
-      key: "9",
-      title: "Platzi games",
-      github: "https://github.com/Buitrago1970/sass",
-      link: "https://platzi-gamesx.netlify.app",
-      description:
-        "Aplicación moderna en React con estilos en Sass, cuenta con componentes estilizados y diseñados cuidadosamente para proporcionar una experiencia de usuario atractiva y legibilidad del código mejorada con características avanzadas de Sass.",
-      technologies: ["React", "Sass", "Netlify"],
-    },
-    {
       key: "3",
       title: "ToDo",
       github:
@@ -26,6 +9,23 @@ export default {
       description:
         "Todo App es una aplicación que te permite gestionar tus tareas pendientes en un solo lugar, desarrollada con React Hooks y Local Storage, cuenta con un contador de tareas por completar, buscador de tareas, modal para agregar nuevas tareas y pruebas unitarias para su correcto funcionamiento.",
       technologies: ["React useReducer, useState", "Netlify", "Css"],
+    },
+    {
+      key: "7",
+      title: "Avocado",
+      github: "https://github.com/Buitrago1970/next",
+      link: "https://avocado-x.netlify.app",
+      description:
+        "Avocado es una tienda en línea de aguacates implementada en Next.js con todas las características necesarias para producción. Con la capacidad de Client Side Rendering, Server Side Rendering y Generación de Sitios Estáticos (ESG), los usuarios pueden disfrutar de una experiencia de navegación rápida y fluida.",
+      technologies: ["Next.js", "APIs con Next.js", "SSR"],
+    },
+    {
+      key: "6",
+      title: "Hangman",
+      github: "https://github.com/Buitrago1970/Hangman-PY",
+      link: "https://github.com/Buitrago1970/Hangman-PY",
+      description: "Juego de ahorcado echo en Python 🐍",
+      technologies: ["Python"],
     },
     {
       key: "9",
@@ -43,6 +43,32 @@ export default {
       ],
     },
     {
+      key: "9",
+      title: "Platzi games",
+      github: "https://github.com/Buitrago1970/sass",
+      link: "https://platzi-gamesx.netlify.app",
+      description:
+        "Aplicación moderna en React con estilos en Sass, cuenta con componentes estilizados y diseñados cuidadosamente para proporcionar una experiencia de usuario atractiva y legibilidad del código mejorada con características avanzadas de Sass.",
+      technologies: ["React", "Sass", "Netlify"],
+    },
+    {
+      key: "1",
+      title: "Plantana",
+      github: "https://github.com/Buitrago1970/flower-marketPlace",
+      link: "https://plantas-el-camello.web.app/",
+      description: "Aplicacion Web de compra de plantas medicinales ",
+      technologies: ["React", "firebase", "Paypal"],
+    },
+    {
+      key: "4",
+      title: "Simón Dice",
+      github:
+        "https://github.com/Buitrago1970/buitrago1970.Simon-Dice.github.io",
+      link: "https://buitrago1970.github.io/buitrago1970.Simon-Dice.github.io/",
+      description: "Juego de Simon dice echo en JavaScript Vanilla, Html, Css",
+      technologies: ["JavaScript", "Html", "Css"],
+    },
+    {
       key: "2",
       title: "Mc donald's",
       image: "https://mc-donalds-co.firebaseapp.com/d7c9a87deaf0bb9c1f1f.png",
@@ -54,29 +80,12 @@ export default {
     },
 
     {
-      key: "4",
-      title: "Simón Dice",
-      github:
-        "https://github.com/Buitrago1970/buitrago1970.Simon-Dice.github.io",
-      link: "https://buitrago1970.github.io/buitrago1970.Simon-Dice.github.io/",
-      description: "Juego de Simon dice echo en JavaScript Vanilla, Html, Css",
-      technologies: ["JavaScript", "Html", "Css"],
-    },
-    {
       key: "5",
       title: "Random User",
       github: "https://github.com/Buitrago1970/Webpack/blob/main/README.md",
       link: "https://userwebpack.netlify.app/",
       description: "Pagina Web con conexion a la API de RandomUser. ",
       technologies: ["Axios", "Babel", "Webpack", "JavaScript"],
-    },
-    {
-      key: "6",
-      title: "Hangman",
-      github: "https://github.com/Buitrago1970/Hangman-PY",
-      link: "https://github.com/Buitrago1970/Hangman-PY",
-      description: "Juego de ahorcado echo en Python 🐍",
-      technologies: ["Python"],
     },
 
     {

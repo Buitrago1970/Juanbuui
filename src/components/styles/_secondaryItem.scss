@@ -71,3 +71,15 @@
 .github-icon-2items :hover {
   color: $purple;
 }
+.secondary-projects__main__description-container {
+  max-height: 130px; /* ajusta la altura máxima según tus necesidades */
+  overflow: auto;
+  padding-right: 5px;
+}
+
+
+::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.505); /* cambia el color de fondo de la barra de scroll a transparente */
+}

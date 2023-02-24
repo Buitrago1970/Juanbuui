@@ -1,7 +1,7 @@
 import * as React from "react";
 import Projects from "./Projects";
 import ImgSAN from "../images/sanss.png";
-import ImgAVO from "../images/avoss.png";
+import ImgAVO from "../images/13kitsch.png";
 import ImgHAR from "../images/harss.jpeg";
 import ImgLOU from "../images/louss.png";
 
@@ -14,23 +14,12 @@ export default function Work() {
       technologies: ["React", "Strapi", "Heroku", "Axios", "JWT"],
       image: "src/images/sanss.png",
       description:
-        "E-commerce para brindar la conveniencia de la entrega a domicilio de productos cárnicos, Desarrollo e implementación, Frontend y backend del e-commerce de San-Diego.",
+        "En este proyecto tuve la oportunidad de trabajar en una aplicación web de comercio electrónico utilizando tecnologías como React, CSS Grid, Flex, Axios y React Hooks. Como desarrollador frontend, asumí la responsabilidad de diseñar y optimizar la interfaz para diferentes dispositivos, asegurando una experiencia de usuario excepcional.",
       shortDescription: "E-commerce website",
       figcaption: "San-Diego Home Page",
       endAge: "Diciembre 2021",
     },
-    {
-      key: "Avocado",
-      link: "https://avocado-x.netlify.app",
-      title: "Avocado",
-      description:
-        "Diseño de Ecommerce dedica al diseño y fabricación de artículos de moda, echa en Next.js, styled componets.",
-      shortDescription: "E-commerce website",
-      technologies: ["Next.js", "Styled Components", "Netlify"],
-      image: "src/images/sanss.png",
-      figcaption: "Avocado Home Page",
-      endAge: "Febrero 2022",
-    },
+
     {
       key: "harvard",
       link: "https://harvard-api.netlify.app",
@@ -41,6 +30,18 @@ export default function Work() {
       technologies: ["React", "Harvard API", "Axios/fetch", "Netlify"],
       image: "src/images/sanss.png",
 
+      figcaption: "Harvard-Art-Museum API Home Page",
+      endAge: "abril 2022",
+    },
+    {
+      key: "13Kitsch",
+      link: "https://13kitsch-gz3prqmdx-buitrago1970.vercel.app",
+      title: "13Kitsch",
+      description:
+        "13Kitasch es una tienda en línea de alta calidad construida en Next.js, diseñada para brindar una experiencia de usuario excepcional en todos los dispositivos. Con estilos de Tailwind y técnicas de desarrollo bien estructuradas, cada detalle ha sido cuidadosamente considerado para crear una plataforma elegante y fácil de usar.",
+      shortDescription: "E-commerce website",
+      technologies: ["Next.js", "Tailwind", "redux", "Axios", "Vercel"],
+      image: "src/images/13kitsch.png",
       figcaption: "Harvard-Art-Museum API Home Page",
       endAge: "abril 2022",
     },
@@ -70,8 +71,8 @@ export default function Work() {
             <Projects data={project} />
           ))} */}
           <Projects data={value[0]} image={ImgSAN} />
-          <Projects data={value[1]} image={ImgAVO} />
-          <Projects data={value[2]} image={ImgHAR} />
+          <Projects data={value[1]} image={ImgHAR} />
+          <Projects data={value[2]} image={ImgAVO} />
           <Projects data={value[3]} image={ImgLOU} />
         </ul>
       </section>
