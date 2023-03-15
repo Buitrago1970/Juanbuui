@@ -1,12 +1,6 @@
-import * as React from "react";
+import React from "react";
 
 export default function Projects({ data, image }) {
-  // let container = "container-projects";
-  // if (data.reverse) {
-  //   container += "reverse";
-  //   imgContainer += " container-img-projects-reverse";
-  //   text += " container-text-projects-reverse";
-  // }
   return (
     <li className="project" id="projects" key={data.key}>
       <div className="content">

@@ -1,9 +1,9 @@
-import * as React from "react";
+import React from "react";
 import Projects from "./Projects";
 import ImgSAN from "../images/sanss.png";
 import ImgAVO from "../images/13kitsch.png";
 import ImgHAR from "../images/harss.jpeg";
-import ImgLOU from "../images/louss.png";
+import ImgAngular from "../images/angular.png";
 
 export default function Work() {
   const value = [
@@ -17,7 +17,7 @@ export default function Work() {
         "En este proyecto tuve la oportunidad de trabajar en una aplicación web de comercio electrónico utilizando tecnologías como React, CSS Grid, Flex, Axios y React Hooks. Como desarrollador frontend, asumí la responsabilidad de diseñar y optimizar la interfaz para diferentes dispositivos, asegurando una experiencia de usuario excepcional.",
       shortDescription: "E-commerce website",
       figcaption: "San-Diego Home Page",
-      endAge: "Diciembre 2021",
+      endAge: "Noviembre 2021",
     },
 
     {
@@ -43,20 +43,25 @@ export default function Work() {
       technologies: ["Next.js", "Tailwind", "redux", "Axios", "Vercel"],
       image: "src/images/13kitsch.png",
       figcaption: "Harvard-Art-Museum API Home Page",
-      endAge: "abril 2022",
+      endAge: "Febrero 2023",
     },
     {
-      key: "lv",
-      link: "https://louisvuitton-fa.webflow.io/",
-      title: "LOUIS VUITTON",
+      key: "Angular Store",
+      link: "https://ngstoreangular.netlify.app",
+      title: "Angular Store",
       description:
-        "Re-Diseño de la aplicación web principal de LOUIS VUITTON, con las temporadas de 2021 echa en Webflow",
-      shortDescription: "Website Home Page",
-      technologies: ["Webflow", "Html", "CSS"],
-      image: "src/images/sanss.png",
-
-      figcaption: "Louis-Vuitton Re-Desing Home Page",
-      endAge: "junio 2021",
+        "Angular Store es una tienda en línea de alta calidad construida en Angular, diseñada para brindar una experiencia de usuario excepcional en todos los dispositivos. Con estilos de Tailwind y técnicas de desarrollo bien estructuradas, cada detalle ha sido cuidadosamente considerado para crear una plataforma elegante y fácil de usar.",
+      shortDescription: "E-commerce website",
+      technologies: [
+        "Angular",
+        "Tailwind",
+        "angular-Forms",
+        "Angular-HttpClient",
+        "Angular-Router",
+      ],
+      figcaption: "Angular Store Home Page",
+      image: "src/images/angular.png",
+      endAge: "Marzo 2023",
     },
   ];
   return (
@@ -73,7 +78,7 @@ export default function Work() {
           <Projects data={value[0]} image={ImgSAN} />
           <Projects data={value[1]} image={ImgHAR} />
           <Projects data={value[2]} image={ImgAVO} />
-          <Projects data={value[3]} image={ImgLOU} />
+          <Projects data={value[3]} image={ImgAngular} />
         </ul>
       </section>
     </>

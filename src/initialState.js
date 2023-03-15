@@ -28,6 +28,16 @@ export default {
       technologies: ["Python"],
     },
     {
+      key: "10",
+      title: "LOUIS VUITTON",
+      link: "https://louisvuitton-fa.webflow.io/",
+      github: "https://louisvuitton-fa.webflow.io/",
+      title: "LOUIS VUITTON",
+      description:
+        "Re-Diseño de la aplicación web principal de LOUIS VUITTON, con las temporadas de 2021 echa en Webflow",
+      technologies: ["Webflow", "Html", "CSS"],
+    },
+    {
       key: "9",
       title: "Platzi Movies API",
       image: "https://mc-donalds-co.firebaseapp.com/d7c9a87deaf0bb9c1f1f.png",

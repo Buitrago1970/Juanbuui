@@ -5,7 +5,7 @@ import ProjectContext from "../context/ProjectContext";
 export default function OthersProjects() {
   const { secondaryProjects } = useContext(ProjectContext);
   const [showMore, setShowMore] = useState(false);
-  const maxProjects = 6;
+  const maxProjects = 5;
 
   const projectsToShow = showMore
     ? secondaryProjects
